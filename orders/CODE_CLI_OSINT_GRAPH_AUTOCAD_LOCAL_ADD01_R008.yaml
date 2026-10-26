@@ -1,0 +1,246 @@
+schema: YR_HACK_CODE_CLI_OSINT_GRAPH_AUTOCAD_LOCAL_ADD01_R008
+order_id: YR-WO-HACK-CODE-CLI-OSINT-CAD-LOCAL-20261026-R008
+drawing_id: YR-HACK-CODE-CLI-GRAPH-CAD-001
+issued_jst: "2026-10-26"
+priority: P0_SUBMISSION_REQUIRED
+title: "YamRail/Code_CLI: OSINTレポート・専門家向けA4横Graph・User端末AutoCAD接続"
+status: PRIVATE_DRAFT_EXECUTION_ADDENDUM_NOT_YET_IMPLEMENTED
+applies_to:
+  - CODE_CLI_HANDOFF_SUBMISSION_R007.yaml
+  - CODE_CLI_COMMAND_CONTRACT_R006.yaml
+  - "RTA Private Draft PR #140 (R005)"
+  - "Code_CLI Private Draft PR #141"
+authority:
+  permitted: [READ_ONLY_SOURCE_REUSE, PRIVATE_LOCAL_ADAPTER, REVERSIBLE_LOCAL_TEST, PRIVATE_DRAFT_DELIVERY]
+  held: [PUBLIC_RELEASE, EXTERNAL_SUBMISSION, PRIVATE_SOURCE_DISCLOSURE, CANONICAL_PROMOTION, UNAPPROVED_PAID_API]
+  human_gate_is_separate_artifact: true
+human_direction: >
+  YamRail/OSINTの既設レポート/Graph作成系をCode_CLIの実装として転用する。
+  専門家が調査に取り付くためのポンチ絵はA4横を標準とする。
+  AutoCADはユーザー端末に有効なAutodeskライセンスと適法な利用権がある場合だけ
+  同じユーザー端末上でローカル実行する。サーバー・CloudでのAutoCAD
+  ヘッドレス実装と実行は例外なしで禁止する。
+
+osint_reuse:
+  logical_product: YamRail/OSINT
+  source_repo: Yamrail/yamrail-evidence-ledger-private
+  source_prs:
+    - number: 79
+      revision: OSINT_R004_RESIDUAL_DELTA
+      head_commit: 9f3a5e61b72a0517f683d3e7ccd22a0904782fec
+      purpose: A4_LANDSCAPE_GRAPH_AND_DOCUMENT_QA
+    - number: 62
+      revision: OSINT_R032
+      head_commit: 907593e0d045cfc926943d186eb0aa19ad7c92bb
+      purpose: MD_PNG_PREVIEW_COMPARISON_AND_HISTORY
+  source_root: 03_operations/candidates/20261020_osint_graph_png_document_guard_integrated_r004/runtime/field_backend
+  source_modules:
+    - graph_artifacts.py
+    - investigation_dependency_graph.py
+    - explanatory_graph.py
+    - structured_md_renderer.py
+    - silver_board_renderer.py
+    - silver_export.py
+    - graph_png.py
+    - document_guard.py
+    - document_versions.py
+  source_deps:
+    - runtime/frontend/fonts
+    - runtime/vendor/ingridge_cad_display_station_v1
+    - runtime/requirements.txt
+  transfer_method: EXTRACT_OR_REUSE_DETERMINISTIC_LOCAL_RENDERING_WITH_PINNED_SOURCE
+  original_server_admission: DO_NOT_COPY_AS_IMPLICIT_CLI_AUTHORITY
+  original_font_and_vendor_license: VERIFY_BEFORE_DISTRIBUTION
+  no_osint_canonical_mutation: true
+  no_new_llm_call_needed_for_report_graph_export: true
+  preserve_original_MD_SOURCE_AND_GRAPH_BINDINGS: true
+  no_fake_CAUSAL_EDGE_FROM_REFERENCE_RELATION: true
+
+report:
+  command: yr-code report
+  modes:
+    - from_local_case_with_sources
+    - from_existing_osint_snapshot
+    - from_native_workledger_readonly_projection
+  source_contract:
+    - SOURCE_ID
+    - SOURCE_TITLE
+    - SOURCE_ORIGIN_AND_URL_OR_FILE_LOCATOR
+    - OBSERVED_AT_UTC
+    - ORIGINAL_BYTE_SHA256
+    - CLAIM_REFERENCE_AND_BASIS
+    - REVISION_AND_TIME_SEMANTICS
+    - CONFIRMED_OBSERVATION_VS_UNKNOWN_HOLD_VS_HYPOTHESIS
+  outputs:
+    - report.md
+    - report.pdf
+    - source_register.json
+    - report_receipt.json
+  five_line_initial_brief: true
+  append_uncertainties_without_erasure: true
+  generated_material_is_not_original_evidence: true
+
+ponchi_graph:
+  command: yr-code graph
+  semantics: GLOBAL_GRAPH_SURFACE_WITH_SOURCE_PROVENANCE
+  purpose: EXPERT_HANDOFF_BEFORE_FURTHER_INSPECTION
+  paper:
+    iso: A4
+    orientation: LANDSCAPE
+    width_mm: 297
+    height_mm: 210
+    min_margin_mm: 8
+    original_osint_presentation_revision: YR-OSINT-A4-PRESENTATION-R001
+    full_page_render_and_visual_QA: REQUIRED
+  graph_types:
+    - CONTENT_SOURCES_AND_STATE
+    - HISTORY_INVESTIGATION_LINEAGE
+    - WORKLEDGER_DEPENDENCY_AND_HANDOVER
+    - SECURITY_PREWORK_EVIDENCE_GRAPH
+  required_surface:
+    - NODES_AND_TYPED_RELATIONS
+    - OWNER_SCOPE_AND_RESPONSIBILITY_BOUNDARIES
+    - TEMPORAL_ORDER_AND_EVENT_DETECTION_DISCLOSURE_TIMES_WHEN_KNOWN
+    - SOURCE_REFERENCE_NUMBERS_ON_RELEVANT_NODES
+    - UNKNOWN_AND_HOLD_VISIBLE
+    - NEXT_INSPECTION_ENTRY_POINTS
+    - LEGEND_WITH_RELATION_TYPES_AND_UNCERTAINTY
+    - SOURCE_TITLE_AND_ISSUER_LOOKUP_INDEX
+  no_UNSUPPORTED_GEOGRAPHY_OR_CAUSAL_INFERENCE: true
+  formats:
+    implemented_source_components: [SVG, PNG, PDF, GRAPH_MASTER_JSON, RECEIPT_JSON]
+    required_for_hackathon: [SVG, PNG, PDF, GRAPH_MASTER_JSON, RECEIPT_JSON]
+    next_adapters: [PPTX_EDITABLE, DXF]
+    DWG_ONLY_THROUGH_LICENSED_LOCAL_AUTOCAD: true
+  graph_source_hash_matches_document: REQUIRED
+  japanese_technical_terms_and_glyph_QA: REQUIRED
+  no_CLOUD_AUTOCAD_DEPENDENCY_TO_RENDER_GRAPH: true
+  no_REPLACEMENT_WITH_NEW_GENERIC_FLOWCHART: true
+
+autocad_connector:
+  command: yr-code cad
+  status: TO_IMPLEMENT_OPTIONAL_LOCAL_USER_TERMINAL_CONNECTOR
+  default: OFF
+  execution_authority: ON_DEVICE_TRUSTED_HOST_BROKER
+  physical_execution_location: USER_OWN_WORKSTATION_ONLY
+  user_session: INTERACTIVE_LOCAL_LICENSED_AUTOCAD
+  no_server_fallback: true
+  no_cloud_fallback: true
+  supported_first: WINDOWS_DESKTOP_AUTOCAD
+  capability_probe:
+    - IS_LOCAL_USER_WORKSTATION_NOT_SERVICE_OR_HOSTED_RUNNER
+    - CURRENT_INTERACTIVE_USER_SESSION
+    - ACTUAL_AUTOCAD_INSTALLATION_AND_PRODUCT_EDITION
+    - CURRENT_USER_ENTITLEMENT_AND_ACTIVE_LICENSE_AUTHENTICATION
+    - PRODUCT_VERSION_AND_SUPPORTED_AUTOMATION_API
+    - EXPLICIT_LOCAL_CAD_OPERATION_SCOPE
+  not_enough_to_prove_license:
+    - EXECUTABLE_PRESENT
+    - REGISTRY_ENTRY_PRESENT
+    - RUNNING_PROCESS_ALONE
+    - COM_SERVER_REGISTERED_ALONE
+    - USER_TEXT_ONLY_WITHOUT_ACTUAL_LOCAL_PRODUCT_ENTITLEMENT_CHECK
+  license_unknown: HOLD_CAD_LICENSE_UNVERIFIED_NO_AUTOCAD_LAUNCH
+  launch_and_edit:
+    option_a: LOCAL_HOST_ACTIVEX_COM_FOR_WINDOWS_AUTOCAD_WHEN_SUPPORTED_AND_AUTHORIZED
+    option_b: LOCAL_IN_PROCESS_DOTNET_ADDIN_IN_ACTUAL_AUTOCAD_SESSION
+    permit_local_console_only_if_LICENSE_AND_USER_DESKTOP_POLICY_VERIFIED: true
+    default_write: LOCAL_STAGING_COPY_NOT_ORIGINAL_DWG
+    require_user_scope_for_original_drawing_write: true
+    forbid_arbitrary_AGENT_SUPPLIED_COMMAND_OR_AUTOLISP_AUTOLOAD: true
+    local_broker_validates_PATH_AND_OPERATION_ALLOWLIST: true
+    host_confirms_ACTUAL_USER_DESKTOP_PID_AND_RECEIPT: true
+    secrets_and_license_tokens_NEVER_ENTER_WORKER_SANDBOX: true
+  strict_prohibitions:
+    - SERVER_SIDE_AUTOCAD_PROCESS
+    - CLOUD_SIDE_AUTOCAD_PROCESS
+    - SERVER_HEADLESS_AUTOCAD
+    - CLOUD_HEADLESS_AUTOCAD
+    - REMOTE_HOSTED_GUI_AUTOCAD
+    - AUTODESK_PLATFORM_SERVICES_DESIGN_AUTOMATION_FOR_AUTOCAD
+    - CLOUD_VM_OR_HOSTED_CONTAINER_AUTOCAD
+    - SERVICE_ACCOUNT_LICENSE_OR_TOKEN_BORROWING
+    - LICENSE_MIRRORING_FORWARDING_OR_BINARY_REPACKAGING
+    - CLOUD_OR_SERVER_EXECUTION_BY_PROXYING_USER_LICENSE
+    - FALLBACK_FROM_LOCAL_LICENSE_HOLD_TO_CLOUD_CAD
+    - UNATTENDED_AUTOCAD_SESSION_DRIVEN_FROM_REMOTE_WORKER
+  allowed_remote_boundary: >
+    Cloud may transport non-CAD data, sanitized WORK_ORDER, and evidence references,
+    but may neither invoke nor remote-control AutoCAD. Only a user-initiated local
+    Code_CLI execution may open the local AutoCAD connector.
+  boundary_separation:
+    graph_generator: LOCAL_PORTABLE_NO_AUTOCAD_NEEDED
+    dxf_if_available: LOCAL_OPEN_FORMAT_GENERATOR_NO_AUTOCAD_LICENSE_ASSUMPTION
+    dwg_dwg_validation: LOCAL_LICENSED_AUTOCAD_ONLY
+    missing_license: REPORT_HOLD_KEEP_GRAPH_AND_REPORT_WORKING
+  official_references:
+    - https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-Customization/files/GUID-E6429154-36DF-4D84-8ABC-9FCA15B66158.htm
+    - https://help.autodesk.com/cloudhelp/2026/CSY/OARX-DevGuide-Managed/files/GUID-C8C65D7A-EC3A-42D8-BF02-4B13C2EA1A4B.htm
+    - https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-check-the-license-type-for-Autodesk-software.html
+
+cli_examples:
+  - "yr-code report make --input fixtures/case.json --paper a4-landscape --out out/report"
+  - "yr-code graph render --input fixtures/case.json --type content --paper a4-landscape --out out/graph"
+  - "yr-code graph history --snapshot snapshot.json --out out/history"
+  - "yr-code cad doctor --local-only"
+  - "yr-code cad open --input out/graph.dxf --local-only"
+  - "yr-code cad export --format dwg --out out/local.dwg --local-only"
+  note: PROPOSED_R008_COMMANDS_NOT_YET_IMPLEMENTED
+  display_never_uses_WORKER_ROLE_NICKNAMES_AS_JUDGE_LABELS: true
+
+tests:
+  preserve_upstream_renderer_tests: true
+  minimal_local:
+    - A4_297X210_WITH_MARGIN_AND_GLYPH_QA
+    - CONTENT_GRAPH_AND_HISTORY_GRAPH_PROVENANCE
+    - UNKNOWN_AND_HOLD_SURVIVE_OUTPUT
+    - NO_UNSUPPORTED_CAUSAL_EDGE
+    - ORIGINAL_MD_AND_SOURCE_DIGEST_UNCHANGED
+    - SOURCE_ID_VISIBLE_AND_RECONCILABLE
+    - OFFLINE_PNG_SVG_PDF_WITHOUT_AUTOCAD
+    - FROZEN_GRAPH_REPRODUCES_FROM_CLEAN_CLONE
+  cad_negative:
+    - NO_AUTOCAD_APP_BUT_GRAPH_RENDER_SUCCESS
+    - INSTALLED_BUT_LICENSE_UNKNOWN_NO_AUTOCAD_LAUNCH
+    - SERVER_OR_CLOUD_ENV_ALWAYS_DENIED_EVEN_IF_LICENSE_ASSERTED
+    - REMOTE_AGENT_CANNOT_BYPASS_LOCAL_HOST
+    - UNTRUSTED_LISP_OR_SCRIPT_AUTOLOAD_DENIED
+    - PRIVATE_FILE_OUTSIDE_YARD_DENIED
+    - SIMULATED_LICENSE_RECEIPT_NOT_ACCEPTED_AS_REAL
+    - LOCAL_AUTOCAD_EXCEPTION_DOES_NOT_TRIGGER_CLOUD_FALLBACK
+  evidence:
+    - SOURCE_COMMIT_AND_ORIGINAL_BYTE_SHA256
+    - OSINT_RENDERER_AND_FONT_QA
+    - REPORT_AND_GRAPH_ARTIFACT_HASH
+    - AUTOCAD_LOCAL_LICENSE_AND_SESSION_STATUS_OR_EXPLICIT_HOLD
+    - USER_LOCAL_BROKER_AND_DWG_SOURCE_RECEIPT_IF_EXECUTED
+    - THREE_RUN_IF_AVAILABLE
+    - FRESH_CLONE_AND_REMOTE_READBACK
+    - HUMAN_SUBMISSION_GATE
+  independent_machine_acceptance: >
+    A new operator can generate A4 landscape report and source-linked Graph
+    on a clean, license-free workstation using local open tooling. If that
+    operator has a valid licensed local AutoCAD installation and supported
+    user-session adapter, they may explicitly use the optional CAD connection.
+    Server/cloud AutoCAD must remain unavailable even under test flags.
+
+execution_sequence:
+  - PIN_OSINT_R004_AND_R032_SOURCES_FROM_GITHUB_PRIVATE
+  - EXTRACT_RENDERER_AND_REPORT_ADAPTER_WITH_MINIMAL_REQUIRED_DEPENDENCIES
+  - VERIFY_FONT_VENDOR_LICENSES_AND_REPLACE_ONLY_WITH_TRUTHFUL_QA
+  - ADD_COMMANDS_report_graph_AND_cad_doctor_TO_yr_code
+  - IMPLEMENT_AUTO_CAD_AS_SEPARATE_LOCAL_USER_HOST_BROKER
+  - PACKAGE_GRAPH_AND_CAD_NEGATIVE_TESTS
+  - RUN_CLEAN_CLONE_SMOKE_AND_RETAIN_FAILURES
+  - UPDATE_PRIVATE_PR_141_AND_DELIVER_HUMAN_SUBMISSION_CANDIDATE
+  - NEVER_AUTO_SUBMIT_OR_PUBLIC_PUSH
+acceptance:
+  report_and_graph_are_REQUIRED_HACKATHON_DELIVERABLE_FEATURES: true
+  autocad_connector_is_REQUIRED_PACKAGE_OPTION_WHEN_LICENSE_EXISTS: true
+  working_server_cloud_autocad_is_FORBIDDEN: true
+  full_current_AUTOCAD_LICENSED_CONNECTOR_TEST: PENDING
+  no_claim_implemented_before_REAL_CLI_TEST: true
+  return_state_if_missing:
+    graph: HOLD_WITH_REWORK_AND_NO_FAKE_PNG
+    cad: HOLD_CAD_LOCAL_NOT_QUALIFIED_WITH_GRAPH_STILL_WORKING
+  stop_only_at_actual_AUTHORITY_OR_UNRECOVERABLE_BOUNDARIES: true

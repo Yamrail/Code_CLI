@@ -1,0 +1,150 @@
+schema: YR_CODE_CLI_COMMAND_CONTRACT_R006
+date: "2026-10-26"
+status: PRIVATE_NONCANONICAL_DESIGN_FOR_NEXT_IMPLEMENTATION
+product:
+  proposed_repository: Yamrail/code_CLI
+  repository_exists: NOT_FOUND_AT_INSPECTION
+  executable: yr-code
+  product_name: YamRail/code_CLI
+  avoid_command_collision: [code, git, codex]
+  implementation: EXISTING_PYTHON_CLI_FIRST_THEN_STABLE_HOST_ROUTER
+  migration: DO_NOT_BREAK_FULL_DEMO_OR_RTA
+source:
+  private_repo: Yamrail/yamrail-evidence-ledger-private
+  rta_pr: 140
+  base_commit: 95322eb461cb251c6ed6c837bbb1f3e0d34c69e1
+  existing_entries:
+    - "python full_demo.py demo [--output DIR]"
+    - "python rta.py demo [--output DIR] [--coding-mode replay|live|skip]"
+    - "python rta.py worker --case FILE --action ACTION --worker-id W1|W2|W3 [INTERNAL_ONLY]"
+  proof_scope: ACTUAL_TOOL_TASK_WITH_REPLAY_AND_LOCAL_TESTS
+  preserve_prior_FAILURE_AND_HOLD: true
+design_principles:
+  - CLI_IS_INTERFACE_AND_HOST_IS_AUTHORITY
+  - WORKLEDGER_IS_SINGLE_CANONICAL_STATE
+  - READ_ONLY_PREWORK_IS_FIRST_CLASS
+  - TOOL_IMPORT_NOT_EXECUTION_AUTHORITY
+  - SCOPE_ID_AND_PROVENANCE_ON_EVERY_OPERATION
+  - NO_IMPLICIT_RETRY_ON_UNKNOWN_EXTERNAL_COMPLETION
+  - DRAFT_OUTPUT_CANNOT_SELF_PROMOTE
+  - RETURN_MACHINE_READABLE_STRUCTURED_RESULTS
+  - WORKER_INTERNAL_ROLES_NEVER_SHOWN_AS_HUMAN_RANKING
+root_commands:
+  demo:
+    examples: ["yr-code demo --profile hackathon --evidence-mode replay"]
+    maps_to_existing: "python full_demo.py demo"
+    status: EXISTING_BRIDGE_CANDIDATE
+  status:
+    examples: ["yr-code status --format json"]
+    status: TO_IMPLEMENT
+    readonly: true
+  recon:
+    examples:
+      - "yr-code recon sources --scope scope.yaml --format json"
+      - "yr-code recon osint --scope scope.yaml --snapshot"
+      - "yr-code recon diff --left A.json --right B.json"
+      - "yr-code recon graph --snapshot A.json --out graph.svg"
+      - "yr-code recon handover --snapshot A.json --work-order-next"
+    status: TO_IMPLEMENT_REUSE_EXISTING_READONLY_TOOLS
+    default: READ_ONLY
+    subject_scope_required_for_EXTERNAL_REQUESTS: true
+    original_source_bytes_and_date: REQUIRED
+    no_scanning_or_EXPLOIT_BY_DEFAULT: true
+  work:
+    examples:
+      - "yr-code work plan work_order.yaml"
+      - "yr-code work run work_order.yaml --yard fresh"
+      - "yr-code work resume --checkpoint CHECKPOINT_ID"
+      - "yr-code work stop --scope STAGE_ID"
+      - "yr-code work handover --order ORDER_ID"
+    status: TO_IMPLEMENT_VIA_INGRIDGE_NATIVE_WORKSTATE
+    operations: HOST_ADMISSION_REQUIRED
+    resume_requires_RECONCILIATION: true
+  yard:
+    examples:
+      - "yr-code yard create --profile disposable"
+      - "yr-code yard status --id YARD_ID"
+      - "yr-code yard teardown --id YARD_ID"
+    status: TO_IMPLEMENT
+    proof: HOST_OBSERVED_ISOLATION_AND_TEARDOWN
+    never_call_NON_RAM_SCRATCH_RAM: true
+  tools:
+    examples:
+      - "yr-code tools inventory --format json"
+      - "yr-code tools verify --id TOOL_ID"
+      - "yr-code tools run TOOL_ID --input fixture.json"
+    status: TO_IMPLEMENT
+    execution: HOST_POLICY_ONLY
+  build:
+    examples:
+      - "yr-code build code --order ORDER_ID"
+      - "yr-code build office --order ORDER_ID"
+      - "yr-code build cad --order ORDER_ID"
+    status: TO_IMPLEMENT_REUSE_ASSET_ADAPTERS
+    licensed_host_tool_execution: HOST_BROKER_REQUIRED
+  inspect:
+    examples:
+      - "yr-code inspect three-run --order ORDER_ID"
+      - "yr-code inspect safety --yard YARD_ID"
+      - "yr-code inspect diff --from SHA --to SHA"
+    status: TO_IMPLEMENT_REUSE_EXISTING_ASSESSOR
+    no_fake_FULL_3RUN_CLAIM: true
+  evidence:
+    examples:
+      - "yr-code evidence list --order ORDER_ID"
+      - "yr-code evidence verify --manifest MANIFEST.json"
+      - "yr-code evidence graph --order ORDER_ID --out graph.svg"
+      - "yr-code evidence export --order ORDER_ID --profile sanitized"
+    status: TO_IMPLEMENT
+    source_copy_and_export_are_distinct_authorITIES: true
+  sponsor:
+    examples:
+      - "yr-code sponsor doctor"
+      - "yr-code sponsor world-model --source workledger"
+      - "yr-code sponsor nightshift --dry-run"
+      - "yr-code sponsor zetaris --dry-run"
+    status: MIXED_EXISTING_LOCAL_WORLD_MODEL_LIVE_EXTERNAL_UNEXECUTED
+    paid_or_network_call: HOST_COST_AND_SCOPE_ADMISSION_REQUIRED
+  doctor:
+    examples: ["yr-code doctor --format json"]
+    status: TO_IMPLEMENT
+    readonly: true
+global_flags:
+  - "--format text|json"
+  - "--lang ja|en|pt"
+  - "--scope PATH"
+  - "--order ORDER_ID"
+  - "--evidence-mode live|replay|synthetic"
+  - "--no-network"
+  - "--output PATH"
+output_contract:
+  required_fields: [command, work_order_id, scope, execution_class, status, evidence_refs, holds, next_actions]
+  statuses: [PASS, FAIL, HOLD, UNKNOWN, NOT_EXECUTED]
+  evidence_classes: [LIVE_REAL, LOCAL_EXECUTED, REPLAY_FROM_CAPTURED_EVIDENCE, SYNTHETIC_FIXTURE, STATIC_DIAGRAM, DESIGN_ONLY, UNKNOWN]
+  cli_exit_codes:
+    0: PASS_WITHIN_DECLARED_SCOPE
+    2: HOLD_OR_UNKNOWN
+    3: INPUT_OR_SCOPE_REJECTED
+    4: EXECUTION_FAILED
+    5: HOST_AUTHORITY_DENIED
+  exit_codes_are_proposal_not_EXISTING_API: true
+authority:
+  readonly_commands_can_be_OFFLINE_AND_NON_MUTATING: true
+  host_execution_required_for_build_or_worker_dispatch: true
+  human_gate: [EXTERNAL_SUBMISSION, PUBLIC_PUSH, PRIVATE_SOURCE_RELEASE, NEW_UNAPPROVED_PAID_API, CANONICAL_PROMOTION]
+implementation_order:
+  - PROTECT_PINNED_PR140_RESULT_AND_CURRENT_DEMO
+  - IMPLEMENT_CLI_ROUTER_FOR_DEMO_STATUS_DOCTOR
+  - ADD_READONLY_RECON_AND_EVIDENCE
+  - REUSE_NATIVE_WORK_ORDER_YARD_TOOL_PROFILES
+  - ADAPT_BUILD_INSPECT_SPONSOR_WITH_HONEST_HOLDS
+  - RUN_REAL_SMOKE_AND_CREATE_SHA256_MANIFEST
+  - PRIVATE_DRAFT_REMOTE_READBACK
+  - HUMAN_GATE_FOR_NEW_PUBLIC_REPOSITORY_AND_SUBMISSION
+acceptance:
+  - NO_BREAKAGE_OF_python_full_demo_py_demo
+  - HONEST_LIVE_VS_REPLAY_OUTPUT
+  - READONLY_OSINT_NEVER_IMPLICITLY_ESCALATES_TO_SCAN
+  - NO_DUPLICATE_WORKLEDGER
+  - HELP_AND_JSON_CONTRACT_TESTS
+  - PROVE_WORKER_HANDOFF_AND_STOP

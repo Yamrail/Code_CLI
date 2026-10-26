@@ -1,0 +1,184 @@
+schema: YR_HACK_CODE_CLI_TRANSFERABLE_SUBMISSION_R007
+order_id: YR-WO-HACK-CODE-CLI-HANDOFF-20261026-R007
+date_jst: "2026-10-26"
+priority: P0_DEADLINE_CRITICAL
+status: PRIVATE_EXECUTION_ORDER_NOT_YET_SUBMITTED
+title: "YamRail/Code_CLI: 第三者へ渡して動かせる全装備ハッカソン提出パッケージ"
+supersedes_for_hackathon:
+  - CODE_CLI_COMMAND_CONTRACT_R006.yaml
+inherits:
+  - "RTA Private Draft PR #140, fixed commit 95322eb461cb251c6ed6c837bbb1f3e0d34c69e1"
+  - "R005 full tool shelf and supervised workyard"
+  - "R006 command vocabulary"
+product:
+  display_name: YamRail/Code_CLI
+  github_target: Yamrail/Code_CLI
+  executable: yr-code
+  role: TRANSFERABLE_WHITE_HAT_READONLY_RESEARCH_AND_CODING_WORKYARD
+  single_product_not_separate_research_demo: true
+  primary_judge_message: >
+    A white-hat technical operator can receive and reproduce the exact
+    WorkLedger-supervised research-to-coding workflow, inspect evidence
+    and continue development on a different machine.
+deadline:
+  utc: "2026-10-27T23:45:00Z"
+  jst: "2026-10-28T08:45:00+09:00"
+  time_priority: INDEPENDENT_BOOT_AND_REQUIRED_SPONSOR_REAL_CONNECTIONS_OVER_POLISH
+submission_rules_source:
+  primary: https://academy.genai.works/courses/open-agent-hackathon-2026/details
+  track: "Wildcard [Tinkerer]: Bring Your Own Project"
+  preexisting_code: DECLARE_EXISTING_YAMRAIL_AND_COMPETITION_DELTA
+  checklist:
+    - GITHUB_SOURCE_AND_INSTALL_README
+    - ONE_TO_FOUR_MINUTE_DEMO_VIDEO
+    - ARCHITECTURE_AND_SPONSOR_DECK
+    - METERLESS_ZETARIS_NVIDIA_EXPLANATION
+    - ACTUAL_SPONSOR_INTEGRATION_EVIDENCE_FOR_ELIGIBILITY
+  cursor_requirement: VERIFY_COURSE_CURRENT_RULES_AND_RECORD_ACTUAL_USAGE
+current_baseline:
+  working_demo: "python full_demo.py demo"
+  verified_payload_files: 3602
+  verified_payload_commit: 762087a1b9a7aa27b86ded9e0da89a7258a6534a
+  closing_commit: 95322eb461cb251c6ed6c837bbb1f3e0d34c69e1
+  current_limitations:
+    - CODING_AGENT_INTERNAL_CLI_POLICY_BLOCKED
+    - DIRECT_CODEX_CLI_NOT_DEMONSTRATED_AS_FULL_INGRIDGE_YARD
+    - RAM_AND_ENCRYPTED_WORKER_SCRATCH_NOT_PROVEN
+    - EXTERNAL_NIGHTSHIFT_NEMOTRON_UNEXECUTED
+    - EXTERNAL_ZETARIS_UNEXECUTED
+    - OTHER_MODEL_EXECUTION_UNEXECUTED
+  instruction: >
+    These limits must be preserved honestly, but must not block production
+    of a reproducible transferable package or a new executable CLI wrapper.
+user_revision:
+  previous_assumption: PRODUCT_WORK_SEPARATE_FROM_HACKATHON_SUBMISSION
+  correction: THE_TRANSFERABLE_FULL_PRODUCT_IS_THE_HACKATHON_DELIVERABLE
+  operator_proficiency: PROFESSIONAL_WHITE_HAT_OR_EQUIVALENT_TECHNICAL_OPERATOR
+  access_authority: VERIFIED_SCOPE_AND_RIGHTS_NOT_PERSONALITY_RATING
+  no_copy_of_PRIVATE_LEDGERS_OR_SECRETS: true
+  include:
+    - INGRIDGE_OS_NATIVE_SUPERVISION
+    - ORIGINAL_CODE_CLI_SOURCE
+    - FULL_TOOL_SHELF_WITH_PER_TOOL_ORIGIN_AND_LICENSE_NOTES
+    - READONLY_OSINT_AND_RECON
+    - OFFICE_CAD_AND_COMPILE_LINK_ADAPTERS_AS_AVAILABLE
+    - WORKER_YARD_AND_FAIL_CLOSED_PROBES
+    - PROVENANCE_AND_READBACK
+    - STOP_RESUME_DEMOS
+    - SPONSOR_TECH_AND_REAL_STATUS
+    - INSTALL_AND_UNINSTALL_INSTRUCTIONS
+  prototype_maturity_is_not_admission_GATE: true
+profiles:
+  full_authorized_handoff:
+    audience: NAMED_SCOPE_AUTHORIZED_TECHNICAL_COLLABORATOR
+    contents: ALL_TRANSFERABLE_IMPLEMENTATIONS_SOURCE_TOOLS_AND_TEST_EVIDENCE
+    licensed_software: HOST_INSTALLED_DEPENDENCY_NOT_BUNDLED_BINARY
+    private_only_and_separate_release_authority: true
+  hackathon_judge:
+    audience: REVIEWER_OR_APPROVED_EXTERNAL_OPERATOR
+    contents: SELF_CONTAINED_RELEASE_CANDIDATE_WITH_REQUIRED_REPRODUCTION_MATERIAL
+    no_live_PRIVATE_GITHUB_ACCESS_REQUIRED: true
+    no_keys_or_nontransferable_private_source: true
+    missing_nonredistributable_tool: DECLARE_ALTERNATIVE_AND_EXPLICIT_HOLD
+    external_publication: HUMAN_GATE
+  no_fake_FULLEST_INSTALLED_ENVIRONMENT: true
+required_package_layout:
+  root: Code_CLI/
+  files:
+    - README.md
+    - README_JA.md
+    - START_HERE.md
+    - INSTALL.md
+    - AGENT_BOUNDARY.md
+    - WORK_ORDER_EXAMPLE.yaml
+    - SAFETY_AND_SCOPE.md
+    - LICENSES_AND_PROVENANCE.csv
+    - SBOM.json
+    - .env.example
+    - yr_code.py
+    - yr-code.cmd
+    - yr-code.sh
+    - native_runtime/
+    - adapters/
+    - tool_shelf/
+    - fixtures/safe_public_or_synthetic/
+    - tests/
+    - evidence/observed_and_labelled/
+    - media/demo.mp4
+    - media/slides.pptx
+    - MANIFEST.json
+    - SHA256SUMS.txt
+  principle: EVERY_FILE_MUST_HAVE_A_GROUNDED_SOURCE_OR_GENERATION_RECEIPT
+  no_deceptive_empty_placeholders: true
+minimum_user_journey:
+  - UNPACK_OR_CLONE_NO_AUTHOR_PRIVATE_PATHS
+  - RUN_yr-code_doctor_WITHOUT_CREDENTIALS
+  - RUN_yr-code_demo_OFFLINE_AND_OBTAIN_NATIVE_TRACE
+  - RUN_yr-code_recon_local_AGAINST_SANDBOX_FIXTURE
+  - VERIFY_MANIFEST_AND_SHA256
+  - DISPLAY_OR_EXPORT_DEPENDENCY_GRAPH_WITH_SOURCE_REFS_WHERE_AVAILABLE
+  - STOP_AND_RESTART_WITH_EVIDENCE_RETENTION
+  - READ_STATUS_AND_HOLDS_WITHOUT_PRIVATE_HOST
+  - EXTEND_TOOL_OR_WORK_ORDER_ON_NEXT_MACHINE
+  - PRODUCE_HANDOFF_RECEIPT_FOR_NEXT_WORKER
+required_commands_first:
+  - "yr-code demo"
+  - "yr-code doctor --format json"
+  - "yr-code status --format json"
+  - "yr-code recon local --root fixtures/safe_public_or_synthetic"
+  - "yr-code evidence verify --manifest MANIFEST.json"
+later_commands: [work, yard, tools, build, inspect, sponsor, evidence_graph, recon_osint, work_handover]
+  # If unimplemented, command must return NOT_EXECUTED or HOLD, not pretend to run.
+sponsor_blockers:
+  meterless_world_model: ALREADY_EXECUTED_LOCAL
+  nightshift_nemotron: LIVE_UNEXECUTED_NEEDS_REAL_PROVIDER_RECEIPT
+  zetaris: LIVE_UNEXECUTED_NEEDS_REAL_QUERY_RECEIPT
+  instruction: >
+    Local stubs are useful for reproducible offline operation but are not
+    substitutes for mandatory sponsor integrations in contest eligibility.
+  never_publish_keys: true
+execution_workfaces:
+  W01:
+    action: INVENTORY_AND_FREEZE_R005_AS_BUILT_AND_R006_SOURCE
+    output: SOURCE_PINNED_TRANSFERABLE_COMPONENT_SET
+  W02:
+    action: CREATE_REAL_yr-code_WRAPPER_THAT_INVOKES_EXISTING_DEMO_NO_FAKED_FEATURES
+    output: RUNNABLE_COMMAND_AND_HELP
+  W03:
+    action: IMPLEMENT_ZERO_KEY_PREWORK_AND_EVIDENCE_VERIFICATION_COMMANDS
+    output: READONLY_WORKFLOW_REPRODUCIBLE_ON_ANOTHER_DEVICE
+  W04:
+    action: ASSEMBLE_FULL_HANDOFF_PAYLOAD_EXCLUDING_ONLY_NONTRANSFERABLE_OR_SECRET_ITEMS
+    output: DETERMINISTIC_TARBALL_OR_ZIP_AND_EXACT_HASHES
+  W05:
+    action: RUN_UNRELATED_CLEAN_MACHINE_OR_FRESH_VM_INSTALL_TEST
+    acceptance:
+      - NO_AUTHOR_MACHINE_ABSOLUTE_PATH
+      - INSTALL_OFFLINE_DEFAULT
+      - DOCTOR_REPORTS_REAL_HOST_CAPABILITIES
+      - DEMO_AND_READONLY_RECON_WORK
+      - NATIVE_WORKLEDGER_EVIDENCE_AVAILABLE
+      - ZIP_MANIFEST_HASH_CHECKS_MATCH
+      - SOURCE_LICENSES_AND_REQUIRED_DEPENDENCIES_EXPLICIT
+      - DIFFERENCE_LIVE_REPLAY_SYNTHETIC_DESIGN_EXPLICIT
+    output: THIRD_PARTY_BOOT_RECEIPT_AND_BUG_REGISTER
+  W06:
+    action: RECHECK_SPONSOR_ACTUAL_LIVE_PATH_AND_SUBMISSION_REQUIREMENTS
+    output: HONEST_HACKATHON_ELIGIBILITY_MATRIX
+  W07:
+    action: BUILD_EN_README_DEMO_DECK_VIDEO_AND_SUBMISSION_ENTRY
+    output: JUDGE_PACKAGE_READY_WITH_NO_PRIVATE_GITHUB_DEPENDENCY
+  W08:
+    action: PRIVATE_DRAFT_PR_AND_REMOTE_READBACK_NO_PUBLIC_SUBMISSION
+    output: SEALED_PRIVATE_PACKAGE_AND_HUMAN_SUBMISSION_GATE
+acceptance:
+  primary: ANOTHER_OPERATOR_CAN_START_AND_EXTEND_IT_WITHOUT_THE_AUTHOR_PRESENT
+  minimum: INDEPENDENT_CLEAN_CLONE_EXECUTES_CORE_OFFLINE_FLOW
+  if_broken: REWORK_WITH_PRESERVED_FAILURE_EVIDENCE_NOT_SPEC_ONLY
+  no_unapproved_EXTERNAL_PUBLISHING: true
+  no_unapproved_LICENSE_REPACKAGING: true
+  no_SELF_APPROVED_HUMAN_GATE: true
+  no_CONFLATE_REPLAY_WITH_LIVE_MODEL: true
+report:
+  form: FLASH_PLUS_FIVE_LINES
+  fields: [FIRST_BOOT, RECON_AND_WORKLEDGER, PACKAGE_AND_HASH, SPONSOR_ACTUAL_STATUS, PRIVATE_DRAFT_AND_PENDING_HUMAN]
