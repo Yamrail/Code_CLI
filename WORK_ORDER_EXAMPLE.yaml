@@ -1,0 +1,22 @@
+schema: yamrail.code-cli.safe-local-work-order/1
+order_id: YR-CODE-CLI-SYNTHETIC-PREWORK-001
+root_purpose: REVIEW_PACKAGED_SYNTHETIC_FIXTURE
+scope:
+  target: fixtures/safe_public_or_synthetic
+  target_origin: SELF_AUTHORED_SYNTHETIC_FIXTURE
+  reads: [regular_files, sha256, static_ast]
+  target_execution: false
+  network: false
+  external_side_effects: false
+  original_drawing_write: false
+worker_boundary:
+  host_supervision: EXISTING_INGRIDGE_NATIVE_WORKLEDGER
+  model_generation: NOT_REQUESTED
+  proprietary_agent_internals: NOT_CONTROLLED
+budget:
+  max_shared_attempts: 3
+  monetary_units: SYNTHETIC_FIXTURE_ONLY
+unknown_completion: HOLD_NO_AUTOMATIC_RETRY
+outputs: [source_register, static_review, native_trace, handover_receipt]
+authority_effect: NONE
+human_submission_approval: NOT_PRESENT

@@ -1,0 +1,75 @@
+{
+  "schema": "yamrail.code-cli.independent-cli-audit-summary/1",
+  "verdict": "PASS_SCOPED_ROOT_CLI_AUDIT",
+  "scope": [
+    "yr_code.py",
+    "adapters/portable_io.py",
+    "adapters/readonly_recon.py",
+    "adapters/evidence_verify.py",
+    "adapters/host_capabilities.py",
+    "adapters/cad_local.py",
+    "install.py",
+    "uninstall.py",
+    "yr-code.cmd",
+    "yr-code.sh"
+  ],
+  "independence": {
+    "root_authored_cli_audited_by_different_worker": true,
+    "own_native_runtime_independently_audited": false,
+    "full_system_certification": false,
+    "human_approval": false
+  },
+  "findings": [
+    {
+      "id": "CLI-A001",
+      "severity": "HIGH",
+      "title": "Native runner domain HOLD is emitted as CLI PASS",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A002",
+      "severity": "HIGH",
+      "title": "Build HOLD/unknown result is emitted as CLI PASS",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A003",
+      "severity": "MEDIUM",
+      "title": "Default output follows .yr-code junction and creates folders outside runtime boundary",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A004",
+      "severity": "MEDIUM",
+      "title": "Input resolution removes persistent link provenance before report admission",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A004b",
+      "severity": "MEDIUM",
+      "title": "Recon resolves a junctioned trusted fixture anchor outside its lexical package boundary",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A005",
+      "severity": "LOW",
+      "title": "tools verify is an inventory alias and reports PASS without byte verification",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A007",
+      "severity": "MEDIUM",
+      "title": "Drive-relative input performs existence I/O before later drive-relative denial; mapped drive can probe remote filesystem",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    },
+    {
+      "id": "CLI-A006",
+      "severity": "HIGH",
+      "title": "last_run directly reads and returns a hardlinked untrusted JSON receipt, bypassing safe_read/link admission",
+      "disposition": "FIXED_AND_TARGETED_REINSPECTION_PASS"
+    }
+  ],
+  "original_report_sha256": "96e924ff6176b94726fdf5518704fede0ba4c54200c9bfdb6afc00684035cf61",
+  "raw_report_and_synthetic_negative_proofs": "RETAINED_BUILDER_ONLY; this is a selected/sanitized derivative",
+  "human_approval": false
+}

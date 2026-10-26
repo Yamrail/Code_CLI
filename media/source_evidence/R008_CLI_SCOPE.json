@@ -1,0 +1,68 @@
+{
+  "schema": "yamrail.code-cli.r008-media-selected-observation/1",
+  "product": "YamRail/Code_CLI",
+  "evidence_class": "LOCAL_EXECUTED",
+  "source_domain": "SYNTHETIC_FIXTURE",
+  "steps": [
+    {
+      "command": "yr-code graph",
+      "status": "PASS",
+      "exit_code": 0,
+      "observed_at_utc": "2026-10-26T16:02:58.254989+00:00",
+      "execution_class": "LOCAL_EXECUTED",
+      "stage_id": "GRAPH",
+      "state": "PASS_NATIVE_HOST_STAGE",
+      "domain_status": "PASS",
+      "native_state": "PASS_NATIVE_DURABLE_READBACK",
+      "only_workflow_state_writer": "EXISTING_NATIVE_WORKLEDGER",
+      "native_checkpoint": {
+        "event_hash": "fc09f8c61218dd5191fdc727bb7515830ff2e4eaad7795b655ce9e23edb56d77",
+        "plan_digest": "a2fb5a8e14c512da9371c6b30f68f20d652b85928219fda9cd7562cb2c89d6eb",
+        "sequence": 16
+      },
+      "controlled_stop_resume": {
+        "presence_restored": true,
+        "root_consumption_preserved": true,
+        "runner_retried": false,
+        "unresolved_pending_preserved": true,
+        "was_stopped": true
+      },
+      "raw_runtime_cli_result_sha256": "e731efac42378b5562f5a34e6508b4ce2204089e370a285e282d7ea6a3e2d11b",
+      "raw_runtime_cli_result_shipped": false,
+      "authority_effect": "NONE",
+      "source_selection": "SELECTED_FIELDS_FROM_ACTUAL_CURRENT_CLI_RESULT; NO_RAW_HOST_JOURNAL_IMPORTED"
+    },
+    {
+      "command": "yr-code report",
+      "status": "PASS",
+      "exit_code": 0,
+      "observed_at_utc": "2026-10-26T16:03:04.780497+00:00",
+      "execution_class": "LOCAL_EXECUTED",
+      "stage_id": "REPORT",
+      "state": "PASS_NATIVE_HOST_STAGE",
+      "domain_status": "PASS",
+      "native_state": "PASS_NATIVE_DURABLE_READBACK",
+      "only_workflow_state_writer": "EXISTING_NATIVE_WORKLEDGER",
+      "native_checkpoint": {
+        "event_hash": "ee4a60289b8cb605c63b60f1774b871f54cf22936d59246cfbfad1bd0ae884e7",
+        "plan_digest": "9f99c1ea1f887bd4762c8668249c9eade9fdbdeaea0c5ee1c94b897dd6b6326d",
+        "sequence": 16
+      },
+      "controlled_stop_resume": {
+        "presence_restored": true,
+        "root_consumption_preserved": true,
+        "runner_retried": false,
+        "unresolved_pending_preserved": true,
+        "was_stopped": true
+      },
+      "raw_runtime_cli_result_sha256": "28819eb151f83cedb319365745ac73404edf3071d4f9f964193510872dacd345",
+      "raw_runtime_cli_result_shipped": false,
+      "authority_effect": "NONE",
+      "source_selection": "SELECTED_FIELDS_FROM_ACTUAL_CURRENT_CLI_RESULT; NO_RAW_HOST_JOURNAL_IMPORTED"
+    }
+  ],
+  "native_journals_shipped": false,
+  "external_submission": false,
+  "human_acceptance": "NOT_GRANTED",
+  "scope": "CURRENT_WINDOWS_SUPERVISED_LOCAL_RENDERING_NOT_LIVE_OSINT_OR_SPONSOR_QUERY"
+}

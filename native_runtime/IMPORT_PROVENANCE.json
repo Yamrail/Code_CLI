@@ -1,0 +1,650 @@
+{
+  "schema": "yamrail.r007.native-code-import/1",
+  "base_private_candidate_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+  "native_runtime_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+  "native_manifest_sha256": "574981704908fd0656e71604ee046fdb92f867dff1a86e6e6872a76f190a0b27",
+  "private_or_canonical_ledgers_imported": false,
+  "private_host_journals_imported": false,
+  "secret_values_imported": false,
+  "files": [
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/__init__.py",
+      "source_sha256": "d34608f2f5c1ebb1a157a63a9b4e69056aa26e731b74b1296eea29602d37c0fe",
+      "output": "native_runtime/payload/implementation/__init__.py",
+      "output_sha256": "d34608f2f5c1ebb1a157a63a9b4e69056aa26e731b74b1296eea29602d37c0fe",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/intent_budget.py",
+      "source_sha256": "7971a2a1e7de0b2f91bad990145a3bb30d503728ad78172c4d7d1326e89cde35",
+      "output": "native_runtime/payload/implementation/intent_budget.py",
+      "output_sha256": "7971a2a1e7de0b2f91bad990145a3bb30d503728ad78172c4d7d1326e89cde35",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/lineage.py",
+      "source_sha256": "19e0512e2ec96ba4b30dce68f88f620e5950a3dacc9bbc469f7840cd1d7add33",
+      "output": "native_runtime/payload/implementation/lineage.py",
+      "output_sha256": "19e0512e2ec96ba4b30dce68f88f620e5950a3dacc9bbc469f7840cd1d7add33",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/reused/__init__.py",
+      "source_sha256": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+      "output": "native_runtime/payload/implementation/reused/__init__.py",
+      "output_sha256": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/reused/binder.py",
+      "source_sha256": "3c8d4a82424e0c4783e9a14120ba8cea18dac4923a62d3e8fb722750c7c68ef3",
+      "output": "native_runtime/payload/implementation/reused/binder.py",
+      "output_sha256": "3c8d4a82424e0c4783e9a14120ba8cea18dac4923a62d3e8fb722750c7c68ef3",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/reused/execution_receipt.py",
+      "source_sha256": "ca0b0149e4da6c17af600f1c152b08202523082fb2614785176c188361af0db6",
+      "output": "native_runtime/payload/implementation/reused/execution_receipt.py",
+      "output_sha256": "ca0b0149e4da6c17af600f1c152b08202523082fb2614785176c188361af0db6",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/reused/stagnation.py",
+      "source_sha256": "b01ed8eee8ac835747ce5784a0ef6b36cc637faa9fb90f2286f67db32017b5ad",
+      "output": "native_runtime/payload/implementation/reused/stagnation.py",
+      "output_sha256": "b01ed8eee8ac835747ce5784a0ef6b36cc637faa9fb90f2286f67db32017b5ad",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/runtime.py",
+      "source_sha256": "ef51d46417d2f775c8218b0bff7211e62467d1af1287f58431fee03e2c1a5913",
+      "output": "native_runtime/payload/implementation/runtime.py",
+      "output_sha256": "ef51d46417d2f775c8218b0bff7211e62467d1af1287f58431fee03e2c1a5913",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/shelf_witness.py",
+      "source_sha256": "afa1b2169fc92888729aa29781401dbce1f3f4f51e16d995137f24b9c1365306",
+      "output": "native_runtime/payload/implementation/shelf_witness.py",
+      "output_sha256": "afa1b2169fc92888729aa29781401dbce1f3f4f51e16d995137f24b9c1365306",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/transport.py",
+      "source_sha256": "b89c0daff2cb7aa0c8bdafeec0dcf1270d685b255e5c1144b7a4606a366e2975",
+      "output": "native_runtime/payload/implementation/transport.py",
+      "output_sha256": "b89c0daff2cb7aa0c8bdafeec0dcf1270d685b255e5c1144b7a4606a366e2975",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/implementation/workstate.py",
+      "source_sha256": "ff47169505bb5df90cde6bcd99b001f2756f8563a1f8529d83b1a1178b19d5f3",
+      "output": "native_runtime/payload/implementation/workstate.py",
+      "output_sha256": "ff47169505bb5df90cde6bcd99b001f2756f8563a1f8529d83b1a1178b19d5f3",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/three_run_guard.py",
+      "source_sha256": "e1671a3fcdd3ee1ae05f0204218cda292f9152cfc0cf21a77b3b9349518978a8",
+      "output": "native_runtime/payload/three_run_guard.py",
+      "output_sha256": "e1671a3fcdd3ee1ae05f0204218cda292f9152cfc0cf21a77b3b9349518978a8",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/WORKSTATE_REPAIR.patch",
+      "source_sha256": "4f11c1af10d809c7c6b2cb45ba16691e2bdfec218acea98ceaf9e81eb2118ea5",
+      "output": "native_runtime/payload/WORKSTATE_REPAIR.patch",
+      "output_sha256": "4f11c1af10d809c7c6b2cb45ba16691e2bdfec218acea98ceaf9e81eb2118ea5",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "CODE_DERIVATION_PATCH"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/__init__.py",
+      "source_sha256": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+      "output": "native_runtime/payload/yr_tools/__init__.py",
+      "output_sha256": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/artifact_freeze.py",
+      "source_sha256": "51f5dbed33f981a238f90e200c6295b097a4df1c55fa55d396a3cc99b91949b7",
+      "output": "native_runtime/payload/yr_tools/artifact_freeze.py",
+      "output_sha256": "51f5dbed33f981a238f90e200c6295b097a4df1c55fa55d396a3cc99b91949b7",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/binder.py",
+      "source_sha256": "ad7a4989bd356d710615c15ae5fb77764dab1440b37b9d39bb8c88e176dc5cd3",
+      "output": "native_runtime/payload/yr_tools/binder.py",
+      "output_sha256": "ad7a4989bd356d710615c15ae5fb77764dab1440b37b9d39bb8c88e176dc5cd3",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/compiler.py",
+      "source_sha256": "8acbda357a2e6787b246b6c66435961e6a9fe68ff645d07861898bdcbe9555bb",
+      "output": "native_runtime/payload/yr_tools/compiler.py",
+      "output_sha256": "8acbda357a2e6787b246b6c66435961e6a9fe68ff645d07861898bdcbe9555bb",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/cost_gate.py",
+      "source_sha256": "518fe3424a9aa0149be9d57bbe015f6db30f29b235a4847807ba330c709d15e4",
+      "output": "native_runtime/payload/yr_tools/cost_gate.py",
+      "output_sha256": "518fe3424a9aa0149be9d57bbe015f6db30f29b235a4847807ba330c709d15e4",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/cultural_boundary.py",
+      "source_sha256": "40111d2ffd52e526519ce1a2c198b0d77d09c617458cc1ff27e0838a93243bce",
+      "output": "native_runtime/payload/yr_tools/cultural_boundary.py",
+      "output_sha256": "40111d2ffd52e526519ce1a2c198b0d77d09c617458cc1ff27e0838a93243bce",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/drafting.py",
+      "source_sha256": "c642baf17789b8766cb5c77cb3483b4c066f08c97511f5b07d741aa31360c768",
+      "output": "native_runtime/payload/yr_tools/drafting.py",
+      "output_sha256": "c642baf17789b8766cb5c77cb3483b4c066f08c97511f5b07d741aa31360c768",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/drawing_equipment.py",
+      "source_sha256": "9120d2cab04c4fc8f896f2a93234b9a6d344df3e2e9b2bf5cf3e003838ab6730",
+      "output": "native_runtime/payload/yr_tools/drawing_equipment.py",
+      "output_sha256": "9120d2cab04c4fc8f896f2a93234b9a6d344df3e2e9b2bf5cf3e003838ab6730",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/event_graph.py",
+      "source_sha256": "4a40edca663432c4685753430ac4831c7af662e98d00d13e62e8b2722b2bfcfe",
+      "output": "native_runtime/payload/yr_tools/event_graph.py",
+      "output_sha256": "4a40edca663432c4685753430ac4831c7af662e98d00d13e62e8b2722b2bfcfe",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/event_ledger.py",
+      "source_sha256": "19e8f14f33cad482ba49c70b192c0b3d39b30b6d33da0569426ee4490c3b10d1",
+      "output": "native_runtime/payload/yr_tools/event_ledger.py",
+      "output_sha256": "19e8f14f33cad482ba49c70b192c0b3d39b30b6d33da0569426ee4490c3b10d1",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/execution_receipt.py",
+      "source_sha256": "ca0b0149e4da6c17af600f1c152b08202523082fb2614785176c188361af0db6",
+      "output": "native_runtime/payload/yr_tools/execution_receipt.py",
+      "output_sha256": "ca0b0149e4da6c17af600f1c152b08202523082fb2614785176c188361af0db6",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/failure_boundary.py",
+      "source_sha256": "4a22aff8b5b66751b14781621bb3f302d5603463c3b6ef054f0e4f1238d0f3c8",
+      "output": "native_runtime/payload/yr_tools/failure_boundary.py",
+      "output_sha256": "4a22aff8b5b66751b14781621bb3f302d5603463c3b6ef054f0e4f1238d0f3c8",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/inspector.py",
+      "source_sha256": "204694ef7dc31e0d484499189f798e5b026329304439dc65a5a8a975b9cf581c",
+      "output": "native_runtime/payload/yr_tools/inspector.py",
+      "output_sha256": "204694ef7dc31e0d484499189f798e5b026329304439dc65a5a8a975b9cf581c",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/native_bridge.py",
+      "source_sha256": "d5cb21597bedfe7b7c1e24acfcafc5b5ecc9d9af18aa5eb9e5281ad79f3ef459",
+      "output": "native_runtime/payload/yr_tools/native_bridge.py",
+      "output_sha256": "d5cb21597bedfe7b7c1e24acfcafc5b5ecc9d9af18aa5eb9e5281ad79f3ef459",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/numeric.py",
+      "source_sha256": "23244df59c344df7dc0a411a0621b477b3c630bcc8743c0e78966e44cf97396a",
+      "output": "native_runtime/payload/yr_tools/numeric.py",
+      "output_sha256": "23244df59c344df7dc0a411a0621b477b3c630bcc8743c0e78966e44cf97396a",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/numeric_lineage.py",
+      "source_sha256": "38d95456d9dba1078e00f002534b33f177806b62cf25ad1df12d3099aef24f4a",
+      "output": "native_runtime/payload/yr_tools/numeric_lineage.py",
+      "output_sha256": "38d95456d9dba1078e00f002534b33f177806b62cf25ad1df12d3099aef24f4a",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/plasma.py",
+      "source_sha256": "1a49d157db2813fc78d65f06066938677f5ed8fe95af7478ed2b2e1453112918",
+      "output": "native_runtime/payload/yr_tools/plasma.py",
+      "output_sha256": "1a49d157db2813fc78d65f06066938677f5ed8fe95af7478ed2b2e1453112918",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/profile_audit.py",
+      "source_sha256": "63bce138a9509d50e912dc24306cf5e0cfd2300bdc76084185217c8fb0626256",
+      "output": "native_runtime/payload/yr_tools/profile_audit.py",
+      "output_sha256": "63bce138a9509d50e912dc24306cf5e0cfd2300bdc76084185217c8fb0626256",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/prototype_handoff.py",
+      "source_sha256": "1929339d61dfdfb9741f6438599bd152dbe8da097b3d01e059999aee9ab81d9d",
+      "output": "native_runtime/payload/yr_tools/prototype_handoff.py",
+      "output_sha256": "1929339d61dfdfb9741f6438599bd152dbe8da097b3d01e059999aee9ab81d9d",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/safe_ingest.py",
+      "source_sha256": "41e797d3045e9b314cd91235aafa9d22e9a10023b936d35e77802d59b5b0ae51",
+      "output": "native_runtime/payload/yr_tools/safe_ingest.py",
+      "output_sha256": "41e797d3045e9b314cd91235aafa9d22e9a10023b936d35e77802d59b5b0ae51",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/semantic.py",
+      "source_sha256": "80fde39e12828b490184340403b101b0189c89af07019a1ea5090ab2a399665f",
+      "output": "native_runtime/payload/yr_tools/semantic.py",
+      "output_sha256": "80fde39e12828b490184340403b101b0189c89af07019a1ea5090ab2a399665f",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/stagnation.py",
+      "source_sha256": "b01ed8eee8ac835747ce5784a0ef6b36cc637faa9fb90f2286f67db32017b5ad",
+      "output": "native_runtime/payload/yr_tools/stagnation.py",
+      "output_sha256": "b01ed8eee8ac835747ce5784a0ef6b36cc637faa9fb90f2286f67db32017b5ad",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/stop_guard.py",
+      "source_sha256": "1e7bfee3ad3ae0eacad901a4ddfb2e9c4f7a1d474c3c07c9f73e39839c8a37df",
+      "output": "native_runtime/payload/yr_tools/stop_guard.py",
+      "output_sha256": "1e7bfee3ad3ae0eacad901a4ddfb2e9c4f7a1d474c3c07c9f73e39839c8a37df",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/yr_tools/user_projection.py",
+      "source_sha256": "b70f11f36fa546ba20792f69614a644baf753aa0b199d8fe3111e2ee54eb39c8",
+      "output": "native_runtime/payload/yr_tools/user_projection.py",
+      "output_sha256": "b70f11f36fa546ba20792f69614a644baf753aa0b199d8fe3111e2ee54eb39c8",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE"
+    },
+    {
+      "source_commit": "5fadd570c26e72afb2ea8a35503be8b5497b84d5",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/native/BUILD_MANIFEST.json",
+      "remote_blob": "55106f4634c66404fac3f096ca4837aef7006d33",
+      "source_sha256": "574981704908fd0656e71604ee046fdb92f867dff1a86e6e6872a76f190a0b27",
+      "output": "native_runtime/payload/BUILD_MANIFEST.json",
+      "output_sha256": "574981704908fd0656e71604ee046fdb92f867dff1a86e6e6872a76f190a0b27",
+      "difference": "NONE_EXACT_BYTES"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/captured/code_task/task/hold_report.py",
+      "source_sha256": "30b9371868739af499746cf03371243ce095061f79520b445ee0ea9f47da4e5e",
+      "output": "native_runtime/fixtures/hold_report.py",
+      "output_sha256": "30b9371868739af499746cf03371243ce095061f79520b445ee0ea9f47da4e5e",
+      "difference": "NONE_CODE_ONLY_NO_PRIVATE_JOURNALS_OR_CAPTURE_RECEIPTS_IMPORTED",
+      "artifact_class": "SAFE_CODE_FIXTURE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/captured/code_task/task/test_hold_report.py",
+      "source_sha256": "9d29ebf356a5e1bdb616f4d790cb2324509eee5f5a10ff97f15e0cc259bc5282",
+      "output": "native_runtime/fixtures/test_hold_report.py",
+      "output_sha256": "9d29ebf356a5e1bdb616f4d790cb2324509eee5f5a10ff97f15e0cc259bc5282",
+      "difference": "NONE_CODE_ONLY_NO_PRIVATE_JOURNALS_OR_CAPTURE_RECEIPTS_IMPORTED",
+      "artifact_class": "SAFE_CODE_FIXTURE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/typed_graph/typed_graph_ab.py",
+      "source_sha256": "d7f079588e2ce6efa3ecfe42fdc23df9faa158be8c718a99486f35a061d5df77",
+      "output": "native_runtime/typed_graph_ab.py",
+      "output_sha256": "d7f079588e2ce6efa3ecfe42fdc23df9faa158be8c718a99486f35a061d5df77",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/world_model_bridge.js",
+      "source_sha256": "c70965ff6b85618f58e3714485dfecf94e9ba294ec1ab57c68092014df7dff35",
+      "output": "native_runtime/meterless/world_model_bridge.js",
+      "output_sha256": "c70965ff6b85618f58e3714485dfecf94e9ba294ec1ab57c68092014df7dff35",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/meterless-world-model-reference.js",
+      "source_sha256": "569920f1e13172f638ef0ea932033c221e9ec561eb2261667ff4c4123be69e69",
+      "output": "native_runtime/meterless/meterless-world-model-reference.js",
+      "output_sha256": "569920f1e13172f638ef0ea932033c221e9ec561eb2261667ff4c4123be69e69",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/LICENSE-Meterless.txt",
+      "source_sha256": "63e29fc8231b53757a77fbc371071c91d768621efa1e68b1d9ff8d1bb7c4a0ef",
+      "output": "native_runtime/meterless/LICENSE-Meterless.txt",
+      "output_sha256": "63e29fc8231b53757a77fbc371071c91d768621efa1e68b1d9ff8d1bb7c4a0ef",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/UPSTREAM_PROVENANCE.json",
+      "source_sha256": "745e0fd387a50581a53ede283d05f3c3845596bb538c07158eeec2ad8c744e65",
+      "output": "native_runtime/meterless/UPSTREAM_PROVENANCE.json",
+      "output_sha256": "745e0fd387a50581a53ede283d05f3c3845596bb538c07158eeec2ad8c744e65",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/world_model_conformance.js",
+      "source_sha256": "4f7f95fb5ceeea730cde4f5f8760dcc693d0addee0c336cc755548c1a13baa23",
+      "output": "native_runtime/meterless/world_model_conformance.js",
+      "output_sha256": "4f7f95fb5ceeea730cde4f5f8760dcc693d0addee0c336cc755548c1a13baa23",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/official_conformance_runner.ts",
+      "source_sha256": "7cd3b80d62d45d16f3342c62a91c89abf819c9b46970187d2f36fb9e3050da82",
+      "output": "native_runtime/meterless/official_conformance_runner.ts",
+      "output_sha256": "7cd3b80d62d45d16f3342c62a91c89abf819c9b46970187d2f36fb9e3050da82",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    },
+    {
+      "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+      "source_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/vendor/meterless/bundle_exports.mjs",
+      "source_sha256": "58cfcb8eacf8e1abaaa6ba21ed31210a55908b2d75eb2d87b1cc5c76f729819b",
+      "output": "native_runtime/meterless/bundle_exports.mjs",
+      "output_sha256": "58cfcb8eacf8e1abaaa6ba21ed31210a55908b2d75eb2d87b1cc5c76f729819b",
+      "difference": "NONE_EXACT_CODE_OR_CODE_METADATA_BYTES",
+      "artifact_class": "SOURCE_CODE_OR_LICENSE"
+    }
+  ],
+  "boundary": "Source+safe code/test fixtures only. All active journals/authority fixtures are generated fresh by local commands. Existing native WorkLedger is the only workflow state writer.",
+  "relocation": "Source package supports fresh runs after relocation. Copying an already host-bound journal to another path must HOLD; no rebinding/migration or archived-to-active promotion.",
+  "derived_source_references": [
+    {
+      "repository": "Yamrail/yamrail-evidence-ledger-private",
+      "commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+      "sha256": "a526e97bf8bac9a4e24ddf876cabb65c0406707e343183df6763b46433d2fba5",
+      "class": "IMPLEMENTATION_REUSE_REFERENCE_CODE_ONLY"
+    },
+    {
+      "repository": "Yamrail/yamrail-evidence-ledger-private",
+      "commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+      "sha256": "b8d415e5d9880612bb2b4b13d6e56403ad374432b8f6311156bff9120d20e551",
+      "class": "IMPLEMENTATION_REUSE_REFERENCE_CODE_ONLY"
+    },
+    {
+      "repository": "Yamrail/yamrail-evidence-ledger-private",
+      "commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+      "sha256": "62abd7852012d06b333f1c72c6cf592629fbff12117117cb69094851e23440bf",
+      "class": "IMPLEMENTATION_REUSE_REFERENCE_CODE_ONLY"
+    },
+    {
+      "repository": "Yamrail/yamrail-evidence-ledger-private",
+      "commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+      "path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py",
+      "sha256": "b3f44bf2835bf850bb5ccbad0c46d90735c8bbb792021d262a324a4c68fce7db",
+      "class": "IMPLEMENTATION_REUSE_REFERENCE_CODE_ONLY"
+    }
+  ],
+  "derived_files": [
+    {
+      "output": "native_runtime/__init__.py",
+      "output_sha256": "200a0fc223cbece33aee60b569c87c6e1da2b10fd09192285f54e3471859ed0e",
+      "difference": "Portable module exports only",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    },
+    {
+      "output": "native_runtime/core.py",
+      "output_sha256": "9a7929bcd724c44da2336523766f1d4f900ac6695d7c9866987ffbfa59494de4",
+      "difference": "Fresh fixtures and source pins around unchanged WorkLedger; enforce recorded native shelf ledger_root before open; no rebind or native source edits",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    },
+    {
+      "output": "adapters/native_host.py",
+      "output_sha256": "5d2416439d30c6b0924943ef865d5d48f6b6735230b22d6efd9c23b484d3a13f",
+      "difference": "Current-work-order host wrapper using existing WorkLedger sole state writer; explicit parent-order milestone binding; actual runner invoked once; STOP/resume preserves UNKNOWN/HOLD",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    },
+    {
+      "output": "adapters/demo.py",
+      "output_sha256": "af67face73cbf608b7930588a4fee123ce55931f80b8576536e1de070420ed23",
+      "difference": "Port prior deterministic counterexamples to package-relative paths; fresh processes; safe code-only replay with no original journal/generation receipt; optional actual Meterless reference and retained Typed Graph",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    },
+    {
+      "output": "adapters/build_pipeline.py",
+      "output_sha256": "7c6ceac35f303d97741dc3edf6e35a445b1e968369b11b791f369b59e3935327",
+      "difference": "Extract numeric_registry/cad_build/inspect_ooxml helpers; change two native_engine imports to load_native; add bounded member/external-rel denials and native-supervised API; no desktop app execution",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    },
+    {
+      "output": "tests/test_native_runtime.py",
+      "output_sha256": "285be14beaf0c6fe1828a2edec471f65a65fe46c250c3a26641cd0c10206352f",
+      "difference": "Adversarial native/no-retry/relocation/archive/source-tamper/missing-Node/OOXML checks",
+      "source_references": [
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/rta.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/native_engine.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/supervised_tool_task.py",
+        "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/src/full_stack_pipeline.py"
+      ],
+      "artifact_class": "DERIVED_SOURCE_CODE"
+    }
+  ],
+  "native_journal_relocation": {
+    "status": "HOLD_FOR_EXISTING_JOURNAL_RELOCATION",
+    "native_source_bytes_changed": false,
+    "native_shelf_binding_preserved": true,
+    "native_readonly_verifier_limitation": "Original records ledger_root but does not compare it; R007 host wrapper compares genesis ledger_root to actual journal root before open",
+    "supported_route": "Relocate source package and create fresh per-run work order; handover may bind prior evidence hashes without activating archived state",
+    "private_host_journals_shipped": false,
+    "raw_host_bound_journals_in_judge_package": "FORBIDDEN"
+  },
+  "safe_code_replay": {
+    "fixture_origin_commit": "95322eb461cb251c6ed6c837bbb1f3e0d34c69e1",
+    "current_run_class": "LOCAL_EXECUTED",
+    "generation_this_run": false,
+    "original_live_model_receipt_imported": false,
+    "derived_summary_is_active_state": false
+  },
+  "runtime_limits": [
+    "No new paid provider or subscription Coding Agent call",
+    "Nightshift/Nemotron and Zetaris live remain HOLD",
+    "No AutoCAD/DWG or desktop Office execution",
+    "No canonical promotion, public push or Human self-approval",
+    "Source import does not establish runtime acceptance",
+    "OS/process-tree isolation not claimed by portable host wrapper"
+  ],
+  "verification": {
+    "primary_demo_execution_count_this_worker": 3,
+    "actual_counterexample_checks": 12,
+    "latest_full_native_test_suite": {
+      "pass": 8,
+      "fail": 0
+    },
+    "final_targeted_suite_after_metadata_and_failure_label_resilience_edits": {
+      "pass": 7,
+      "fail": 0,
+      "full_demo_not_repeated": true
+    },
+    "meterless_unchanged_official_conformance": {
+      "pass": 8,
+      "fail": 0
+    },
+    "actual_sponsor_api_calls": 0,
+    "build_all_smoke": "PASS_SCOPED_LOCAL_BUILD",
+    "authority_promoted": false,
+    "raw_host_bound_journals_shipped": false
+  },
+  "post_import_rework": {
+    "id": "NATIVE_A001_PIN_MANIFEST_ANCHOR",
+    "file": "native_runtime/core.py",
+    "current_sha256": "31fbc5678cf4870815494e88a26a5e68d8ffa13de16a0182520697ae4ab84ddc",
+    "scope": "R007 generated host glue only; all48 copied upstream files unchanged",
+    "repair": "Fixed IMPORT_PINS hash anchor before parsing, exact fixture/auxiliary inventory, bounded no-link source reads",
+    "independent_reinspection": "PASS_SCOPED_INDEPENDENT_NATIVE_GLUE_REINSPECTION",
+    "independent_report_sha256": "9988ac1c6e3652edc8f7030e9d9c9d891901859278910e2c9ae05afa7ccb2473"
+  }
+}

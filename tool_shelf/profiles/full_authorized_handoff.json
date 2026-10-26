@@ -1,0 +1,9 @@
+{
+  "state": "STAGED_PRIVATE_NAMED_RELEASE_PENDING",
+  "includes_raw_archive": false,
+  "source_staging_role": "BUILDER_PRIVATE_REVIEWED_HANDOFF",
+  "requires_named_collaborator_scope": true,
+  "third_party_unknown_license_included": false,
+  "execution_permission_granted_by_source_transfer": false,
+  "specifically_reviewed_R008_native_renderer_included": true
+}

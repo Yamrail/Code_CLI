@@ -1,0 +1,38 @@
+{
+  "name": "cssselect2",
+  "version": "0.10.1",
+  "project_urls": {
+    "Changelog": "https://github.com/Kozea/cssselect2/releases",
+    "Code": "https://github.com/Kozea/cssselect2/",
+    "Documentation": "https://doc.courtbouillon.org/cssselect2/",
+    "Donation": "https://opencollective.com/courtbouillon",
+    "Homepage": "https://doc.courtbouillon.org/cssselect2/",
+    "Issues": "https://github.com/Kozea/cssselect2/issues"
+  },
+  "license_expression": null,
+  "license": null,
+  "urls": [
+    {
+      "filename": "cssselect2-0.10.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/bd/59/6b1daa3b94de8970e2a2787ba73616c2d0675d2f948ef4cad8bef7f21bc6/cssselect2-0.10.1-py3-none-any.whl",
+      "digests": {
+        "blake2b_256": "bd596b1daa3b94de8970e2a2787ba73616c2d0675d2f948ef4cad8bef7f21bc6",
+        "md5": "b6cfc06f477d9229213c2d5a9ef236d3",
+        "sha256": "25cc4494d55985d6a6da359be48da6ce98c28dcbafa2314c383ace3fc32ec868"
+      },
+      "size": 15489,
+      "packagetype": "bdist_wheel"
+    },
+    {
+      "filename": "cssselect2-0.10.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/06/00/2456b6b664c7a770989cbe3c352aac4eb962c938486f03a2e1255ae963c6/cssselect2-0.10.1.tar.gz",
+      "digests": {
+        "blake2b_256": "06002456b6b664c7a770989cbe3c352aac4eb962c938486f03a2e1255ae963c6",
+        "md5": "f805527f3913f649c4a8933251d29d75",
+        "sha256": "83b0d820ef589dabaf693289b647c2f5b410f76d285f56deba911ffa75a7b9d1"
+      },
+      "size": 35653,
+      "packagetype": "sdist"
+    }
+  ]
+}

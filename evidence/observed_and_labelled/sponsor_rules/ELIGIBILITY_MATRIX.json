@@ -1,0 +1,77 @@
+{
+  "schema": "yamrail.r007.eligibility-evidence-matrix/1",
+  "product": "YamRail/Code_CLI",
+  "executable": "yr-code",
+  "observed_utc": "2026-10-26T15:31:52.031371+00:00",
+  "primary_rules_url": "https://academy.genai.works/courses/open-agent-hackathon-2026/details",
+  "secondary_rules_url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+  "not_eligibility_approval": true,
+  "primary_source_sha256": "99c78b1e872dad12987ce1db0f6425a7274bb931542044cb9572bd22c24f5876",
+  "rows": [
+    {
+      "id": "TRACK",
+      "requirement": "Wildcard (Tinkerer) permits extending prior work; describe the new contribution separately.",
+      "evidence": "Retained YamRail components and R007 transferable package work are distinguishable.",
+      "state": "CANDIDATE_TRACK_NOT_SUBMITTED",
+      "source": "Academy FAQ4; event track description"
+    },
+    {
+      "id": "CODING_TOOL",
+      "requirement": "Any AI coding tool is permitted; Cursor is recommended, not mandatory.",
+      "evidence": "Actual available Codex worker construction; no Cursor usage claim.",
+      "state": "LOCAL_EXECUTED_CODEX_CURSOR_UNEXECUTED",
+      "source": "Academy FAQ5"
+    },
+    {
+      "id": "METERLESS_ENGINE",
+      "requirement": "At least one Meterless Engine must power a working feature, with a test.",
+      "evidence": "Current R007 Windows demo reports PASS_LOCAL_UPSTREAM_ENGINE and 12/12 local checks. This is local engine execution, not a live sponsor request.",
+      "state": "PASS_SCOPED_LOCAL_ENGINE_EXECUTION",
+      "source": "Academy FAQ5,FAQ8",
+      "current_receipt": "../CLI_WINDOWS_SCOPED.json",
+      "current_receipt_sha256": "6a08df61941f87465b1159d94e6a7f5d8cc181ed419da6b5c12c418ce6924727"
+    },
+    {
+      "id": "NIGHTSHIFT_NVIDIA",
+      "requirement": "Nightshift must be the primary AI provider with NVIDIA connected; demonstrate a real request with secrets hidden.",
+      "evidence": "Live Nightshift/Nemotron request not executed. Adapter/interface or offline fixture does not satisfy this.",
+      "state": "HOLD_LIVE_REQUEST_UNEXECUTED",
+      "source": "Academy FAQ5,FAQ8"
+    },
+    {
+      "id": "ZETARIS",
+      "requirement": "Use Zetaris for the product data.",
+      "evidence": "No live Zetaris query receipt; local fixture is labelled synthetic.",
+      "state": "HOLD_LIVE_QUERY_UNEXECUTED",
+      "source": "Academy FAQ5"
+    },
+    {
+      "id": "DELIVERABLES",
+      "requirement": "Provide a 1\u20134 minute video, deck, GitHub repository/README, sponsor explanation, and engine test.",
+      "evidence": "R007 media under construction; source/README managed by root.",
+      "state": "IN_CONSTRUCTION",
+      "source": "Academy FAQ8; event section6"
+    },
+    {
+      "id": "SUBMISSION",
+      "requirement": "Use HackOS within the published deadline; registration/team/personal eligibility must be valid.",
+      "evidence": "Deadline 2026-10-27 23:45 UTC; registration, age, team and organizer/sponsor employment eligibility not verified by this worker.",
+      "state": "HUMAN_GATE_UNEXECUTED",
+      "source": "Academy FAQ0,FAQ2,FAQ8"
+    }
+  ],
+  "source_conflict": {
+    "current_academy": "Nightshift primary AI provider with NVIDIA connected is mandatory; real demo request expected.",
+    "secondary_event_section5": "Zetaris/Meterless mandatory, Cursor optional, NVIDIA wherever useful.",
+    "handling": "Use the user-designated current Academy requirements. Preserve both snapshots; do not infer equivalence or claim organizer resolution.",
+    "full_rules_lesson": "Title/slug listed as free preview; direct URL not exposed in public landing anchors. IAB/browser surface unavailable. Full lesson not authenticated or submitted; exact full-lesson checklist remains unverified."
+  },
+  "calls": {
+    "billable_provider_calls": 0,
+    "login": false,
+    "submission": false,
+    "credential_values_read_or_recorded": false
+  },
+  "raw_sources_shipped": false,
+  "raw_source_disposition": "ORIGINAL_BYTES_AND_RAW_SHA_RECEIPT_RETAINED_BY_PRIVATE_BUILDER"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "orders/CODE_CLI_COMMAND_CONTRACT_R006.yaml",
+    "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+    "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/CODE_CLI_COMMAND_CONTRACT_R006.yaml",
+    "commit": "dc8652ea798ae4532ce52bf7a14d2a9087f471c7",
+    "blob": "d7478b7120a0e362a3c1fa19a227f1e59a5569a8",
+    "bytes": 5984,
+    "sha256": "3d7f328acb9f6ebac5337d45763a246f04cf68058a1b6a2ba8019bc6894bb083",
+    "authority_effect": "CURRENT_HUMAN_PRIVATE_EXECUTION_ORDER_NOT_EXTERNAL_RELEASE_APPROVAL"
+  },
+  {
+    "path": "orders/CODE_CLI_HANDOFF_SUBMISSION_R007.yaml",
+    "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+    "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/CODE_CLI_HANDOFF_SUBMISSION_R007.yaml",
+    "commit": "dc8652ea798ae4532ce52bf7a14d2a9087f471c7",
+    "blob": "28c8be2947ad80367888a1d5ca88356656989dce",
+    "bytes": 7871,
+    "sha256": "17afe31c1d5ae5da00d4a3aa9d0fd652dfb9e4790507ac1604344c59910ef04b",
+    "authority_effect": "CURRENT_HUMAN_PRIVATE_EXECUTION_ORDER_NOT_EXTERNAL_RELEASE_APPROVAL"
+  },
+  {
+    "path": "orders/CODE_CLI_OSINT_GRAPH_AUTOCAD_LOCAL_ADD01_R008.yaml",
+    "source_repository": "Yamrail/yamrail-evidence-ledger-private",
+    "source_path": "03_operations/candidates/20261026_open_agent_hackathon_rta_r001/CODE_CLI_OSINT_GRAPH_AUTOCAD_LOCAL_ADD01_R008.yaml",
+    "commit": "dc8652ea798ae4532ce52bf7a14d2a9087f471c7",
+    "blob": "4fbe4e6ba7c7bc6a18f9fcc6685612a832eb5e12",
+    "bytes": 11052,
+    "sha256": "396542d0c2b0067365bc418259225679186f7ad372ec695b6b44e7bcffd99bb3",
+    "authority_effect": "CURRENT_HUMAN_PRIVATE_EXECUTION_ORDER_NOT_EXTERNAL_RELEASE_APPROVAL"
+  }
+]

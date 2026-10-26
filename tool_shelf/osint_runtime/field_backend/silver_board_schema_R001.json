@@ -1,0 +1,494 @@
+{
+  "type": "object",
+  "properties": {
+    "schema": {
+      "type": "string",
+      "maxLength": 40,
+      "enum": [
+        "yamrail.osint-silver-board/1"
+      ]
+    },
+    "analysis_markdown": {
+      "type": "string",
+      "maxLength": 98304
+    },
+    "board": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "coverage_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "scope_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "lanes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/lane"
+          },
+          "minItems": 5,
+          "maxItems": 5
+        },
+        "timeline": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/timeline"
+          },
+          "minItems": 0,
+          "maxItems": 4
+        },
+        "next_stations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/station"
+          },
+          "minItems": 1,
+          "maxItems": 3
+        },
+        "footer": {
+          "type": "object",
+          "properties": {
+            "synthesis_lines": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 140
+              },
+              "minItems": 1,
+              "maxItems": 1
+            },
+            "bottleneck_lines": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 140
+              },
+              "minItems": 1,
+              "maxItems": 1
+            },
+            "moot_condition_lines": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 140
+              },
+              "minItems": 1,
+              "maxItems": 1
+            }
+          },
+          "required": [
+            "synthesis_lines",
+            "bottleneck_lines",
+            "moot_condition_lines"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "title",
+        "coverage_lines",
+        "scope_lines",
+        "lanes",
+        "timeline",
+        "next_stations",
+        "footer"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema",
+    "analysis_markdown",
+    "board"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "node": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 32,
+          "pattern": "^[a-z][a-z0-9_-]{0,31}$"
+        },
+        "kind": {
+          "type": "string",
+          "maxLength": 32,
+          "enum": [
+            "SOURCE_STATEMENT",
+            "PROPAGATION",
+            "CONDITIONAL_HYPOTHESIS",
+            "LEAD",
+            "UNKNOWN"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "ATTRIBUTED",
+            "LEAD",
+            "CONDITIONAL",
+            "UNKNOWN"
+          ]
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 24
+          },
+          "minItems": 1,
+          "maxItems": 4
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 5,
+            "pattern": "^[CW][1-9][0-9]{0,3}$"
+          },
+          "minItems": 0,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "status",
+        "lines",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "edge": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "type": "string",
+          "maxLength": 32,
+          "pattern": "^[a-z][a-z0-9_-]{0,31}$"
+        },
+        "to": {
+          "type": "string",
+          "maxLength": 32,
+          "pattern": "^[a-z][a-z0-9_-]{0,31}$"
+        },
+        "relation": {
+          "type": "string",
+          "maxLength": 32,
+          "enum": [
+            "CITES",
+            "PROPAGATES",
+            "SUPPORTS_HYPOTHESIS",
+            "CONTRADICTS",
+            "PROPOSED_LINK"
+          ]
+        },
+        "independence_status": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "UNKNOWN"
+          ]
+        },
+        "support_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 5,
+            "pattern": "^[CW][1-9][0-9]{0,3}$"
+          },
+          "minItems": 0,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "from",
+        "to",
+        "relation",
+        "independence_status",
+        "support_refs"
+      ],
+      "additionalProperties": false
+    },
+    "distortion": {
+      "type": "object",
+      "properties": {
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 32
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "original_ref": {
+          "type": "string",
+          "maxLength": 5
+        },
+        "propagated_ref": {
+          "type": "string",
+          "maxLength": 5
+        },
+        "original_quote": {
+          "type": "string",
+          "maxLength": 240
+        },
+        "propagated_quote": {
+          "type": "string",
+          "maxLength": 240
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 5,
+            "pattern": "^[CW][1-9][0-9]{0,3}$"
+          },
+          "minItems": 0,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "lines",
+        "original_ref",
+        "propagated_ref",
+        "original_quote",
+        "propagated_quote",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "lane": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "INFRA",
+            "LOGISTICS",
+            "ECONOMY",
+            "CULTURE_LANG",
+            "RUMOR"
+          ]
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/node"
+          },
+          "minItems": 1,
+          "maxItems": 3
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/edge"
+          },
+          "minItems": 0,
+          "maxItems": 2
+        },
+        "distortion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/distortion"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "domain",
+        "nodes",
+        "edges",
+        "distortion"
+      ],
+      "additionalProperties": false
+    },
+    "timeline": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 32,
+          "pattern": "^[a-z][a-z0-9_-]{0,31}$"
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "ATTRIBUTED",
+            "LEAD",
+            "CONDITIONAL",
+            "UNKNOWN"
+          ]
+        },
+        "time_kind": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "EVENT",
+            "PUBLICATION",
+            "RETRIEVAL",
+            "UNKNOWN"
+          ]
+        },
+        "expressed_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 32
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "normalized_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 10,
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 64
+          },
+          "minItems": 1,
+          "maxItems": 2
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 5,
+            "pattern": "^[CW][1-9][0-9]{0,3}$"
+          },
+          "minItems": 0,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "id",
+        "status",
+        "time_kind",
+        "expressed_date",
+        "normalized_date",
+        "lines",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "station": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string",
+          "maxLength": 16,
+          "enum": [
+            "INFRA",
+            "LOGISTICS",
+            "ECONOMY",
+            "CULTURE_LANG",
+            "RUMOR"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "maxLength": 32,
+          "enum": [
+            "UNKNOWN",
+            "CONTINUED_OBSERVATION",
+            "CONTRADICTION_CANDIDATE",
+            "ATTRIBUTED"
+          ]
+        },
+        "missing_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "target_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "discriminator_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "value_lines": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 60
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 5,
+            "pattern": "^[CW][1-9][0-9]{0,3}$"
+          },
+          "minItems": 0,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "domain",
+        "status",
+        "missing_lines",
+        "target_lines",
+        "discriminator_lines",
+        "value_lines",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

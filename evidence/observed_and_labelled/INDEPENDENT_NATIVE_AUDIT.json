@@ -1,0 +1,14 @@
+{
+  "schema": "yamrail.code-cli.independent-native-audit-summary/1",
+  "verdict": "PASS_SCOPED_INDEPENDENT_NATIVE_GLUE_REINSPECTION",
+  "original_report_sha256": "9988ac1c6e3652edc8f7030e9d9c9d891901859278910e2c9ae05afa7ccb2473",
+  "scope": "Other-worker native glue and exact imported bytes; auditor own OSINT/shelf excluded",
+  "known_closed_finding": "NATIVE_A001: fixture and self-rehashed pin file previously accepted; fixed raw pin anchor + exact inventory before dispatch",
+  "fixed_core_sha256": "31fbc5678cf4870815494e88a26a5e68d8ffa13de16a0182520697ae4ab84ddc",
+  "copied_native_files_exact": 48,
+  "targeted_repair_checks_pass": 7,
+  "host_boundary_checks_pass": 8,
+  "source_record": "Builder retains original exploit, observer-label mismatch and append-only corrected reinspection; summary is a sanitized derivative",
+  "human_approval": false,
+  "full_system_certification": false
+}

@@ -1,0 +1,353 @@
+{
+  "schema": "yamrail.code-cli.current-windows-journey/1",
+  "evidence_class": "LOCAL_EXECUTED_SANITIZED_OBSERVATION",
+  "steps": [
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code doctor --format json",
+      "actual_process_pid": 34048,
+      "started_utc": "2026-10-26T15:27:50.130158+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "bd763a62ae00eb7089c48d462b5c2e759fe5b3773a0261ebe8f9b17e42ed37f9",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "python": {
+          "version": "3.12.10",
+          "minimum": "3.11",
+          "standard_library_core": true
+        },
+        "host": {
+          "os": "Windows",
+          "release": "11",
+          "architecture": "AMD64"
+        },
+        "tools": {
+          "python": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "python3": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "node": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "git": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "gh": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "codex": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "gemini": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "claude": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "dotnet": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "cl": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "clang": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "gcc": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "g++": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "rustc": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "cargo": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "cmake": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "ninja": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "msbuild": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "docker": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "podman": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "wsl": {
+            "found_on_path": true,
+            "execution_status": "DISCOVERED_NOT_INVOKED",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          },
+          "ffmpeg": {
+            "found_on_path": false,
+            "execution_status": "NOT_FOUND_ON_PATH",
+            "license": "NOT_INFERRED",
+            "binary_bundled": false
+          }
+        },
+        "credential_values_read": false,
+        "network_requests": 0,
+        "provider_invocations": 0
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code demo --evidence-mode replay --format json",
+      "actual_process_pid": 20812,
+      "started_utc": "2026-10-26T15:27:50.506342+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "8197cff051b756a3cb16e157c14b2e51eb1e1106204297b23135b9896eed49b2",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "state": "PASS_SCOPED_LOCAL_COUNTEREXAMPLES",
+        "checks": {
+          "parent_child_grandchild_shared_three": true,
+          "fourth_refused": true,
+          "alias_refused": true,
+          "stop_restore_preserves_consumption": true,
+          "actual_crash_exit_23": true,
+          "unknown_no_automatic_retry": true,
+          "local_hold_independent_work_continues": true,
+          "sha256_tamper_refused": true,
+          "typed_graph_rejects_unknown_to_exact": true,
+          "final_safe_stop": true,
+          "derived_code_fixture_reexecuted": true,
+          "durable_current_journal_readback": true
+        },
+        "world_model": "PASS_LOCAL_UPSTREAM_ENGINE",
+        "sponsor_live_calls": 0,
+        "active": false,
+        "root_A_used": 3,
+        "root_B_pending_state": "UNKNOWN_COMPLETION",
+        "new_model_generation": false,
+        "raw_journal_shipped": false
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code recon local --root fixtures/safe_public_or_synthetic --format json",
+      "actual_process_pid": 29392,
+      "started_utc": "2026-10-26T15:28:04.783735+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "815de264e2b059b9f6ccc0b37a090a91e2efab3c7a4b09a42f77ebaf2dac2144",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "state": "PASS_NATIVE_HOST_STAGE",
+        "sources": [
+          {
+            "source_id": "LOCAL_b33563055168",
+            "path": "README.md",
+            "bytes": 273,
+            "sha256": "fe60fa51911aba2d8a7663f4a3e5bb11523d748a962db444a1a03e070bb0b416",
+            "observed_at_utc": "2026-10-26T15:28:05.714534+00:00",
+            "evidence_class": "SYNTHETIC_FIXTURE",
+            "findings": []
+          },
+          {
+            "source_id": "LOCAL_89ce9d15a774",
+            "path": "dependencies.json",
+            "bytes": 217,
+            "sha256": "731e7f0f7ab0eca19adb4408473ec773a007741c769586f9989a26191ee1f291",
+            "observed_at_utc": "2026-10-26T15:28:05.714534+00:00",
+            "evidence_class": "SYNTHETIC_FIXTURE",
+            "findings": []
+          },
+          {
+            "source_id": "LOCAL_4c86db715e84",
+            "path": "sample_app.py",
+            "bytes": 192,
+            "sha256": "192c1edd35fab5b9abf3ca079703fa0b3b0ed6b1e8e70f9e04016c5dda9536a9",
+            "observed_at_utc": "2026-10-26T15:28:05.714534+00:00",
+            "evidence_class": "SYNTHETIC_FIXTURE",
+            "findings": [
+              {
+                "rule": "DYNAMIC_CODE_EXECUTION_CALL",
+                "line": 3,
+                "scope": "REVIEW_FINDING_NOT_EXPLOIT_PROOF"
+              }
+            ]
+          }
+        ],
+        "network_requests": 0,
+        "target_executed": false,
+        "native_state": "SEE_NATIVE_HOST_RECEIPT"
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code build all --format json",
+      "actual_process_pid": 26648,
+      "started_utc": "2026-10-26T15:28:07.305533+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "69e052b522e77cebde6f7e41a4f933552b5112d2c026ec4ade47c97210db88b3",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "state": "PASS_SCOPED_LOCAL_BUILD"
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code sponsor doctor --format json",
+      "actual_process_pid": 31324,
+      "started_utc": "2026-10-26T15:28:09.775925+00:00",
+      "exit_code": 2,
+      "status": "HOLD",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "21f700c5f693aab6b40af130c2f3e5ddfce7a3507e1ca238fef7d1b1707e09ed",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "state": "NO_LIVE_SPONSOR_REQUEST_DISPATCHED",
+        "credential_values_emitted": false,
+        "network_requests": 0,
+        "nightshift_nemotron": "LIVE_UNEXECUTED",
+        "zetaris": "LIVE_UNEXECUTED"
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code cad doctor --local-only",
+      "actual_process_pid": 14712,
+      "started_utc": "2026-10-26T15:28:09.896762+00:00",
+      "exit_code": 2,
+      "status": "HOLD",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "6902a30408b84635169dd0712c8c247dc06c05a9ccc9c96b7f800e9490d23640",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "reason": "HOLD_CAD_LICENSE_UNVERIFIED_NO_AUTOCAD_LAUNCH",
+        "windows_desktop_candidate": true,
+        "session": {
+          "current_session_id": 1,
+          "active_console_session_id": 1,
+          "same_active_console": true
+        },
+        "caller_interactive_tty": true,
+        "actual_product_entitlement": "UNVERIFIED",
+        "autocad_launched": false,
+        "com_activated": false,
+        "cloud_fallback": false
+      }
+    },
+    {
+      "schema": "yamrail.code-cli.observed-command/1",
+      "logical_command": "yr-code status --format json",
+      "actual_process_pid": 32256,
+      "started_utc": "2026-10-26T15:28:10.114614+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "execution_class": "LOCAL_EXECUTED",
+      "original_stdout_sha256": "bdc2a7a04f9f4e0c5cca058b9d57c4f2d40c91d970bac50e10d7e23dc2e8902a",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "ACTUAL_LOCAL_PROCESS_STDOUT",
+      "derivation": "SELECTED_FIELDS_ONLY; raw host-bound journals and author paths are not shipped",
+      "authority_effect": "NONE",
+      "result": {
+        "state": "OBSERVED_NATIVE_READBACK",
+        "last_command": "build all",
+        "native_state": "PASS_NATIVE_DURABLE_READBACK",
+        "sponsor_live_calls": 0
+      }
+    }
+  ],
+  "paid_provider_calls": 0,
+  "new_model_calls": 0,
+  "private_ledgers_imported": false,
+  "human_acceptance": "NOT_GRANTED",
+  "scope": "CURRENT_LOCAL_JOURNEY_NOT_UNRELATED_MACHINE_PROOF"
+}

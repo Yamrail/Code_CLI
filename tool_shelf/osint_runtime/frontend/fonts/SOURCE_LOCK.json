@@ -1,0 +1,19 @@
+{
+  "schema": "yamrail.board-font-source-lock/1",
+  "source_repository": "google/fonts",
+  "source_path": "ofl/notosansjp/NotoSansJP[wght].ttf",
+  "source_blob_sha1": "cdd8f083c1f5928ff3361f8cda4d3fc9462cbe89",
+  "source_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+  "source_bytes": 9589900,
+  "derivation": "fontTools.varLib.instancer.instantiateVariableFont wght=400; static renamed Yamrail Board to distinguish derivative; no glyph subset",
+  "license": "SIL Open Font License 1.1",
+  "license_blob_sha1": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+  "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+  "reserved_font_name_observed": "Source",
+  "static_font_sha256": "fe4be4a7c74a871ddca7dbc7e61895dd35862334afd36e5874a121a4d4454ee4",
+  "static_font_bytes": 5766848,
+  "metrics_sha256": "7a536935999798f62bb4340628c5934f9fcdb9224acfbc7f2a7241e68538c13d",
+  "supported_codepoints": 16732,
+  "fonttools_version": "4.67.0",
+  "authority_effect": "NONE"
+}

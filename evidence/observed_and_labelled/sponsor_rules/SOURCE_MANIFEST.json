@@ -1,0 +1,28 @@
+{
+  "schema": "yamrail.code-cli.public-rules-source-manifest/1",
+  "product": "YamRail/Code_CLI",
+  "source_kind": "ORGANIZER_PUBLIC_HTTP_CAPTURE_AND_LABELLED_DERIVATION",
+  "observed_utc": "2026-10-26T15:52:36.827921+00:00",
+  "files": [
+    {
+      "path": "ELIGIBILITY_MATRIX.json",
+      "sha256": "baf3181ac167608433512e7bfd2226f265c52ebc38c90ca38c1df166730d210c",
+      "bytes": 4099
+    },
+    {
+      "path": "OFFICIAL_SOURCE_RECEIPT.json",
+      "sha256": "7ba74c9d4ac56d5028a03223aaefd038b76eb5348a580b6491af0984666f888c",
+      "bytes": 1876
+    },
+    {
+      "path": "RULES_AND_ELIGIBILITY.md",
+      "sha256": "42f9f28c0ccb9f23a4651c66caacbca8b20284481c9f4d0a00b093d56d71cffc",
+      "bytes": 2217
+    }
+  ],
+  "no_eligibility_or_human_approval_inferred": true,
+  "self_excluded": [
+    "SOURCE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ]
+}

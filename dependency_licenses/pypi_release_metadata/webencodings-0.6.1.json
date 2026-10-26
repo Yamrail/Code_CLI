@@ -1,0 +1,38 @@
+{
+  "name": "webencodings",
+  "version": "0.6.1",
+  "project_urls": {
+    "Changelog": "https://github.com/CourtBouillon/webencodings/releases",
+    "Code": "https://github.com/CourtBouillon/webencodings",
+    "Documentation": "https://doc.courtbouillon.org/webencodings",
+    "Donation": "https://opencollective.com/courtbouillon",
+    "Homepage": "https://github.com/CourtBouillon/webencodings",
+    "Issues": "https://github.com/CourtBouillon/webencodings/issues"
+  },
+  "license_expression": null,
+  "license": null,
+  "urls": [
+    {
+      "filename": "webencodings-0.6.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/77/c6/040cbc72480d789a5f40d63fb484d3106554c4dfa2d2b70ad5022057750f/webencodings-0.6.1-py3-none-any.whl",
+      "digests": {
+        "blake2b_256": "77c6040cbc72480d789a5f40d63fb484d3106554c4dfa2d2b70ad5022057750f",
+        "md5": "43a07e45ea8b7d7c9494e95bb7c6f222",
+        "sha256": "7fab6269c8bf237c657876b52058ccb182e861518d1c695c1a9aaa8c1c105d5b"
+      },
+      "size": 8745,
+      "packagetype": "bdist_wheel"
+    },
+    {
+      "filename": "webencodings-0.6.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d5/a0/8fd707bcb776a7be556bad06a2ea5fb9bd519df78ef8e26f70ccf0f38bff/webencodings-0.6.1.tar.gz",
+      "digests": {
+        "blake2b_256": "d5a08fd707bcb776a7be556bad06a2ea5fb9bd519df78ef8e26f70ccf0f38bff",
+        "md5": "47dfd43da448410f24fbc08d597ac72d",
+        "sha256": "565f9ad031c702dae404e27a099e3e09186a3ab1b9520f06d215502b651fd910"
+      },
+      "size": 15001,
+      "packagetype": "sdist"
+    }
+  ]
+}

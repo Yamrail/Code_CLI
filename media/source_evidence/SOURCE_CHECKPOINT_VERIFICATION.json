@@ -1,0 +1,26 @@
+{
+  "schema": "yamrail.code-cli.source-checkpoint-verification/1",
+  "scope": "PRE_MEDIA_SOURCE_CHECKPOINT_NOT_FINAL_MEDIA_OR_RELEASE_SEAL",
+  "observed_utc": "2026-10-26T16:03:14.049585+00:00",
+  "process": {
+    "logical_command": "yr_code.py evidence verify --manifest MANIFEST.json --format json",
+    "actual_pid": 33336,
+    "exit_code": 0,
+    "stdout_sha256": "2996ae800d248beffdc2e4784581c89703523c489f5939160f18221e31dd7010",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence_class": "LOCAL_EXECUTED"
+  },
+  "status": "PASS",
+  "verification": {
+    "status": "PASS",
+    "manifest_sha256": "01c9b9c852d453cae189e12e030880bc8e042ac9de0b9183d2ded96f9e07cf55",
+    "verified_files": 199,
+    "verified_bytes": 45965321,
+    "exact_inventory": true,
+    "sha256_index_verified": true,
+    "errors": [],
+    "semantic_acceptance": "NOT_INFERRED",
+    "authority_effect": "NONE"
+  },
+  "authority_effect": "NONE"
+}

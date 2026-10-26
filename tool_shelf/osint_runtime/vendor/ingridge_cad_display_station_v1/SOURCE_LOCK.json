@@ -1,0 +1,27 @@
+{
+  "schema": "yamrail.ingridge-cad-renderer-source-lock/1",
+  "repository": "Yamrail/yamrail-evidence-ledger-private",
+  "commit": "35523cb1ae833e5b79b89d5f24cfe812e65dd562",
+  "source_path": "03_operations/tools/cad_display_station_v1",
+  "source_status": "PRIVATE_PROTOTYPE_NON_CANONICAL",
+  "files": [
+    {
+      "path": "cad_display_station.py",
+      "sha256": "a16e158a5eadc10587e5cdc8fa7969610de83c0c01dca672254538a35c910a7b",
+      "bytes": 19237
+    },
+    {
+      "path": "README.md",
+      "sha256": "4caca8280b27caae8607901cc0c5239e1173769f9f225c21274ee56695b6aa9d",
+      "bytes": 1901
+    },
+    {
+      "path": "MATERIALS.yaml",
+      "sha256": "88ec0bcccdf3f8df9cdfd00198511c94413bbdc4500032b520faa486cf220f24",
+      "bytes": 972
+    }
+  ],
+  "reuse": "Immutable render_svg primitive engine called by the new silver board adapter; no legacy viewer or PDF writer reused",
+  "license_observation": "No explicit redistribution license discovered. Same-owner private reuse; MATERIALS allows worker repair/replacement. Original material and scope preserved.",
+  "authority_effect": "NONE"
+}

@@ -1,0 +1,244 @@
+{
+  "schema": "yamrail.r008.osint-source-provenance/1",
+  "repository": "Yamrail/yamrail-evidence-ledger-private",
+  "source_ref": "9f3a5e61b72a0517f683d3e7ccd22a0904782fec",
+  "readback_method": "Fresh GitHub connector exact pinned file reads; binary font restored from local Git blob with freshly read remote blob ID and source-lock SHA",
+  "source_files": [
+    {
+      "path": "field_backend/graph_artifacts.py",
+      "origin_git_blob": "a2bfde2da275107e9b8e80050a3721a2d46e9242",
+      "sha256": "86ce5f7c77e79bdc216c0fabf8fd4cd5690fde2a9b37c522028fd7d984df2fc9",
+      "bytes": 18219,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/investigation_dependency_graph.py",
+      "origin_git_blob": "d90d300b27a6d296a1f38739fe47cca5fa565242",
+      "sha256": "3a1a07e57394b2da830496fb87ea6199b41228a9ab67867e64393dbb0dd88eea",
+      "bytes": 16005,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/explanatory_graph.py",
+      "origin_git_blob": "4f70cd5d8005e631db7c4215fcb6d4c2e2ed4cd4",
+      "sha256": "44fdd762fa7f4d3248393e7fadb42b323ba249ce59eac45753d5eddff2b4bf5c",
+      "bytes": 24920,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/structured_md_renderer.py",
+      "origin_git_blob": "d51002a7ec59a66b152de14de44ad93d7bb8caf1",
+      "sha256": "e539877db158db82d282cefbcb584f8baba595735406640da1f30c25a03edf01",
+      "bytes": 26697,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/silver_board_renderer.py",
+      "origin_git_blob": "38b0c944d6808f4f97e8e353e011ec87007212f7",
+      "sha256": "cd94acb710ba4850b17dbbe0cf3cfb3a4570b73c31fab2b7d9f58d69363e95a5",
+      "bytes": 21763,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/silver_export.py",
+      "origin_git_blob": "49a022bdd733ec4356a3fd32831a77ca90714b63",
+      "sha256": "7e9856a2a279eeb4db662a0befe48c0eee84fe1baa992fc63a83f32f0c656e38",
+      "bytes": 14936,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/graph_png.py",
+      "origin_git_blob": "770e842abc6b6b8b3a4543a13fdfebc80738d1a6",
+      "sha256": "cf03a140cad9e423810852df5e556b221e7f2010376575666d1650a912971b41",
+      "bytes": 23871,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/document_guard.py",
+      "origin_git_blob": "ea462183722a14c4406bac8b51d13e682b7a85ab",
+      "sha256": "f8b177cce0bcf89cc72ca96f2ec3e50a91007e76c22f0589c000e35473523f4d",
+      "bytes": 12562,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/document_versions.py",
+      "origin_git_blob": "624da8888d8c4331b213f33e44d1f0325dab6e89",
+      "sha256": "0e773f9029b812343c3f92ba63ebaadd98dd15555b48708dfe116a0dc8cdc351",
+      "bytes": 28589,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "frontend/fonts/OFL.txt",
+      "origin_git_blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "bytes": 4388,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OFL-1.1",
+      "derived": false
+    },
+    {
+      "path": "frontend/fonts/SOURCE_LOCK.json",
+      "origin_git_blob": "8a2ca173bbb2dc2d7a389cff1d3e48e6fb92ead6",
+      "sha256": "d243ffec160f7becf057c8428ecafe645906dc5dbfdca74afa82e52959df6cba",
+      "bytes": 1045,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OFL-1.1",
+      "derived": false
+    },
+    {
+      "path": "vendor/ingridge_cad_display_station_v1/SOURCE_LOCK.json",
+      "origin_git_blob": "560aeee01f11583eb02ded6dddf3c5e777079b65",
+      "sha256": "e8f2d8bc55cf026fedb470d63256483116ef1fbabe25e92120acf510dff9f0b7",
+      "bytes": 1132,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "vendor/ingridge_cad_display_station_v1/MATERIALS.yaml",
+      "origin_git_blob": "57bfc518eae735dfad96c361fcd3d19d789c4b63",
+      "sha256": "88ec0bcccdf3f8df9cdfd00198511c94413bbdc4500032b520faa486cf220f24",
+      "bytes": 972,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "vendor/ingridge_cad_display_station_v1/README.md",
+      "origin_git_blob": "5f93a8084d3e90bbae84f779c2c71a9bc40627a0",
+      "sha256": "4caca8280b27caae8607901cc0c5239e1173769f9f225c21274ee56695b6aa9d",
+      "bytes": 1901,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "vendor/ingridge_cad_display_station_v1/cad_display_station.py",
+      "origin_git_blob": "040912ff3eaf9586c7910140f95b91e2bab59ff3",
+      "sha256": "a16e158a5eadc10587e5cdc8fa7969610de83c0c01dca672254538a35c910a7b",
+      "bytes": 19237,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "requirements.txt",
+      "origin_git_blob": "3cdb39cd19d23d85eb910a2de04f57fc208a5d1d",
+      "sha256": "ba46e474ab0d00fc30e4f33f5bdee6d44e3466afd3301ddcb525af162179f803",
+      "bytes": 167,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/silver_board.py",
+      "origin_git_blob": "735ea9191b85e8b50e83e5a25c9e24af9fc3a527",
+      "sha256": "65836b257a3f18bad549955738caaafa9cef1651db62c589d208c34779992cd5",
+      "bytes": 11799,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/md_structure.py",
+      "origin_git_blob": "d7b93a4943ae564da88936b43e88f12441d6957e",
+      "sha256": "88db94e97f7946ce716afed7f3a6db98ac59e3966970611dfc839d77b330cb97",
+      "bytes": 17102,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/graph_artifact_store.py",
+      "origin_git_blob": "360e03890c874d8b1dd3c26824e3cb26a64d1db1",
+      "sha256": "9ea5be6470a459cf9f0575ae9f97d70a979b32ff163da53d3ab22abd9202483e",
+      "bytes": 10517,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/document_guard_rules_r001.json",
+      "origin_git_blob": "e06bd1f0ff14ec639c8e944c8c6e7167f2e335af",
+      "sha256": "43e45b3bd9e228134982cb630f8c3985a5c8db1d2b1f51375480d9f622caf529",
+      "bytes": 3822,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "field_backend/content_board_contract.py",
+      "origin_git_blob": "fc1724422e271c04a59f9caca120482c8f50123e",
+      "sha256": "8c86b15f26a70a621ccb57a2edfe60245cc7e966fcd2ac8871bf145da0df0d41",
+      "bytes": 6646,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "frontend/fonts/YamrailBoard-Regular.metrics.json",
+      "origin_git_blob": "a0e1fdc00ccc6a4fd1b419be1ad64f4004fc7b58",
+      "sha256": "7a536935999798f62bb4340628c5934f9fcdb9224acfbc7f2a7241e68538c13d",
+      "bytes": 216211,
+      "maturity": "PRIVATE_PROTOTYPE_PINNED_SOURCE_NOT_NEW_QUALIFICATION",
+      "license": "OFL-1.1",
+      "derived": false
+    },
+    {
+      "path": "frontend/fonts/YamrailBoard-Regular.ttf",
+      "origin_git_blob": "d2bebe69078cdcfde1c96fb12a8ef3215e0916d6",
+      "sha256": "fe4be4a7c74a871ddca7dbc7e61895dd35862334afd36e5874a121a4d4454ee4",
+      "bytes": 5766848,
+      "license": "OFL-1.1",
+      "derived": false
+    },
+    {
+      "path": "field_backend/silver_board_schema_R001.json",
+      "origin_git_blob": "0573d488195dff216f013ada4a8b25fa4b856122",
+      "sha256": "1c8ee970393c4a5fa6fc9d4f25098771d3bdac77e9e3358621aa78bc37f56486",
+      "bytes": 10917,
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": false
+    },
+    {
+      "path": "__init__.py",
+      "origin_git_blob": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": true,
+      "origin": "NEW_EMPTY_LOCAL_PACKAGE_BRIDGE_NO_HISTORICAL_MATURITY_CLAIM"
+    },
+    {
+      "path": "field_backend/__init__.py",
+      "origin_git_blob": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "license": "OWNER_RELEASE_PENDING",
+      "derived": true,
+      "origin": "NEW_EMPTY_LOCAL_PACKAGE_BRIDGE_NO_HISTORICAL_MATURITY_CLAIM"
+    }
+  ],
+  "pr62_referenced_pin": "907593e0d045cfc926943d186eb0aa19ad7c92bb",
+  "private_state_imported": false,
+  "external_release_authority": "OWNER_RELEASE_PENDING",
+  "new_provider_calls": 0
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "yamrail.code-cli.media-validation/1",
+  "state": "PASS_SCOPED_LOCAL_MEDIA",
+  "product": "YamRail/Code_CLI",
+  "slides": 8,
+  "native_editable_table_slides": [
+    2,
+    4,
+    6,
+    7
+  ],
+  "visual_review": {
+    "schema": "yamrail.code-cli.media-visual-review/1",
+    "state": "PASS_SCOPED_VISUAL_REVIEW",
+    "slides_individually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "video_scenes_individually_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "observations": [
+      "All slide titles, table rows, notes-backed claims and page bounds inspected; no clipping or overlap observed.",
+      "Current actual R008 A4 image preserved as a whole-page product view; full-resolution source remains in media/source_evidence.",
+      "Replay labels, actual/synthetic classes, optional Node configuration, sponsor/CAD HOLD and preliminary source-checkpoint scope remain visible.",
+      "All nine movie scene images checked individually at 1280x720; captions and selected facts remain inside the frame.",
+      "No PowerPoint, commercial Office or AutoCAD desktop application was launched for this media QA."
+    ],
+    "reviewer": "/root/presentation_media OpenAI Codex",
+    "authority_effect": "NONE",
+    "human_acceptance": "NOT_GRANTED"
+  },
+  "video_duration_seconds": 176.0,
+  "video_full_decode_pass": true,
+  "pptx_import_and_structure_validation_pass": true,
+  "pptx_macro_or_embedded_binary_objects": 0,
+  "author_absolute_path_scan": "PASS_NO_MATCH_IN_XML_OR_MEDIA_TEXT",
+  "new_billable_provider_calls": 0,
+  "commercial_office_cad_apps_launched": false,
+  "live_provider_status": "NIGHTSHIFT_NVIDIA_AND_ZETARIS_UNEXECUTED_UNLESS_SEPARATE_ACTUAL_RECEIPT_EXISTS",
+  "private_delivery_only": true,
+  "human_submission": "PENDING",
+  "global_GA": "NOT_DECLARED",
+  "pptx_sha256": "86de13b84f9aee1111f0f65bedeabe649fa79db0aef58ce082e6100632c3a23e",
+  "video_sha256": "1b896be34720cb79d0e8168a1d119bcaca1ee348a92e2936391ffd8d894feef3"
+}

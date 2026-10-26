@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-27T00:00:00Z",
+  "authorization": "NO_ACTIVE_TARGET_SCAN",
+  "evidence_class": "SYNTHETIC_FIXTURE",
+  "findings": [
+    {
+      "id": "F1",
+      "kind": "UNVERIFIED_DEPENDENCY_PIN",
+      "source": "C1",
+      "state": "HOLD_UNKNOWN"
+    }
+  ],
+  "fixture_is_real_security_assessment": false,
+  "network_calls": 0,
+  "schema": "yamrail.code-cli.security-recon-fixture/1",
+  "scope": "Synthetic local fixture only"
+}

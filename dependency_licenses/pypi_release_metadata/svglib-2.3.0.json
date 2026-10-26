@@ -1,0 +1,33 @@
+{
+  "name": "svglib",
+  "version": "2.3.0",
+  "project_urls": {
+    "Homepage": "https://github.com/deeplook/svglib"
+  },
+  "license_expression": "LGPL-3.0-or-later",
+  "license": null,
+  "urls": [
+    {
+      "filename": "svglib-2.3.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/2e/e1/83267b9808e1fbc1ff7e381081d074db2fa28dbe21853cf9bd9490bedf56/svglib-2.3.0-py3-none-any.whl",
+      "digests": {
+        "blake2b_256": "2ee183267b9808e1fbc1ff7e381081d074db2fa28dbe21853cf9bd9490bedf56",
+        "md5": "469c870db9d184c1d0b367eda4aae665",
+        "sha256": "5ca7932c5bc3d7c55f1e36de4a7bf80d51036eb9c80b684fbdad7d4f6d6ead68"
+      },
+      "size": 50602,
+      "packagetype": "bdist_wheel"
+    },
+    {
+      "filename": "svglib-2.3.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/fc/fa/61619962cb614460270674051f2b0e1b653612c06f9ca8af5aa41a7fd790/svglib-2.3.0.tar.gz",
+      "digests": {
+        "blake2b_256": "fcfa61619962cb614460270674051f2b0e1b653612c06f9ca8af5aa41a7fd790",
+        "md5": "55f4a046d2521bd77d24b6d76227e6c2",
+        "sha256": "576f417c681938e76e3d3bc2d92898c1b3f4b7248c9880b25e439c6e6d897aae"
+      },
+      "size": 1376107,
+      "packagetype": "sdist"
+    }
+  ]
+}

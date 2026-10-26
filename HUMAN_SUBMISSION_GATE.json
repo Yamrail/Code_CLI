@@ -1,0 +1,17 @@
+{
+  "schema": "yamrail.code-cli.human-submission-gate/1",
+  "state": "PENDING_SEPARATE_HUMAN_ARTIFACT",
+  "private_construction_authority": "R007_PLUS_R008",
+  "human_submission_approval": "NOT_PRESENT_NOT_FABRICATED",
+  "public_push": false,
+  "external_submission": false,
+  "canonical_promotion": false,
+  "main_merge": false,
+  "private_source_release": "OWNER_REVIEW_AND_SEPARATE_AUTHORITY_PENDING",
+  "named_collaborator_release": "NAMED_SCOPE_AND_RIGHTS_PENDING",
+  "nightshift_nemotron_live_receipt": "MISSING",
+  "zetaris_live_receipt": "MISSING",
+  "cursor_actual_usage": "UNEXECUTED_ANY_AI_CODING_TOOL_PER_CURRENT_RULES",
+  "paid_provider_authority": "NO_NEW_ENVELOPE_GRANTED",
+  "do_not_treat_as_approval": ["AI signature", "PASS", "source hash", "source import", "provider receipt", "local graph generation"]
+}

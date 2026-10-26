@@ -1,0 +1,187 @@
+{
+  "schema": "yamrail.r007.shelf-byte-manifest/1",
+  "self_hash_excluded": true,
+  "runtime_bytecode_caches_excluded": true,
+  "files": [
+    {
+      "path": "__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "osint_runtime/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "osint_runtime/field_backend/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "osint_runtime/field_backend/content_board_contract.py",
+      "bytes": 6646,
+      "sha256": "8c86b15f26a70a621ccb57a2edfe60245cc7e966fcd2ac8871bf145da0df0d41"
+    },
+    {
+      "path": "osint_runtime/field_backend/document_guard.py",
+      "bytes": 12562,
+      "sha256": "f8b177cce0bcf89cc72ca96f2ec3e50a91007e76c22f0589c000e35473523f4d"
+    },
+    {
+      "path": "osint_runtime/field_backend/document_guard_rules_r001.json",
+      "bytes": 3822,
+      "sha256": "43e45b3bd9e228134982cb630f8c3985a5c8db1d2b1f51375480d9f622caf529"
+    },
+    {
+      "path": "osint_runtime/field_backend/document_versions.py",
+      "bytes": 28589,
+      "sha256": "0e773f9029b812343c3f92ba63ebaadd98dd15555b48708dfe116a0dc8cdc351"
+    },
+    {
+      "path": "osint_runtime/field_backend/explanatory_graph.py",
+      "bytes": 24920,
+      "sha256": "44fdd762fa7f4d3248393e7fadb42b323ba249ce59eac45753d5eddff2b4bf5c"
+    },
+    {
+      "path": "osint_runtime/field_backend/graph_artifact_store.py",
+      "bytes": 10517,
+      "sha256": "9ea5be6470a459cf9f0575ae9f97d70a979b32ff163da53d3ab22abd9202483e"
+    },
+    {
+      "path": "osint_runtime/field_backend/graph_artifacts.py",
+      "bytes": 18219,
+      "sha256": "86ce5f7c77e79bdc216c0fabf8fd4cd5690fde2a9b37c522028fd7d984df2fc9"
+    },
+    {
+      "path": "osint_runtime/field_backend/graph_png.py",
+      "bytes": 23871,
+      "sha256": "cf03a140cad9e423810852df5e556b221e7f2010376575666d1650a912971b41"
+    },
+    {
+      "path": "osint_runtime/field_backend/investigation_dependency_graph.py",
+      "bytes": 16005,
+      "sha256": "3a1a07e57394b2da830496fb87ea6199b41228a9ab67867e64393dbb0dd88eea"
+    },
+    {
+      "path": "osint_runtime/field_backend/md_structure.py",
+      "bytes": 17102,
+      "sha256": "88db94e97f7946ce716afed7f3a6db98ac59e3966970611dfc839d77b330cb97"
+    },
+    {
+      "path": "osint_runtime/field_backend/silver_board.py",
+      "bytes": 11799,
+      "sha256": "65836b257a3f18bad549955738caaafa9cef1651db62c589d208c34779992cd5"
+    },
+    {
+      "path": "osint_runtime/field_backend/silver_board_renderer.py",
+      "bytes": 21763,
+      "sha256": "cd94acb710ba4850b17dbbe0cf3cfb3a4570b73c31fab2b7d9f58d69363e95a5"
+    },
+    {
+      "path": "osint_runtime/field_backend/silver_board_schema_R001.json",
+      "bytes": 10917,
+      "sha256": "1c8ee970393c4a5fa6fc9d4f25098771d3bdac77e9e3358621aa78bc37f56486"
+    },
+    {
+      "path": "osint_runtime/field_backend/silver_export.py",
+      "bytes": 14936,
+      "sha256": "7e9856a2a279eeb4db662a0befe48c0eee84fe1baa992fc63a83f32f0c656e38"
+    },
+    {
+      "path": "osint_runtime/field_backend/structured_md_renderer.py",
+      "bytes": 26697,
+      "sha256": "e539877db158db82d282cefbcb584f8baba595735406640da1f30c25a03edf01"
+    },
+    {
+      "path": "osint_runtime/frontend/fonts/OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "osint_runtime/frontend/fonts/SOURCE_LOCK.json",
+      "bytes": 1045,
+      "sha256": "d243ffec160f7becf057c8428ecafe645906dc5dbfdca74afa82e52959df6cba"
+    },
+    {
+      "path": "osint_runtime/frontend/fonts/YamrailBoard-Regular.metrics.json",
+      "bytes": 216211,
+      "sha256": "7a536935999798f62bb4340628c5934f9fcdb9224acfbc7f2a7241e68538c13d"
+    },
+    {
+      "path": "osint_runtime/frontend/fonts/YamrailBoard-Regular.ttf",
+      "bytes": 5766848,
+      "sha256": "fe4be4a7c74a871ddca7dbc7e61895dd35862334afd36e5874a121a4d4454ee4"
+    },
+    {
+      "path": "osint_runtime/README.md",
+      "bytes": 4486,
+      "sha256": "3eaa0ab98466711d7d1e0d9d38e84b25bc99d186a82e869e6d934f0f9746199b"
+    },
+    {
+      "path": "osint_runtime/requirements-local-render.txt",
+      "bytes": 313,
+      "sha256": "f5aeb28401eff497fa043af5af12bf0b9124b5c775dd7795aab07ebb78eba2dc"
+    },
+    {
+      "path": "osint_runtime/requirements.txt",
+      "bytes": 167,
+      "sha256": "ba46e474ab0d00fc30e4f33f5bdee6d44e3466afd3301ddcb525af162179f803"
+    },
+    {
+      "path": "osint_runtime/SOURCE_PROVENANCE.json",
+      "bytes": 10444,
+      "sha256": "f3811f64f64702fd042f7a1815cfd242545d072e56acdcbe98f589f357ad141c"
+    },
+    {
+      "path": "osint_runtime/vendor/ingridge_cad_display_station_v1/cad_display_station.py",
+      "bytes": 19237,
+      "sha256": "a16e158a5eadc10587e5cdc8fa7969610de83c0c01dca672254538a35c910a7b"
+    },
+    {
+      "path": "osint_runtime/vendor/ingridge_cad_display_station_v1/MATERIALS.yaml",
+      "bytes": 972,
+      "sha256": "88ec0bcccdf3f8df9cdfd00198511c94413bbdc4500032b520faa486cf220f24"
+    },
+    {
+      "path": "osint_runtime/vendor/ingridge_cad_display_station_v1/README.md",
+      "bytes": 1901,
+      "sha256": "4caca8280b27caae8607901cc0c5239e1173769f9f225c21274ee56695b6aa9d"
+    },
+    {
+      "path": "osint_runtime/vendor/ingridge_cad_display_station_v1/SOURCE_LOCK.json",
+      "bytes": 1132,
+      "sha256": "e8f2d8bc55cf026fedb470d63256483116ef1fbabe25e92120acf510dff9f0b7"
+    },
+    {
+      "path": "profiles/full_authorized_handoff.json",
+      "bytes": 374,
+      "sha256": "f928b77519d3460ecec9d96eef067cda1d06092c3279b11ed0508543c19706d9"
+    },
+    {
+      "path": "profiles/hackathon_judge.json",
+      "bytes": 515,
+      "sha256": "240571e5956d1790f8a7220f381eb431025991ef8df2448ef38faa14d0121a96"
+    },
+    {
+      "path": "README_EN.md",
+      "bytes": 2505,
+      "sha256": "ad73362170f5df99ee1afa8334067a3072307b68c96833ebfd063f4e9e64f167"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 2121,
+      "sha256": "a93e125d0965dc60816ebaf0ec43a290dcf3e2dea2a203c99791b12d38ff0d95"
+    },
+    {
+      "path": "shelf_tools.py",
+      "bytes": 2765,
+      "sha256": "1ab50dbc53fd67141d8bedbc4b394be9b56eadaedb53cc23d35117089337ca5f"
+    },
+    {
+      "path": "TOOLS.json",
+      "bytes": 989151,
+      "sha256": "7428bd470918a001fe5e0106c90fdd567fa259c7988e1036be1885227b4449fd"
+    }
+  ]
+}

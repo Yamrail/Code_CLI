@@ -1,0 +1,37 @@
+tool_id: CAD_DISPLAY_STATION_V1
+status: PRIVATE_PROTOTYPE
+authority_effect: NONE
+material_policy: ADJACENT_SOURCE_AND_MATERIALS
+
+source_files:
+  - cad_display_station.py
+
+supporting_materials:
+  - test_cad_display_station.py
+  - README.md
+  - DXF_DISPLAY_RUNBOOK.md
+  - MANIFEST.yaml
+  - fixtures/example_request.json
+  - fixtures/example_surface_guard.json
+  - fixtures/minimal_dependency_map.dxf
+
+runtime_dependency:
+  language: Python
+  minimum_version: "3.10"
+  external_python_packages: NONE
+
+interface_boundaries:
+  input: ASCII_DXF
+  source_mutation: PROHIBITED
+  destructive_overwrite: PROHIBITED
+  external_network: PROHIBITED
+  browser_print_dependency: PROHIBITED
+  authority_self_promotion: PROHIBITED
+  unsupported_entity_silent_drop: PROHIBITED
+
+worker_freedom:
+  repair_or_replace_tool: ALLOWED
+  add_entity_support: ALLOWED
+  construction_method: WORKER_DISCRETION
+  required_materials_adjacent: REQUIRED
+  human_query_before_local_inspection: DISCOURAGED

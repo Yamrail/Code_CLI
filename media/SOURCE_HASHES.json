@@ -1,0 +1,39 @@
+{
+  "schema": "yamrail.code-cli.media-source-hashes/1",
+  "current_execution_receipts": [
+    {
+      "path": "evidence/observed_and_labelled/CLI_WINDOWS_SCOPED.json",
+      "sha256": "6a08df61941f87465b1159d94e6a7f5d8cc181ed419da6b5c12c418ce6924727",
+      "bytes": 13801
+    },
+    {
+      "path": "media/source_evidence/SOURCE_CHECKPOINT_VERIFICATION.json",
+      "sha256": "78c7d71235955180dc5e9d4ed536d358c58c744485fc533bb62cba4a194d9dcc",
+      "bytes": 999
+    },
+    {
+      "path": "media/source_evidence/R008_CLI_SCOPE.json",
+      "sha256": "877894e5b674a6e469a65a656cf2773ec27472d2b7ea36dc7c4532413203bd5e",
+      "bytes": 2821
+    },
+    {
+      "path": "media/source_evidence/R008_RENDERER_RECEIPT.json",
+      "sha256": "442e2e6d611ae54e5e963fd26af079440c8734200937876151eac35a916b47c8",
+      "bytes": 3319
+    },
+    {
+      "path": "evidence/observed_and_labelled/sponsor_rules/OFFICIAL_SOURCE_RECEIPT.json",
+      "sha256": "7ba74c9d4ac56d5028a03223aaefd038b76eb5348a580b6491af0984666f888c",
+      "bytes": 1876
+    },
+    {
+      "path": "evidence/observed_and_labelled/sponsor_rules/ELIGIBILITY_MATRIX.json",
+      "sha256": "baf3181ac167608433512e7bfd2226f265c52ebc38c90ca38c1df166730d210c",
+      "bytes": 4099
+    }
+  ],
+  "graph_source_note": "Native fields selected from evidence/observed_and_labelled/CLI_WINDOWS_SCOPED.json SHA256 6a08df61941f87465b1159d94e6a7f5d8cc181ed419da6b5c12c418ce6924727. No author-host journal is shipped.",
+  "report_graph_source_note": "Actual source-class SYNTHETIC_FIXTURE. Renderer receipt media/source_evidence/R008_RENDERER_RECEIPT.json SHA256 442e2e6d611ae54e5e963fd26af079440c8734200937876151eac35a916b47c8. Current CLI/native supervision selection: media/source_evidence/R008_CLI_SCOPE.json SHA256 877894e5b674a6e469a65a656cf2773ec27472d2b7ea36dc7c4532413203bd5e. Source-linked image bytes SHA256 3ca1663a039ac3d3307b62ba7686d25ba0374909b1ae33baf07adaceec23fce6. Shared citations do not establish causation; UNKNOWN/HOLD and source IDs remain visible.",
+  "source_type": "CURRENT_LOCAL_EXECUTION_AND_LABELLED_FIXTURES",
+  "not_live_sponsor_claim": true
+}

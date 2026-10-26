@@ -1,0 +1,44 @@
+{
+  "schema": "code-cli.sanitized-native-test-summary/1",
+  "origin": "DERIVED_SANITIZED_SUMMARY_OF_OBSERVED_LOCAL_PROCESS_OUTPUTS",
+  "evidence_class": "LOCAL_EXECUTED",
+  "active_workflow_state": false,
+  "full_native_suite": {
+    "passed": 8,
+    "failed": 0,
+    "elapsed_seconds": 21.099,
+    "command": "python -B -m unittest discover -s tests -p test_native_runtime.py -v"
+  },
+  "last_targeted_suite": {
+    "passed": 7,
+    "failed": 0,
+    "elapsed_seconds": 7.554,
+    "scope": "All tests except full multi-process demo; includes malformed metadata and preserved unknown cases after final localized edits"
+  },
+  "counterexample_demo": {
+    "checks_passed": 12,
+    "actual_crash_exit": 23,
+    "input_and_cost_class": "SYNTHETIC_FIXTURE",
+    "unknown_and_holds_retained": true,
+    "source_of_current_state": "Fresh native WorkLedger only"
+  },
+  "meterless_official_runner": {
+    "passed": 8,
+    "failed": 0,
+    "engine": "UNCHANGED_PINNED_UPSTREAM_REFERENCE",
+    "upstream_commit": "1742dec56a66e58eef9dda2d2b865823758ca8cd"
+  },
+  "build_smoke": {
+    "state": "PASS_SCOPED_LOCAL_BUILD",
+    "python_ast": "PASS",
+    "retained_geometry_and_dxf_svg": "PASS_SYNTHETIC_ONLY",
+    "ooxml_vba_xlm_autoopen_denials": "PASS",
+    "actual_autocad_and_desktop_office": "NOT_EXECUTED"
+  },
+  "provider_calls": 0,
+  "new_model_generation": false,
+  "private_journals_imported": false,
+  "independent_audit": "NOT_CLAIMED_FOR_OWN_IMPLEMENTATION",
+  "raw_test_stdout": "OBSERVED_TOOL_PROCESS_RESULTS_NOT_COPIED_INTO_JUDGE_PACKAGE",
+  "failures_retained": "First suite detected missing host relocation check; repaired in host wrapper without native source rewrite; targeted and final suites passed"
+}

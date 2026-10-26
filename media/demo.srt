@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:14,000
+YamRail/Code_CLI: a transferable work surface
+An agent handover can lose intent and sources. This package keeps scoped work and native evidence together.
+
+2
+00:00:14,000 --> 00:00:36,000
+One root budget across worker processes
+The fresh local run executes 12 scoped checks. Inputs and cost units are synthetic; the subprocesses and durable state are real.
+
+3
+00:00:36,000 --> 00:00:56,000
+STOP and recovery preserve uncertainty
+A controlled process crash leaves UNKNOWN. Recovery refuses an automatic retry while an independent purpose continues.
+
+4
+00:00:56,000 --> 00:01:16,000
+Read-only recon with source bytes
+The scoped fixture read flags a deliberate eval call for review. It does not execute the target or prove an exploit.
+
+5
+00:01:16,000 --> 00:01:34,000
+Build and native readback stay separate
+The captured local build reports scoped PASS. Status reads the current native journal without granting new execution authority.
+
+6
+00:01:34,000 --> 00:02:00,000
+Source-linked A4 report and graph
+The actual reused OSINT renderer keeps citation references and visible uncertainty. A shared source never establishes causality.
+
+7
+00:02:00,000 --> 00:02:18,000
+Verify the captured manifest scope
+Byte verification confirms the captured file set. It does not establish semantic correctness, license entitlement or Human approval.
+
+8
+00:02:18,000 --> 00:02:40,000
+Live sponsor and AutoCAD limits remain explicit
+World Model ran locally. Real Nightshift/NVIDIA and Zetaris requests remain unexecuted. Unverified CAD entitlement stops launch.
+
+9
+00:02:40,000 --> 00:02:56,000
+The package is the handoff
+Transfer source, safe fixtures and labelled evidence for a fresh run. Another-machine proof and mandatory live sponsor closure remain open.

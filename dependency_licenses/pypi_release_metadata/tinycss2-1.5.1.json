@@ -1,0 +1,38 @@
+{
+  "name": "tinycss2",
+  "version": "1.5.1",
+  "project_urls": {
+    "Changelog": "https://github.com/Kozea/tinycss2/releases",
+    "Code": "https://github.com/Kozea/tinycss2/",
+    "Documentation": "https://doc.courtbouillon.org/tinycss2/",
+    "Donation": "https://opencollective.com/courtbouillon",
+    "Homepage": "https://www.courtbouillon.org/tinycss2",
+    "Issues": "https://github.com/Kozea/tinycss2/issues"
+  },
+  "license_expression": null,
+  "license": null,
+  "urls": [
+    {
+      "filename": "tinycss2-1.5.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/60/45/c7b5c3168458db837e8ceab06dc77824e18202679d0463f0e8f002143a97/tinycss2-1.5.1-py3-none-any.whl",
+      "digests": {
+        "blake2b_256": "6045c7b5c3168458db837e8ceab06dc77824e18202679d0463f0e8f002143a97",
+        "md5": "47916c4f1afe1448c4a0f52d4fe27ba7",
+        "sha256": "3415ba0f5839c062696996998176c4a3751d18b7edaaeeb658c9ce21ec150661"
+      },
+      "size": 28404,
+      "packagetype": "bdist_wheel"
+    },
+    {
+      "filename": "tinycss2-1.5.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/a3/ae/2ca4913e5c0f09781d75482874c3a95db9105462a92ddd303c7d285d3df2/tinycss2-1.5.1.tar.gz",
+      "digests": {
+        "blake2b_256": "a3ae2ca4913e5c0f09781d75482874c3a95db9105462a92ddd303c7d285d3df2",
+        "md5": "003d9f446bddb3dfc76d0f3db0f38fea",
+        "sha256": "d339d2b616ba90ccce58da8495a78f46e55d4d25f9fd71dfd526f07e7d53f957"
+      },
+      "size": 88195,
+      "packagetype": "sdist"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "yamrail.code-cli.retained-rework/1",
+  "entries": [
+    {
+      "id": "DEV_OUTPUT_PATH_NORMALIZATION",
+      "observed": "Initial explicit ../builder output was incorrectly rejected because Path.absolute retained lexical .. components.",
+      "repair": "Lexical absolute normalization with persistent-link admission before resolution.",
+      "state": "FIXED_TARGETED_REINSPECTION",
+      "raw_process_bytes": "NOT_CAPTURED_FIRST_TOOL_OUTPUT; this entry is a derived observation, not fabricated raw evidence"
+    },
+    {
+      "id": "ROOT_CLI_BOUNDARY_A001_TO_A007_PLUS_A004B",
+      "observed": "Independent synthetic tests found domain outcome propagation and link/history/early-path admission faults.",
+      "repair": "Eight scoped findings corrected; original proofs retained outside release package, sanitized audit summary included.",
+      "state": "FIXED_14_TARGETED_CHECKS_PASS",
+      "certification": "SCOPED_ROOT_CLI_ONLY_NOT_FULL_SYSTEM"
+    },
+    {
+      "id": "R008_ORPHAN_PUNCTUATION",
+      "observed": "Initial synthetic C2 sentence wrapped its final punctuation to a separate line in the native graph.",
+      "repair": "Shorter equivalent fixture sentence, preserved old fixture and output, full-page QA repeated.",
+      "state": "REWORK_RECORDED",
+      "original_source_bodies_changed": false
+    },
+    {
+      "id": "NATIVE_A001_PIN_FILE_SELF_REHASH",
+      "observed": "An audit-only harmless fixture plus locally rehashed IMPORT_PINS could execute while retaining pinned-origin label.",
+      "repair": "Constant original IMPORT_PINS digest checked before parse; exact fixture/auxiliary inventory and bounded no-link reads.",
+      "state": "FIXED_INDEPENDENT_REINSPECTION_7_PASS_PLUS_8_HOST_CHECKS",
+      "original_proof_retained": "BUILDER_ONLY; no original failure erased",
+      "no_new_full_primary_demo_for_reinspection": true
+    }
+  ],
+  "failure_erasure": false,
+  "human_acceptance": "NOT_GRANTED"
+}

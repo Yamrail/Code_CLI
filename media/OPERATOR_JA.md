@@ -1,0 +1,13 @@
+# YamRail/Code_CLI メディア引継ぎ
+
+`slides.pptx` は英文8枚、`demo.mp4` は英語字幕付き・音声なしの1–4分デモです。原実行証憑から作った編集再生で、実時間画面録画やライブ推論ではありません。LOCAL_EXECUTED、REPLAY_FROM_CAPTURED_EVIDENCE、SYNTHETIC_FIXTURE の区別を映像と英文台本に示しています。
+
+提出対象は単独の研究デモではなく、第三者が移送して継続できる YamRail/Code_CLI 全体です。実行手順・正確なflagsはパッケージのSTART_HEREとREADMEを参照してください。動画のCLI出力は現行パッケージの取得済み証憑に結びます。author端末の絶対パスやPrivate正本台帳への接続は前提としません。同一Hostでのfresh copy検証を別端末・全OS検証と表現しません。
+
+R008のレポート/Graphは既設YamRail/OSINT由来のA4横297×210mm生成系で、SVG/PNG/PDF/masterJSON/receiptを扱います。参照関係から未確認の因果関係を作らず、UNKNOWN/HOLDとsource参照を保持します。
+
+AutoCADはユーザー自身が開始するローカル端末・実ライセンス・対話セッション・明示範囲の検証が揃う場合だけが対象です。不明なら起動せずHOLDです。server/cloud/hosted/proxy/headless実行、クラウドへのfallback、testによる迂回は常に禁止です。Graph/Report生成はAutoCADなしで継続します。今回AutoCADアプリ起動やライセンス確認済みを主張しません。
+
+最新Academy FAQでは任意のAIコーディングツールを利用できます。一方、Zetarisデータ、動作するMeterless Engineとテスト、NVIDIA接続を持つNightshiftをprimary providerとして利用すること、および実Nightshiftリクエストを動画に示す要件があります。未実接続はadapterやfixtureで閉じません。登録/個人・チーム要件と外部提出はHuman判断です。
+
+SOURCE_HASHES.jsonが原実行へ、MEDIA_VALIDATION.jsonがこのメディアの限定確認へ結びます。公開、Privateソース外部開示、外部応募、従量課金API、正本昇格は別Human Gateで、AIによる資料作成をHuman承認と扱いません。

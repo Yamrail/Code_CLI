@@ -1,0 +1,41 @@
+{
+  "schema": "yamrail.r007.official-rules-passive-read/1",
+  "sources": [
+    {
+      "url": "https://academy.genai.works/courses/open-agent-hackathon-2026/details",
+      "final_url": "https://academy.genai.works/courses/open-agent-hackathon-2026/details",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "read_at_utc": "2026-10-26T14:59:28.939341+00:00",
+      "sha256": "99c78b1e872dad12987ce1db0f6425a7274bb931542044cb9572bd22c24f5876",
+      "bytes": 96180,
+      "evidence_class": "LIVE_REAL",
+      "operation": "PASSIVE_PUBLIC_HTTP_READ",
+      "authenticated": false,
+      "state": "PASS_PASSIVE_READ",
+      "title": "Open Agent Hackathon 2026 \u2014 GenAI Academy",
+      "raw_capture_shipped": false,
+      "raw_capture_disposition": "EXACT_BYTES_RETAINED_PRIVATE_BUILDER_ARCHIVE_NOT_INCLUDED"
+    },
+    {
+      "url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+      "final_url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "read_at_utc": "2026-10-26T14:59:29.996950+00:00",
+      "sha256": "ce2021ee70c34122b8b8c9390fa2d97f224835fa3e3b42326df322461f1f6996",
+      "bytes": 163463,
+      "evidence_class": "LIVE_REAL",
+      "operation": "PASSIVE_PUBLIC_HTTP_READ",
+      "authenticated": false,
+      "state": "PASS_PASSIVE_READ",
+      "title": "Open Agent Hackathon 2026 \u2014 Event rules",
+      "raw_capture_shipped": false,
+      "raw_capture_disposition": "EXACT_BYTES_RETAINED_PRIVATE_BUILDER_ARCHIVE_NOT_INCLUDED"
+    }
+  ],
+  "no_login_or_submission": true,
+  "no_billable_model_calls": true,
+  "product_content": "BOUNDED_PARAPHRASE_AND_METADATA_ONLY",
+  "full_redistribution_rights": "NOT_ESTABLISHED_RAW_HTML_JS_AND_FULL_RULE_TEXT_NOT_SHIPPED"
+}

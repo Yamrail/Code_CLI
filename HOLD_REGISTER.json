@@ -1,0 +1,62 @@
+{
+  "schema": "yamrail.code-cli.hold-register/1",
+  "holds": [
+    {
+      "id": "SPONSOR_NIGHTSHIFT_NEMOTRON",
+      "state": "HOLD",
+      "scope": "LIVE_INFERENCE",
+      "reason": "No actual provider receipt; no unapproved paid calls."
+    },
+    {
+      "id": "SPONSOR_ZETARIS",
+      "state": "HOLD",
+      "scope": "LIVE_DATA_QUERY",
+      "reason": "No actual governed query receipt."
+    },
+    {
+      "id": "FULL_AGENT_YARD_ROUTE",
+      "state": "HOLD",
+      "scope": "ISOLATION",
+      "reason": "Whole agent/Office/CAD routing through physical yard is not proven."
+    },
+    {
+      "id": "RAM_AND_ENCRYPTION",
+      "state": "HOLD",
+      "scope": "STORAGE",
+      "reason": "RAM backing, encrypted scratch and zero remanence are unproven."
+    },
+    {
+      "id": "DIRECT_CODEX_CLI",
+      "state": "HOLD",
+      "scope": "DIRECT_INTERNAL_CLI",
+      "reason": "Prior direct CLI attempt was policy-blocked; no automatic retry."
+    },
+    {
+      "id": "EXTERNAL_RELEASE",
+      "state": "HOLD",
+      "scope": "HUMAN_AUTHORITY",
+      "reason": "Public/private-source release, submission and canonical promotion require separate Human artifact."
+    },
+    {
+      "id": "CAD_LOCAL_LICENSE_AND_BROKER",
+      "state": "HOLD",
+      "reason": "Actual product entitlement/interactive local broker unqualified; no AutoCAD launch."
+    },
+    {
+      "id": "OWNER_SOURCE_RELEASE",
+      "state": "HOLD",
+      "reason": "Private candidate source not automatically cleared for external disclosure."
+    },
+    {
+      "id": "THIRD_PARTY_UNKNOWN_RIGHTS",
+      "state": "HOLD",
+      "reason": "Unreviewed recovered source is metadata-only; explicit license disposition retained."
+    },
+    {
+      "id": "NATIVE_JOURNAL_RELOCATION",
+      "state": "HOLD",
+      "reason": "Relocated existing journals do not grant execution; create a fresh work order and refer to prior evidence hashes."
+    }
+  ],
+  "local_hold_is_global_stop": false
+}

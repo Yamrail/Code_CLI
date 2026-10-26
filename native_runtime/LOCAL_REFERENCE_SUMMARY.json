@@ -1,0 +1,60 @@
+{
+  "schema": "code-cli.sanitized-local-execution-summary/1",
+  "origin": "DERIVED_SANITIZED_SUMMARY_NOT_ORIGINAL_RAW_RECEIPT",
+  "evidence_class": "LOCAL_EXECUTED",
+  "active_workflow_state": false,
+  "model_generation": false,
+  "sponsor_api_calls": 0,
+  "meterless_reference": {
+    "status": "PASS",
+    "actual_engine": "PINNED_UPSTREAM_BROWSER_REFERENCE",
+    "actual_runner": "BYTE_IDENTICAL_UPSTREAM_CONFORMANCE_RUNNER_TYPESCRIPT_ERASURE_ONLY",
+    "node": "v24.19.0",
+    "upstream_commit": "1742dec56a66e58eef9dda2d2b865823758ca8cd",
+    "inspected_utc": "2026-10-26T15:21:20.133Z",
+    "cases": [
+      {
+        "id": "sid-001",
+        "description": "stable ids: diacritics and NBSP normalize identically (NFKD + strip marks)",
+        "status": "PASS"
+      },
+      {
+        "id": "sid-002",
+        "description": "stable ids: distinct names stay distinct (no over-normalization)",
+        "status": "PASS"
+      },
+      {
+        "id": "band-001",
+        "description": "merge bands at the boundaries: 0.85 auto, 0.84 review, 0.82 review, 0.81 new",
+        "status": "PASS"
+      },
+      {
+        "id": "prov-001",
+        "description": "writes without provenance are rejected",
+        "status": "PASS"
+      },
+      {
+        "id": "idem-001",
+        "description": "ingest idempotency: same batch twice produces an empty diff",
+        "status": "PASS"
+      },
+      {
+        "id": "idem-002",
+        "description": "the idempotency check can fail: a mutated batch changes the shape",
+        "status": "PASS"
+      },
+      {
+        "id": "bitemp-001",
+        "description": "bitemporal edges: a superseding edge closes the old one; point-in-time queries respect validity",
+        "status": "PASS"
+      },
+      {
+        "id": "audit-001",
+        "description": "every mutation writes an audit entry in order",
+        "status": "PASS"
+      }
+    ]
+  },
+  "source_of_current_state": "New per-run WorkLedger only; summary never grants authority or resumes execution",
+  "raw_process_receipt_retained_outside_package": true
+}

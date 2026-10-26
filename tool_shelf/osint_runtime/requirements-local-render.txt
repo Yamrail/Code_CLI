@@ -1,0 +1,11 @@
+# Actual build observation. The original requirements.txt stays unchanged.
+# Root supplies an offline wheelhouse/installer; no Firebase/cloud stack needed.
+Pillow==12.3.0
+reportlab==4.4.9
+svglib==2.3.0
+fonttools==4.67.0
+lxml==6.1.1
+cssselect2==0.10.1
+tinycss2==1.5.1
+webencodings==0.6.1
+charset-normalizer==3.5.2

@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-27T00:00:00Z",
+  "authority_effect": "NONE",
+  "edges": [
+    {
+      "causation": "NOT_INFERRED",
+      "from": "ROOT",
+      "relation": "DECLARED_DEPENDENCY",
+      "to": "CHILD"
+    }
+  ],
+  "evidence_class": "SYNTHETIC_FIXTURE",
+  "fixture_is_actual_native_execution": false,
+  "nodes": [
+    {
+      "id": "ROOT",
+      "stage": "SOURCE_REVIEW",
+      "state": "DONE"
+    },
+    {
+      "id": "CHILD",
+      "stage": "BUILD",
+      "state": "STOPPED_UNKNOWN"
+    }
+  ],
+  "schema": "yamrail.code-cli.workledger-projection-fixture/1",
+  "state": "HOLD_UNKNOWN"
+}

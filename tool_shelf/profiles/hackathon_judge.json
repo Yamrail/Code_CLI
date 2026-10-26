@@ -1,0 +1,10 @@
+{
+  "state": "OFFLINE_CANDIDATE_HUMAN_RELEASE_PENDING",
+  "requires_private_github": false,
+  "includes_raw_archive": false,
+  "includes_recovered_unreviewed_source": false,
+  "includes_proprietary_binaries": false,
+  "default_network": "NONE",
+  "tool_shelf_payload": "Sanitized source-candidate inventory, stdlib inspector, specifically reviewed R008 native renderer and OFL font; Root supplies native core and offline dependency wheels",
+  "specifically_reviewed_R008_native_renderer_included": true
+}

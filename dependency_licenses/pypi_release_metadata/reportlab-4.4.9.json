@@ -1,0 +1,33 @@
+{
+  "name": "reportlab",
+  "version": "4.4.9",
+  "project_urls": {
+    "Homepage": "https://www.reportlab.com/"
+  },
+  "license_expression": null,
+  "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+  "urls": [
+    {
+      "filename": "reportlab-4.4.9-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/17/77/546e50edfaba6a0e58e8ec5fdc4446510227cec9e8f40172b60941d5a633/reportlab-4.4.9-py3-none-any.whl",
+      "digests": {
+        "blake2b_256": "1777546e50edfaba6a0e58e8ec5fdc4446510227cec9e8f40172b60941d5a633",
+        "md5": "b46d8277bbf38f038d5a18b881d85294",
+        "sha256": "68e2d103ae8041a37714e8896ec9b79a1c1e911d68c3bd2ea17546568cf17bfd"
+      },
+      "size": 1954401,
+      "packagetype": "bdist_wheel"
+    },
+    {
+      "filename": "reportlab-4.4.9.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/1a/39/42cf24aee570a80e1903221ae3a92a2e34c324794a392eb036cbb6dc3839/reportlab-4.4.9.tar.gz",
+      "digests": {
+        "blake2b_256": "1a3942cf24aee570a80e1903221ae3a92a2e34c324794a392eb036cbb6dc3839",
+        "md5": "02e8789ad8fa4996af4893e60e473543",
+        "sha256": "7cf487764294ee791a4781f5a157bebce262a666ae4bbb87786760a9676c9378"
+      },
+      "size": 3911246,
+      "packagetype": "sdist"
+    }
+  ]
+}

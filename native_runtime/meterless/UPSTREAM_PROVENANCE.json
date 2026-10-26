@@ -1,0 +1,23 @@
+{
+  "schema": "yamrail.pinned-upstream-reference-extract/1",
+  "repository": "Meterless/Meterless",
+  "commit": "1742dec56a66e58eef9dda2d2b865823758ca8cd",
+  "source_path": "engines/world-model/control-plane/live.html",
+  "source_blob": "92dfbce2a3d2386b7b7e89a1337189dec3d3e34c",
+  "source_sha256": "1e6868d56244a7c7af2b6166fa6f8e19d270361c8a24802dadd069775ac0ca00",
+  "source_bytes": 47879,
+  "extract_path": "meterless-world-model-reference.js",
+  "extract_sha256": "569920f1e13172f638ef0ea932033c221e9ec561eb2261667ff4c4123be69e69",
+  "extract_bytes": 35636,
+  "extraction": "Exact bytes of first inline script content; no editing or newline normalization",
+  "extract_byte_range_half_open": [
+    3648,
+    39284
+  ],
+  "conformance_source_path": "engines/world-model/conformance/runner.ts",
+  "conformance_source_blob": "d4e26f7901b8d5b51cc586b32d2d1aaf2a628ee3",
+  "conformance_sha256": "7cd3b80d62d45d16f3342c62a91c89abf819c9b46970187d2f36fb9e3050da82",
+  "license": "Apache-2.0",
+  "attribution": "Meterless contributors; upstream bundled reference reused without modification",
+  "retrieved_utc": "2026-10-26T11:22:54.605458+00:00"
+}

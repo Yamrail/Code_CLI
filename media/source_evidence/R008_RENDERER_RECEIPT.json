@@ -1,0 +1,96 @@
+{
+  "actual_reused_modules": [
+    "explanatory_graph",
+    "structured_md_renderer",
+    "silver_board_renderer",
+    "cad_display_station",
+    "graph_png",
+    "graph_artifacts._png",
+    "silver_export.vector_pdf"
+  ],
+  "canonical_writes": 0,
+  "evidence_class": "LOCAL_EXECUTED",
+  "external_source_origin_authenticated": false,
+  "files": {
+    "graph.pdf": {
+      "bytes": 37686,
+      "sha256": "718f40d753b60989899db080586e9299b01f56c99ab30dc74d4ccf6987b44f8e"
+    },
+    "graph.png": {
+      "bytes": 733013,
+      "sha256": "3ca1663a039ac3d3307b62ba7686d25ba0374909b1ae33baf07adaceec23fce6"
+    },
+    "graph.svg": {
+      "bytes": 128348,
+      "sha256": "adda8eab99efd1de617f93f7e1ea5e04f53f592001aef588c8ff9328f2173529"
+    },
+    "graph_master.json": {
+      "bytes": 59102,
+      "sha256": "44b27d788be047d8098162d457e2984e109572785fd4ecd350c3e401fe5ab8a7"
+    },
+    "graph_render_master.svg": {
+      "bytes": 55830,
+      "sha256": "c2db6d47998a597c4f35d7f8ba38f709a5cfacabcc1762de6b89dcfa6bb59332"
+    },
+    "native_renderer.png": {
+      "bytes": 376723,
+      "sha256": "48477539927dd06a8f7a508036daaedf22f73ac04ed9c0ffc39097e4c24f10cc"
+    },
+    "native_renderer.svg": {
+      "bytes": 55752,
+      "sha256": "d715f72aebe95bd84c8ff3ab3c44195861aa2fe1c6ad2d459e5c60baaeb2f166"
+    },
+    "original_report.md": {
+      "bytes": 828,
+      "sha256": "f5d492e14ad718423db63d4080f35d4c53567252f702da057d4ab9a4cfb46d5f"
+    },
+    "source_register.json": {
+      "bytes": 1206,
+      "sha256": "206a57bbb42cb73ca5961a6b900f3a34d6227d0b0b03355a90305ed2c68cae53"
+    }
+  },
+  "font": {
+    "family": "YamrailBoard",
+    "license": "OFL-1.1",
+    "sha256": "fe4be4a7c74a871ddca7dbc7e61895dd35862334afd36e5874a121a4d4454ee4"
+  },
+  "glyph_qa": {
+    "font_substitution": false,
+    "scope": "FONT_COVERAGE_AND_NATIVE_GEOMETRY; VISUAL_QA_RECORDED_SEPARATELY",
+    "unsupported_glyphs": []
+  },
+  "graph_type": "content",
+  "human_release": "OWNER_RELEASE_PENDING",
+  "legend": "Explicit MD relations and shared citations are references, never inferred causation. UNKNOWN/HOLD stays unresolved.",
+  "local_adapter_source_sha256": "235a6af970ae49792684c34e07f58a5d7205d8355c1afe55098eb40ee6a1b107",
+  "local_scope": "PINNED_OFFLINE_RENDERER_NOT_AUTHENTICATED_OSINT_SERVER_OR_SPONSOR_CALL",
+  "minimum_margin_mm": 8,
+  "network_calls": 0,
+  "new_provider_calls": 0,
+  "physical_page_mm": [
+    297,
+    210
+  ],
+  "pin_usage": {
+    "PR62": "EXACT_COMPARISON_REFERENCE_READ_UI_CODE_NOT_EXECUTED",
+    "PR79": "EXECUTED_LOCAL_NATIVE_RENDER_MODULES"
+  },
+  "schema": "yamrail.code-cli.osint-render-receipt/1",
+  "source_binding": {
+    "epoch": 0,
+    "input_sha256": "44ef7264f1c3d52668a016bd9ee4c461136617adddca639ad701826987af0e01",
+    "revision": 1,
+    "workface_id": "7bd3f21c6d8e4e19b7304d5349e4b005"
+  },
+  "source_evidence_class": "SYNTHETIC_FIXTURE",
+  "source_ids_visible_in_nodes": {
+    "C1": true,
+    "C2": true
+  },
+  "source_pins": {
+    "PR62": "907593e0d045cfc926943d186eb0aa19ad7c92bb",
+    "PR79": "9f3a5e61b72a0517f683d3e7ccd22a0904782fec"
+  },
+  "source_provenance_sha256": "f3811f64f64702fd042f7a1815cfd242545d072e56acdcbe98f589f357ad141c",
+  "state": "PASS_PINNED_LOCAL_OSINT_RENDER"
+}

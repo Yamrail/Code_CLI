@@ -1,0 +1,21 @@
+{
+  "schema": "yamrail.code-cli.generation-provenance/1",
+  "product": "YamRail/Code_CLI",
+  "received_human_execution_orders": ["R007", "R008"],
+  "source_order_pins": "SOURCE_PINS.json",
+  "generation": {
+    "root_cli_docs_package_and_installers": "OpenAI Codex root worker, current authorized Private construction",
+    "native_adapters": "OpenAI Codex implementation worker, pinned original native code with labelled local derivatives",
+    "osint_renderer_and_shelf": "OpenAI Codex source/render worker, exact upstream source and licensed font with extraction receipts",
+    "media": "OpenAI Codex presentation worker, actual selected command receipts and original graphics"
+  },
+  "file_grounding": "Every finite MANIFEST row records the byte hash and an origin record. Source provenance, original notices, actual execution observations and generated fixtures remain distinct.",
+  "synthetic_inputs": "fixtures/ contains self-authored synthetic cases and projections. They are not real-world incident evidence.",
+  "private_or_canonical_ledger_imported": false,
+  "raw_author_host_journals_included": false,
+  "new_model_generation_during_default_demo": false,
+  "human_approval_claimed": false,
+  "authority_effect": "NONE",
+  "external_submission": "PENDING_SEPARATE_HUMAN_ARTIFACT",
+  "own_hash": "Recorded by finite MANIFEST, not embedded recursively here"
+}
