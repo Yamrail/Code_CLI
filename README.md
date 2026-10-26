@@ -46,6 +46,12 @@ to create a next-worker receipt after native readback.
   SVG/PNG/PDF, source bindings and receipts are local outputs. UNKNOWN/HOLD and
   relation types remain visible; reference relations do not prove causation.
 
+The independently operated fresh Linux/WSL2 guest also completed the
+offline installation and 18 scoped function checks, including the 12 core
+counterexamples, graph/report generation and handover. It used the same
+physical host; isolation limitations and retained failures are explicit.
+See [REPRODUCTION.md](REPRODUCTION.md) and the hash-bound first-boot receipt.
+
 ## Sponsor and CAD boundaries
 
 Meterless's pinned upstream World Model can execute locally when Node is

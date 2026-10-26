@@ -1,0 +1,440 @@
+{
+  "schema": "yamrail.code-cli.independent-first-boot-summary/1",
+  "state": "PASS_SCOPED_OFFLINE_JOURNEY_WITH_EXPLICIT_HOLDS",
+  "operator": "/root/presentation_media_first_boot_operator OpenAI Codex",
+  "operator_independence": "Media author; not the CLI/native/installer author. Different operator workface. No Human acceptance inferred.",
+  "scope": "FRESH_WSL2_GUEST_ON_SAME_PHYSICAL_HOST",
+  "tested_source_commit": "7b0551c703aadf5da385c1ea33b24cfc6a6035f1",
+  "runtime_code_commit": "f8e78d0c173dfdb01b0d39c1f580418c02d1e8c0",
+  "tested_zip_sha256": "28307aa49fb5ab425306a9c412564d65a41860c5b0d7d320a5d46d29966a3570",
+  "tested_manifest_sha256": "85db5151293a5d2864a2e371dae79e487554a03e266130036a015b7486a11343",
+  "source_admission_before": {
+    "status": "PASS",
+    "manifest_sha256": "85db5151293a5d2864a2e371dae79e487554a03e266130036a015b7486a11343",
+    "verified_files": 232,
+    "verified_bytes": 49934267,
+    "exact_inventory": true,
+    "sha256_index_verified": true,
+    "errors": [],
+    "semantic_acceptance": "NOT_INFERRED",
+    "authority_effect": "NONE"
+  },
+  "source_admission_after": {
+    "status": "PASS",
+    "manifest_sha256": "85db5151293a5d2864a2e371dae79e487554a03e266130036a015b7486a11343",
+    "verified_files": 232,
+    "verified_bytes": 49934267,
+    "exact_inventory": true,
+    "sha256_index_verified": true,
+    "errors": [],
+    "semantic_acceptance": "NOT_INFERRED",
+    "authority_effect": "NONE"
+  },
+  "full_core_primaries": 1,
+  "pre_primary_environment_attempts": 1,
+  "core_checks": {
+    "parent_child_grandchild_shared_three": true,
+    "fourth_refused": true,
+    "alias_refused": true,
+    "stop_restore_preserves_consumption": true,
+    "actual_crash_exit_23": true,
+    "unknown_no_automatic_retry": true,
+    "local_hold_independent_work_continues": true,
+    "sha256_tamper_refused": true,
+    "typed_graph_rejects_unknown_to_exact": true,
+    "final_safe_stop": true,
+    "derived_code_fixture_reexecuted": true,
+    "durable_current_journal_readback": true
+  },
+  "function_checks_after_evidence_review": {
+    "doctor": true,
+    "source_admission_before": true,
+    "offline_install": true,
+    "core_primary": true,
+    "no_new_generation": true,
+    "readonly_recon": true,
+    "content": true,
+    "history": true,
+    "report": true,
+    "workledger": true,
+    "security": true,
+    "status_native": true,
+    "handover": true,
+    "handover_source_binding": true,
+    "moved_journal_hold": true,
+    "14_cad_linux": true,
+    "15_cad_forged_claims": true,
+    "source_bytes_preserved": true
+  },
+  "optional_world_model": {
+    "state": "HOLD_OPTIONAL_NODE_RUNTIME",
+    "evidence_class": "UNKNOWN",
+    "executed": false,
+    "canonical_writes": 0,
+    "reason": "Set RTA_NODE to a compatible Node executable or put node on PATH"
+  },
+  "cad_denial_observations": [
+    {
+      "test": "14_cad_linux",
+      "pid": 69,
+      "status": "HOLD",
+      "exit_code": 5,
+      "reason": "DENY_SERVER_CLOUD_OR_REMOTE_CONTEXT",
+      "behavioral_denial": "PASS",
+      "autocad_launched": false,
+      "com_activated": false,
+      "remote_control_attempted": false,
+      "cloud_fallback": false,
+      "paid_api_calls": 0,
+      "simulated_receipts_accepted": false,
+      "original_assertion": "EXPECTED_OUTER_STATUS_AUTHORITY_DENIED",
+      "observed_outer_status": "HOLD",
+      "assessment": "The intended denial is exit5/HOLD with the explicit DENY reason; assessed from saved original receipts, without rerun."
+    },
+    {
+      "test": "15_cad_forged_claims",
+      "pid": 72,
+      "status": "HOLD",
+      "exit_code": 5,
+      "reason": "DENY_SERVER_CLOUD_OR_REMOTE_CONTEXT",
+      "behavioral_denial": "PASS",
+      "autocad_launched": false,
+      "com_activated": false,
+      "remote_control_attempted": false,
+      "cloud_fallback": false,
+      "paid_api_calls": 0,
+      "simulated_receipts_accepted": false,
+      "original_assertion": "EXPECTED_OUTER_STATUS_AUTHORITY_DENIED",
+      "observed_outer_status": "HOLD",
+      "assessment": "The intended denial is exit5/HOLD with the explicit DENY reason; assessed from saved original receipts, without rerun."
+    }
+  ],
+  "environment": {
+    "uid": 1000,
+    "gid": 1000,
+    "supplemental_groups": [],
+    "kernel": "6.18.33.2-microsoft-standard-WSL2",
+    "python_version": "3.12.15",
+    "libc": "glibc2.36",
+    "PATH": "/usr/local/bin:/usr/bin:/bin",
+    "capability_fields": {
+      "Uid": "1000\t1000\t1000\t1000",
+      "Gid": "1000\t1000\t1000\t1000",
+      "CapPrm": "0000000000000000",
+      "CapEff": "0000000000000000",
+      "CapAmb": "0000000000000000",
+      "NoNewPrivs": "0"
+    },
+    "separate_network_namespace": true,
+    "network_namespace_before": "net:[4026531833]",
+    "network_namespace_after": "net:[4026532222]",
+    "route_table_empty": true,
+    "TEST_NET_connect_errno": 101,
+    "windows_host_drive_mounted": false,
+    "credential_names_present": {
+      "GITHUB_TOKEN": false,
+      "GH_TOKEN": false,
+      "NIGHTSHIFT_API_KEY": false,
+      "METERLESS_API_KEY": false,
+      "ZETARIS_API_KEY": false,
+      "ZETARIS_TOKEN": false
+    },
+    "WSL_interop_configured": "DISABLED_IN_GUEST_CONFIG",
+    "WSL_interop_kernel_entry": "ENABLED_OBSERVED",
+    "effective_Windows_interop": "HOLD_UNPROVEN",
+    "image_manifest_digest": "sha256:57d96f71de145a98e7ceca18ee4ade77bba4103a33a72dfaea026b23625c6bf0"
+  },
+  "artifact_comparison": {
+    "records": [
+      {
+        "expected_path": "examples/synthetic_case_graph/graph.svg",
+        "actual_path": "out/operator_content/artifacts/graph.svg",
+        "expected_sha256": "adda8eab99efd1de617f93f7e1ea5e04f53f592001aef588c8ff9328f2173529",
+        "actual_sha256": "adda8eab99efd1de617f93f7e1ea5e04f53f592001aef588c8ff9328f2173529",
+        "byte_equal": true
+      },
+      {
+        "expected_path": "examples/synthetic_case_graph/graph.png",
+        "actual_path": "out/operator_content/artifacts/graph.png",
+        "expected_sha256": "3ca1663a039ac3d3307b62ba7686d25ba0374909b1ae33baf07adaceec23fce6",
+        "actual_sha256": "029a51fa978170e5fa586f1f34f1561cf4d6486a7628f39a1456f3c18ab4bc14",
+        "byte_equal": false
+      },
+      {
+        "expected_path": "examples/synthetic_case_graph/graph.pdf",
+        "actual_path": "out/operator_content/artifacts/graph.pdf",
+        "expected_sha256": "718f40d753b60989899db080586e9299b01f56c99ab30dc74d4ccf6987b44f8e",
+        "actual_sha256": "718f40d753b60989899db080586e9299b01f56c99ab30dc74d4ccf6987b44f8e",
+        "byte_equal": true
+      },
+      {
+        "expected_path": "examples/synthetic_case_report/report.pdf",
+        "actual_path": "out/operator_report/artifacts/report.pdf",
+        "expected_sha256": "1358d8a7cdeac45916f2aa710d8d9c0c2de22348252fb4ca6566ae11abcf8157",
+        "actual_sha256": "1358d8a7cdeac45916f2aa710d8d9c0c2de22348252fb4ca6566ae11abcf8157",
+        "byte_equal": true
+      }
+    ],
+    "content_svg_byte_equal": true,
+    "content_pdf_byte_equal": true,
+    "report_pdf_byte_equal": true,
+    "png_encoded_byte_equal": false,
+    "png_decoded_RGBA_equal": true,
+    "png_RGBA_sha256": "00174e6cff0d0605a7d9d9d9261f50492493e712be233f94f82bd570f6ba5d2d",
+    "png_dimensions": [
+      2828,
+      2000
+    ],
+    "png_changed_RGB_pixels": 0,
+    "classification": "ENCODED_PNG_BYTES_DIFFER; EXACT_DECODED_PIXELS_MATCH",
+    "encoded_byte_identity_not_claimed": true,
+    "originals_not_normalized": true
+  },
+  "visual_review": {
+    "state": "PASS_SCOPED_ALL_GUEST_PRODUCTS_REVIEWED",
+    "PNG_views": [
+      "content",
+      "history",
+      "workledger",
+      "security"
+    ],
+    "PDF_pages": 6,
+    "PDFs": [
+      {
+        "kind": "content",
+        "pages": 1,
+        "sha256": "718f40d753b60989899db080586e9299b01f56c99ab30dc74d4ccf6987b44f8e"
+      },
+      {
+        "kind": "history",
+        "pages": 1,
+        "sha256": "55c658b1e8068970754ff703368ce3757fcd0124047a17216e9f42bf20c6b032"
+      },
+      {
+        "kind": "report",
+        "pages": 2,
+        "sha256": "1358d8a7cdeac45916f2aa710d8d9c0c2de22348252fb4ca6566ae11abcf8157"
+      },
+      {
+        "kind": "workledger",
+        "pages": 1,
+        "sha256": "6cb50d6abe0fe92b86a1e096e61d6209950e1ec1f9614ac99406af771c22a51b"
+      },
+      {
+        "kind": "security",
+        "pages": 1,
+        "sha256": "3e8a0bcccbefdbb3bf9499b293bea7bf4706f1cee358303422d53ee54654989d"
+      }
+    ],
+    "Japanese_glyphs": "NO_TOFU_OBSERVED",
+    "clipping_overlap": "NONE_OBSERVED",
+    "declared_partial_workledger_projection": "PRESERVED_NOT_EXPANDED_OR_HIDDEN"
+  },
+  "failure_history": [
+    {
+      "id": "R001_ENVIRONMENT_PRECONDITION",
+      "stage": "BEFORE_ANY_PACKAGE_COMMAND_OR_CORE_PRIMARY",
+      "observation": "Kernel WSLInterop registered/enabled while guest config says disabled. Original failure retained; Root narrowed scope with HOLD, without global binfmt or package changes."
+    },
+    {
+      "id": "R002_CAD_ASSERTION_SCHEMA",
+      "observation": "Original harness flagged two false checks because it expected AUTHORITY_DENIED text. Saved original output is intended HOLD/exit5 with explicit DENY and no side effects. Derived semantic assessment corrected without rerunning any command."
+    },
+    {
+      "id": "R002_PNG_ENCODED_VARIANCE",
+      "observation": "Content PNG encoded SHA differs from the packaged example. Exact decodedRGBA pixels match; byte identity remains unclaimed."
+    }
+  ],
+  "raw_evidence": {
+    "classification": "BUILDER_ONLY_NOT_SHIPPED_IN_PRODUCT",
+    "guest_run_stdout_sha256": "ef65fca8f966fa1e34b259c5838740f377455691c454acc2d9c9465c68ba8235",
+    "guest_run_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "driver_protocol_sha256": "702063e507693b553c03389aed5e0f548aa7fe9e92493a1aec60d70337b2fcd2",
+    "host_process_pid": 31312,
+    "preservation_archive_sha256": "b2a8831ffebf51b414165c343563392b592acf9970a103a7f1ab5ed21487306a",
+    "preservation_archive_bytes": 6608573,
+    "preserved_files": 1240,
+    "guest_source_or_journals_deleted": false,
+    "VHDX_retained": true
+  },
+  "actual_commands": [
+    {
+      "test": "01_doctor",
+      "logical_command": "python3 yr_code.py doctor --format json",
+      "pid": 11,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:10.792902+00:00",
+      "elapsed_seconds": 0.2924,
+      "stdout_sha256": "90333fa35635cae1525a8572581f92b7b266c3c42268dad66ba7ebd937d6e03e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "02_manifest_before",
+      "logical_command": "python3 yr_code.py evidence verify --manifest MANIFEST.json --format json",
+      "pid": 12,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:11.818394+00:00",
+      "elapsed_seconds": 1.0245,
+      "stdout_sha256": "a2e855164b7e719777292d84e659807544bb8f6322e78f6f6854c72f65426c12",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "03_install",
+      "logical_command": "python3 install.py",
+      "pid": 13,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:21.527316+00:00",
+      "elapsed_seconds": 9.7073,
+      "stdout_sha256": "dd6966cb9a9a0aac587f735b2db9b51f440f7750cbf88f8c1c4a4d678ad2e871",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "04_demo",
+      "logical_command": "yr-code demo --profile hackathon_judge --evidence-mode replay --format json",
+      "pid": 21,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:33.283800+00:00",
+      "elapsed_seconds": 11.7541,
+      "stdout_sha256": "cfeacba8e08de8a2efb65325d970578122c0c389e84fe93b40d3a6b8dad11eb3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "05_recon",
+      "logical_command": "yr-code recon local --root fixtures/safe_public_or_synthetic --format json",
+      "pid": 37,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:34.878386+00:00",
+      "elapsed_seconds": 1.5899,
+      "stdout_sha256": "ddcdd8178c6bc32fedf07eab94031460553ca2c7f2552f82c3958ba831284a9b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "06_content",
+      "logical_command": "yr-code graph render --input fixtures/osint_case.json --type content --paper a4-landscape --out out/operator_content --format json",
+      "pid": 40,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:40.709327+00:00",
+      "elapsed_seconds": 5.8295,
+      "stdout_sha256": "56762f4ab63102992a68b38a5bf4abb74b626718765aa59e9b109422f56e0156",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "07_history",
+      "logical_command": "yr-code graph history --snapshot fixtures/osint_history_snapshot.json --out out/operator_history --format json",
+      "pid": 44,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:45.314231+00:00",
+      "elapsed_seconds": 4.5969,
+      "stdout_sha256": "f58474a5c2bf6e5bbb87a972256261b80ed2bc75766d0dbe9b3eac235fa3b694",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "08_report",
+      "logical_command": "yr-code report make --input fixtures/osint_case.json --paper a4-landscape --out out/operator_report --format json",
+      "pid": 48,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:50.679508+00:00",
+      "elapsed_seconds": 5.3601,
+      "stdout_sha256": "e701da2c2a369e33cb5ff2e1fa6457de2b2b3eccebb4d244d040ede298854c8e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "09_workledger",
+      "logical_command": "yr-code graph render --input fixtures/workledger_projection_fixture.json --type workledger --out out/operator_workledger --format json",
+      "pid": 52,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:55:56.231209+00:00",
+      "elapsed_seconds": 5.5424,
+      "stdout_sha256": "8a5e94debf0021e62a1097cc7ff9d3b7b0668c5621ad9858addf6a6ec481a42e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "10_security",
+      "logical_command": "yr-code graph render --input fixtures/security_receipt_fixture.json --type security --out out/operator_security --format json",
+      "pid": 56,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:56:02.127876+00:00",
+      "elapsed_seconds": 5.8873,
+      "stdout_sha256": "05d2b104e0143ef921108d06557428de16df0cba4e09a0db0fb8be6c078843de",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "11_status",
+      "logical_command": "yr-code status --format json",
+      "pid": 60,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:56:02.664212+00:00",
+      "elapsed_seconds": 0.5285,
+      "stdout_sha256": "34f40da8ce6f20afab86dd6507530fca1cc9677e6b733d89c2a71f9b00d8d80d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "12_handover",
+      "logical_command": "yr-code work_handover --run .yr-code/runs/demo_20261026T165521_4f4bfe8e --format json",
+      "pid": 63,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:56:03.312400+00:00",
+      "elapsed_seconds": 0.6467,
+      "stdout_sha256": "66ac1e21691c3e4467d0d8a487694093d8853edabf4ae51e1bb89b28ca5d2cdc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "13_moved_handover_negative",
+      "logical_command": "yr-code work_handover --run out/operator_moved_journal_negative --format json",
+      "pid": 66,
+      "exit_code": 2,
+      "observed_utc": "2026-10-26T16:56:03.808739+00:00",
+      "elapsed_seconds": 0.4498,
+      "stdout_sha256": "5317984db2690fc86471a3247c5e845f75e0a11810d44a2ea586d266e8a026ad",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "14_cad_linux",
+      "logical_command": "yr-code cad doctor --local-only --format json",
+      "pid": 69,
+      "exit_code": 5,
+      "observed_utc": "2026-10-26T16:56:04.041046+00:00",
+      "elapsed_seconds": 0.231,
+      "stdout_sha256": "e81930949e48536d549efda097617eef5c6798129a0fede60f9d741f8691d7d1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "15_cad_forged_claims",
+      "logical_command": "yr-code cad open --local-only --input fixtures/osint_case.json --format json",
+      "pid": 72,
+      "exit_code": 5,
+      "observed_utc": "2026-10-26T16:56:04.279524+00:00",
+      "elapsed_seconds": 0.2371,
+      "stdout_sha256": "4e67b0767c44898efd8ec1dd5f3161433464aecc5bc83fc4c9b3e741c37e0c21",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "test": "16_manifest_after",
+      "logical_command": "yr-code evidence verify --manifest MANIFEST.json --format json",
+      "pid": 75,
+      "exit_code": 0,
+      "observed_utc": "2026-10-26T16:56:04.765273+00:00",
+      "elapsed_seconds": 0.4844,
+      "stdout_sha256": "6b446f08c0e2ce24455131f476665551cb9f4d151aa6673791e6cec86b10359a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "package_or_media_modified_by_operator": false,
+  "new_model_generation": false,
+  "new_paid_or_live_sponsor_calls": 0,
+  "residual_holds": [
+    "HOLD_EFFECTIVE_WINDOWS_INTEROP_UNPROVEN",
+    "HOLD_OPTIONAL_NODE_RUNTIME_IN_GUEST",
+    "PNG_ENCODED_BYTE_VARIANCE",
+    "UNRELATED_PHYSICAL_MACHINE_UNPROVEN",
+    "RAM_ENCRYPTION_ZEROIZATION_UNPROVEN",
+    "FULL_FILESYSTEM_PROCESS_OR_AGENT_SANDBOX_NOT_CERTIFIED",
+    "LIVE_NIGHTSHIFT_NVIDIA_UNEXECUTED",
+    "LIVE_ZETARIS_UNEXECUTED",
+    "AUTO_CAD_LICENSED_LOCAL_DESKTOP_UNEXECUTED",
+    "HUMAN_EXTERNAL_SUBMISSION_PENDING"
+  ],
+  "human_acceptance": "NOT_GRANTED",
+  "authority_effect": "NONE",
+  "finished_utc": "2026-10-26T17:09:06.598843+00:00"
+}

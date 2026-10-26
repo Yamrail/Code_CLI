@@ -56,6 +56,24 @@
       "id": "NATIVE_JOURNAL_RELOCATION",
       "state": "HOLD",
       "reason": "Relocated existing journals do not grant execution; create a fresh work order and refer to prior evidence hashes."
+    },
+    {
+      "id": "EFFECTIVE_WSL_WINDOWS_INTEROP",
+      "state": "HOLD",
+      "scope": "FIRST_BOOT_ISOLATION_ONLY",
+      "reason": "Fresh guest config requested interop disabled, but kernel registration was enabled. No global setting changed; no complete hostile-worker isolation claim."
+    },
+    {
+      "id": "UNRELATED_PHYSICAL_MACHINE",
+      "state": "HOLD",
+      "scope": "FIRST_BOOT_COVERAGE_ONLY",
+      "reason": "Independent operator used a fresh WSL2 Linux guest on the same physical host. Different physical hardware and a dedicated fresh VM were not measured."
+    },
+    {
+      "id": "PNG_ENCODED_BYTE_IDENTITY",
+      "state": "HOLD",
+      "scope": "CROSS_PLATFORM_ENCODED_PNG_BYTES_ONLY",
+      "reason": "Observed Windows/Linux PNG encodings differ. All decoded RGBA pixels match; SVG/PDF and source digests match. Exact encoded-byte identity is not claimed."
     }
   ],
   "local_hold_is_global_stop": false

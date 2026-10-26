@@ -1,0 +1,30 @@
+{
+  "schema": "yamrail.code-cli.operator-handoff/1",
+  "canonical_schema_conformance_claimed": false,
+  "sender": "OpenAI Codex root integration worker under received R007/R008 orders",
+  "receiver": "Next scoped technical operator; no external recipient acceptance recorded",
+  "work_orders": [
+    "YR-WO-HACK-CODE-CLI-HANDOFF-20261026-R007",
+    "YR-WO-HACK-CODE-CLI-OSINT-CAD-LOCAL-20261026-R008"
+  ],
+  "source_repository": "Yamrail/Code_CLI",
+  "source_code_commit": "f8e78d0c173dfdb01b0d39c1f580418c02d1e8c0",
+  "tested_boot_commit": "7b0551c703aadf5da385c1ea33b24cfc6a6035f1",
+  "native_state_owner": "Existing Ingridge WorkLedger engine; fresh local fixture journals only",
+  "evidence": [
+    "evidence/observed_and_labelled/FIRST_BOOT_SUMMARY.json",
+    "evidence/observed_and_labelled/INDEPENDENT_NATIVE_AUDIT.json",
+    "evidence/observed_and_labelled/INDEPENDENT_CLI_AUDIT.json",
+    "MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "holds": "HOLD_REGISTER.json",
+  "authority": "LOCAL_REVERSIBLE_AND_PRIVATE_DRAFT_ONLY",
+  "human_submission_gate": "HUMAN_SUBMISSION_GATE.json",
+  "external_release_or_submission": "PENDING_SEPARATE_HUMAN_ARTIFACT",
+  "receiver_acknowledgement": "NOT_RECEIVED_NOT_SELF_APPROVED",
+  "final_profile_hashes": "External finite Private delivery record; no self-hash or future commit is embedded here",
+  "next_workface": "Verify the unpacked package, run a fresh local work order, retain native evidence, and extend through the explicit host adapter contract",
+  "journal_relocation": "Start a new journal after moving sources; use work_handover hashes to refer to previous evidence. No automatic rebinding or unknown-effect retry.",
+  "semantic_acceptance": "Not inferred from matching bytes or local PASS"
+}

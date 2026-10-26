@@ -1,13 +1,17 @@
 {
   "schema": "yamrail.code-cli.generation-provenance/1",
   "product": "YamRail/Code_CLI",
-  "received_human_execution_orders": ["R007", "R008"],
+  "received_human_execution_orders": [
+    "R007",
+    "R008"
+  ],
   "source_order_pins": "SOURCE_PINS.json",
   "generation": {
     "root_cli_docs_package_and_installers": "OpenAI Codex root worker, current authorized Private construction",
     "native_adapters": "OpenAI Codex implementation worker, pinned original native code with labelled local derivatives",
     "osint_renderer_and_shelf": "OpenAI Codex source/render worker, exact upstream source and licensed font with extraction receipts",
-    "media": "OpenAI Codex presentation worker, actual selected command receipts and original graphics"
+    "media": "OpenAI Codex presentation worker, actual selected command receipts and original graphics",
+    "final_observation_and_handoff_metadata": "Root integration worker; exact sanitized independent operator summary/readback and labelled finite-staging derivative; no runtime edits"
   },
   "file_grounding": "Every finite MANIFEST row records the byte hash and an origin record. Source provenance, original notices, actual execution observations and generated fixtures remain distinct.",
   "synthetic_inputs": "fixtures/ contains self-authored synthetic cases and projections. They are not real-world incident evidence.",
@@ -17,5 +21,13 @@
   "human_approval_claimed": false,
   "authority_effect": "NONE",
   "external_submission": "PENDING_SEPARATE_HUMAN_ARTIFACT",
-  "own_hash": "Recorded by finite MANIFEST, not embedded recursively here"
+  "own_hash": "Recorded by finite MANIFEST, not embedded recursively here",
+  "independent_first_boot": {
+    "record": "evidence/observed_and_labelled/FIRST_BOOT_SUMMARY.json",
+    "sha256": "7dda1910a405256f7c5f2859c63c525c8f14cd847eb287ea2bb3669dcf9176d7",
+    "scope": "FRESH_WSL2_GUEST_ON_SAME_PHYSICAL_HOST",
+    "new_full_core_primaries": 1,
+    "source_commit_tested": "7b0551c703aadf5da385c1ea33b24cfc6a6035f1"
+  },
+  "profile_assembly": "Separate deterministic Private profile construction from committed common source plus exact reviewed staging. External delivery receipts bind final ZIP bytes; no self-hash recursion."
 }

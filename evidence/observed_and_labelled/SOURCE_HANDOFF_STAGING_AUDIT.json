@@ -1,0 +1,37 @@
+{
+  "schema": "code-cli.independent-finite-staging-review/1",
+  "observed_utc": "2026-10-26T17:00:25.796509+00:00",
+  "verdict": "PASS_SCOPED_FINITE_STAGING",
+  "scope": "ONLY_REVIEWED_FULL_AUTHORIZED_HANDOFF_DIRECTORY; NO_RAW_R005_ARCHIVE_OR_PROTECTED_PATHS",
+  "manifest_sha256": "057cdc0a3ee80cdff96659298a5e1f5a0b669b22745de0ede66733650e9f91c0",
+  "manifest_file_count": 140,
+  "actual_file_count_including_self_excluded_manifest": 141,
+  "exact_inventory": true,
+  "total_bytes": 17175299,
+  "source_positions": 129,
+  "deduplicated_source_objects": 99,
+  "original_maturity": {
+    "SOURCE_RECORDED_PR_OPEN_DRAFT_True": 113,
+    "SOURCE_RECORDED_PR_OPEN_DRAFT_False": 2,
+    "SOURCE_MATURITY_RETAINED_NOT_USED_AS_ADMISSION_GATE": 14
+  },
+  "license_dispositions": {
+    "OWNER_RELEASE_PENDING": 129
+  },
+  "execution_dispositions": {
+    "SOURCE_ONLY_NOT_EXECUTED_OR_QUALIFIED_BY_R007": 129
+  },
+  "release_state": "OWNER_AND_NAMED_SCOPE_RELEASE_PENDING",
+  "source_only_not_execution_authority": true,
+  "original_archive_not_in_profile": true,
+  "source_and_fixture_files_scanned": 136,
+  "source_secret_or_author_path_flags": [],
+  "source_assignment_review_flags": [],
+  "instance_ledger_flags": [],
+  "references_counted_as_source_code": false,
+  "original_report_sha256": "d91bb62f1b86c3129d6d507fbc686a17102229dfd4ab3d7502339b3e711abf16",
+  "summary_class": "SANITIZED_DERIVATIVE_OF_INDEPENDENT_FINITE_STAGING_REVIEW",
+  "independence_scope": "Finite packaging/input bytes; not acceptance of auditor-authored native implementation",
+  "full_system_or_secret_freedom_certification": false,
+  "human_approval": false
+}

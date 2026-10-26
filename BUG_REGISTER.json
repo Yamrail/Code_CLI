@@ -29,6 +29,24 @@
       "state": "FIXED_INDEPENDENT_REINSPECTION_7_PASS_PLUS_8_HOST_CHECKS",
       "original_proof_retained": "BUILDER_ONLY; no original failure erased",
       "no_new_full_primary_demo_for_reinspection": true
+    },
+    {
+      "id": "FIRST_BOOT_R001_INTEROP_PRECONDITION",
+      "observed": "Configured-disabled Windows interop had an enabled kernel registration before any package command.",
+      "state": "OPEN_LOCAL_ISOLATION_HOLD_SCOPED_REPRODUCTION_CONTINUED",
+      "original_failure_erased": false
+    },
+    {
+      "id": "FIRST_BOOT_R002_CAD_HARNESS_SCHEMA",
+      "observed": "Harness required AUTHORITY_DENIED text; saved command receipts showed intended HOLD/exit5/DENY without launching or fallback.",
+      "state": "DERIVED_SEMANTIC_REVIEW_FROM_ORIGINAL_RECEIPTS_NO_RERUN",
+      "original_false_flags_retained": true
+    },
+    {
+      "id": "FIRST_BOOT_R002_PNG_ENCODING",
+      "observed": "Encoded PNG SHA differs across platforms; exact decoded RGBA matches with zero changed pixels.",
+      "state": "ENCODING_VARIANCE_DISCLOSED_ORIGINAL_BYTES_UNCHANGED",
+      "encoded_byte_identity_claimed": false
     }
   ],
   "failure_erasure": false,

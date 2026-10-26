@@ -9,7 +9,7 @@
     ".venv/",
     "__pycache__/"
   ],
-  "file_count": 232,
+  "file_count": 238,
   "files": [
     {
       "bytes": 334,
@@ -48,13 +48,13 @@
       "sha256": "3936985f12e735086dee7724961b04b52a9a18336aeffc4ea43dbc13e0f88f7b"
     },
     {
-      "bytes": 1993,
+      "bytes": 2926,
       "origin": {
         "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
         "record": "GENERATION_RECEIPT.json"
       },
       "path": "BUG_REGISTER.json",
-      "sha256": "aaf1069633a56108c87c9c2c345e3ba886bdec1aecb7b8e486592566b2e61acc"
+      "sha256": "651a9a3e26b8564ffee74a850617ecc33ded14aef1665bec27be2ca0a61296d4"
     },
     {
       "bytes": 13611,
@@ -66,22 +66,40 @@
       "sha256": "bb3ec48a0a23b847c2808841d1ae0ab2109d8ff4436f0bb38df4180e5e4258ef"
     },
     {
-      "bytes": 1370,
+      "bytes": 2157,
       "origin": {
         "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
         "record": "GENERATION_RECEIPT.json"
       },
       "path": "GENERATION_RECEIPT.json",
-      "sha256": "df5a183b009232574cc3736f7d04ba4568e1f67213737f3d3e2188970e90f0bb"
+      "sha256": "fed6f2d2f26276c945cdd4564c731fcab974d4f9ce380c2e8f25ad7aa7b304fe"
     },
     {
-      "bytes": 2016,
+      "bytes": 3065,
+      "origin": {
+        "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "HANDOFF_JA.md",
+      "sha256": "712b0c860c7dc371ee0b716343e84b9ec8c42784d76de4f91b6143851a2d5762"
+    },
+    {
+      "bytes": 1749,
+      "origin": {
+        "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "HANDOFF_RECORD.json",
+      "sha256": "a0819768e505cbb43911b1b28849ae3ef595183881eef9629b9f617e3becca25"
+    },
+    {
+      "bytes": 2926,
       "origin": {
         "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
         "record": "GENERATION_RECEIPT.json"
       },
       "path": "HOLD_REGISTER.json",
-      "sha256": "e9dcee22bb1f75133499a12f1656aa6b9878b06b6e1a3b912c82fdaa9adc5dc0"
+      "sha256": "6648b29dcb6e7e015b20667f23368b37f1fdad9f19b18931702f96d0df0e84d3"
     },
     {
       "bytes": 824,
@@ -120,13 +138,13 @@
       "sha256": "6df1a989bcbcee06a43652238b0ca3a60901e141526f81cd2140b15a4a42a649"
     },
     {
-      "bytes": 4740,
+      "bytes": 5200,
       "origin": {
         "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
         "record": "GENERATION_RECEIPT.json"
       },
       "path": "README.md",
-      "sha256": "5a7c5c99a1d9f231cf76dbd4f2ee3786e26d7c7295e7031ebe0fafdd69641e93"
+      "sha256": "20fb80e473fd053ff776871f87e956fb1743c28121fbe4d7ea84299630e612df"
     },
     {
       "bytes": 3567,
@@ -136,6 +154,15 @@
       },
       "path": "README_JA.md",
       "sha256": "d2afbfce80d11d73e91a7602f0014bba8a8aaeff4bc67ba922502068ed73bb93"
+    },
+    {
+      "bytes": 3310,
+      "origin": {
+        "kind": "R007_R008_GENERATED_SOURCE_DOCUMENT_OR_SYNTHETIC_FIXTURE",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "REPRODUCTION.md",
+      "sha256": "50d8fc68a1bcf32c82fd706a2505ee575acf0b69a278e541e4c3ab9b5e6f2f24"
     },
     {
       "bytes": 1805,
@@ -507,6 +534,24 @@
       "sha256": "6a08df61941f87465b1159d94e6a7f5d8cc181ed419da6b5c12c418ce6924727"
     },
     {
+      "bytes": 3222,
+      "origin": {
+        "kind": "LABELLED_OBSERVATION_OR_DERIVED_RESEARCH_RECORD",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "evidence/observed_and_labelled/FIRST_BOOT_READBACK.md",
+      "sha256": "92afb4b64af75fd41fd46e829cd62b55e7f9686fb66cdb25c8f429ae5f0a9a13"
+    },
+    {
+      "bytes": 18645,
+      "origin": {
+        "kind": "LABELLED_OBSERVATION_OR_DERIVED_RESEARCH_RECORD",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "evidence/observed_and_labelled/FIRST_BOOT_SUMMARY.json",
+      "sha256": "7dda1910a405256f7c5f2859c63c525c8f14cd847eb287ea2bb3669dcf9176d7"
+    },
+    {
       "bytes": 2714,
       "origin": {
         "kind": "LABELLED_OBSERVATION_OR_DERIVED_RESEARCH_RECORD",
@@ -532,6 +577,15 @@
       },
       "path": "evidence/observed_and_labelled/R008_SUPERVISED_EXPORT.json",
       "sha256": "307fb502bf67320360d6e89eee9308f8c531caa90387fb83d3c15256b619c714"
+    },
+    {
+      "bytes": 1667,
+      "origin": {
+        "kind": "LABELLED_OBSERVATION_OR_DERIVED_RESEARCH_RECORD",
+        "record": "GENERATION_RECEIPT.json"
+      },
+      "path": "evidence/observed_and_labelled/SOURCE_HANDOFF_STAGING_AUDIT.json",
+      "sha256": "0988f02250c28c57008ca6f0fbb0c51f944e9b060fcd107ed9513f65fb2aa0ff"
     },
     {
       "bytes": 4099,
@@ -2103,10 +2157,10 @@
       "sha256": "af9bd181ba8d2f6967ef5a7c9db32efb5636cb90f5a4becbf71332e8639f3572"
     }
   ],
-  "label": "R007_R008_BOOT_CANDIDATE_SOURCE_f8e78d0c173dfdb01b0d39c1f580418c02d1e8c0",
+  "label": "R007_R008_FINAL_COMMON_SOURCE_WITH_INDEPENDENT_FIRST_BOOT",
   "own_hash": "NOT_EMBEDDED",
   "schema": "yamrail.code-cli.finite-manifest/1",
   "scope": "PRIVATE_CANDIDATE_NOT_HUMAN_RELEASE_APPROVAL",
   "stochastic_decision": "NOT_INFERRED_FROM_DETERMINISTIC_FREEZE",
-  "total_bytes": 49934267
+  "total_bytes": 49969015
 }
