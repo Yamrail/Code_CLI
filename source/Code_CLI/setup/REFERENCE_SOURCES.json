@@ -1,0 +1,46 @@
+{
+  "schema": "yamrail.r010.pinned-readonly-references/1",
+  "source_sha256": "a03e12182e337583f68635d70526ae1a64821dbc9e36ce04cdf266ee162de5a1",
+  "runtime_authority": false,
+  "references": {
+    "eea": {
+      "repo": "https://github.com/Yamrail/EEA",
+      "commit": "8cd2c0286213ff51b7e95587040aedef55c1181e",
+      "purpose": "EVALUATION_ENVIRONMENT_AUDIT_AND_WORK_TICKET_GATE",
+      "files": [
+        "README.md",
+        "LICENSE.md",
+        "EEA_v1.0_Draft.md",
+        "docs/EEA_OCTOBER_2026_PUBLIC_REVIEW.md",
+        "docs/HUMAN_APPROVAL_AND_SIGNATURE_20261025.md",
+        "docs/yamrail_ai_work_ticket_gate_poc.md",
+        "tools/yamrail_ai_work_ticket_gate.py",
+        "tests/test_yamrail_ai_work_ticket_gate.py",
+        "tests/fixtures",
+        "constitutional/IRREVERSIBLE_HUMAN_LIFE_LOSS_EXCLUSION_RULE.md"
+      ],
+      "status": "PUBLIC_DRAFT_AND_PUBLIC_REVIEW_NOT_NORMATIVE_ADOPTION",
+      "licensing": "CUSTOM_TERMS_IN_LICENSE_MD",
+      "distribution": "PIN_LINKS_FIRST_FULL_REDISTRIBUTION_REQUIRES_RIGHTS_CHECK",
+      "run_scope": "OPTIONAL_READ_ONLY_12_SYNTHETIC_TESTS"
+    },
+    "gpl_core": {
+      "repo": "https://github.com/Yamrail/Yamrail",
+      "commit": "0d6f1532a496c2033502d11adbebdda18b11e963",
+      "purpose": "PUBLIC_LEGACY_CORE_SPECIFICATION_NOT_PRIVATE_RUNTIME",
+      "files": [
+        "README.md",
+        "packages/core-engine/src/prompts/yamrail_core_v0.7.0_lite.yaml",
+        "packages/core-engine/src/prompts/yamrail_core_v0.6.7_full.yaml",
+        "docs/yamrail_guidebook_v0.7.1.txt",
+        "docs/yamrail_appendix_b_v0.7.1.txt"
+      ],
+      "status": "PUBLIC_REFERENCE",
+      "licensing": "GPL_3_0_CLAIM_IN_REPO_README_VERIFY_NOTICES_AT_BUILD",
+      "distribution": "IF_BUNDLED_KEEP_SEPARATE_COPYRIGHT_SOURCE_AND_GPL_NOTICES",
+      "run_scope": "READ_ONLY_TEXT_SPEC_NO_AUTOMATIC_PROMPT_INJECTION"
+    }
+  },
+  "default_acquisition": "PINNED_STATIC_REFERENCE_ONLY",
+  "full_snapshots_distributed": false
+}

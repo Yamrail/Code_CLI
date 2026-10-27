@@ -1,0 +1,6 @@
+.yr-code/
+__pycache__/
+*.pyc
+.venv/
+.env
+out/

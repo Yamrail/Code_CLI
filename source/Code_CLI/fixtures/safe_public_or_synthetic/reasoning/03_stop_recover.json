@@ -1,0 +1,12 @@
+{
+  "case_id": "STOP_AND_ALTERNATIVE",
+  "primary_source": "OLD",
+  "fallback_source": "CURRENT",
+  "expect_repair": true,
+  "unsupported_first_claim": true,
+  "stop_before_evaluation": true,
+  "sources": [
+    {"source_id": "OLD", "evidence_state": "UNKNOWN", "fixture_original_text": "revision=unverified\nautomatic_retry=true\n", "observation": "The old note has unknown applicability and cannot establish the current retry policy."},
+    {"source_id": "CURRENT", "evidence_state": "CONFIRMED_FIXTURE", "fixture_original_text": "revision=synthetic-current\nunknown_completion=hold\nautomatic_retry=false\n", "observation": "The current synthetic policy preserves UNKNOWN completion and disables automatic retry. The conflicting old source remains in history."}
+  ]
+}

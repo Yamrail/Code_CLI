@@ -1,0 +1,17 @@
+{
+  "schema": "yamrail.r010.public-setup-binding/1",
+  "current_revision": "R010_PUBLIC_MINIMALLY_WIRED",
+  "policy": "YR_JUDGE_WINDOWS_MOOT_BOOTSTRAP_R001.yaml",
+  "public_setup_is_derivative": true,
+  "originals": "Exact originals are preserved in the owner handoff; private-origin metadata is excluded here",
+  "optional_references": "PINNED_STATIC_REFERENCE_ONLY; not HOLD; no base demo blocker",
+  "API_probe_default": "NOT_EXECUTED",
+  "owner_connection_route": "NOT_DISTRIBUTED",
+  "source_manifest": "../MANIFEST.json",
+  "final_polish_order": "YR-WO-CODECLI-R010-FINAL-POLISH-20261027",
+  "current_overrides": {
+    "sample_mode": "Automatic for fixed sample/demo commands; dotenv example defaults true",
+    "world_model": "Node preferred, automatic stdlib Python equivalent projection when unavailable",
+    "current_markdown": "Typographic/quickstart derivatives; exact four supplied originals remain in Private evidence/originals/setup"
+  }
+}

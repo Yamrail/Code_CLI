@@ -1,0 +1,7 @@
+{
+  "state": "PASS_ACTUAL_NIGHTSHIFT_NEMOTRON_CUDA",
+  "measured_scope": "2/43 layers offloaded; CUDA0 model buffer 744.11 MiB and compute buffer 120.36 MiB; remaining model weights use host RAM; NOT full-GPU residency",
+  "historical": true,
+  "source_response_sha256": "1509b9f575b26b5f48442217bb469824a1e020116eb179ed974ebd3bcff859fc",
+  "speedup_guarantee": "NOT_CLAIMED"
+}

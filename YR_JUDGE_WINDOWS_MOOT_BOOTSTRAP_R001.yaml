@@ -1,0 +1,425 @@
+schema: YR_JUDGE_WINDOWS_MOOT_BOOTSTRAP_R001
+document_id: YR-DOC-JUDGE-WINDOWS-BOOTSTRAP-20261027-R001
+issued_jst: '2026-10-27'
+status: R010_PUBLIC_SANITIZED_SETUP_DERIVATIVE
+priority: P1_JUDGE_USABILITY
+executor: CODEX_CLI_OR_CLAUDE_CODE_ON_JUDGE_HOST
+language: EN_PRIMARY_JA_SUPPLEMENT
+objective: 'Treat Windows installation as the first demonstrable engineering work order. Inspect the actual
+  host, resolve declared dependencies, install the sealed Code_CLI candidate without changing existing
+  CAD or other software, run credential-free Track 3 fixtures, then inspect EEA and public GPL Core as
+  separately pinned read-only references. Produce a Moot projection and verifiable receipts for each step,
+  without requiring an installed Moot engine.
+
+  '
+principles:
+- COTS_TERMINAL_BLOCK_FIRST
+- DO_NOT_CONFUSE_CAPABILITY_WITH_AUTHORITY
+- ITEM_NAME_IS_NOT_STATE
+- DEPENDENCY_IS_NOT_VALUE
+- EEA_DRAFT_IS_NOT_CANONICAL_ADOPTION
+- SOURCE_REFERENCE_IS_NOT_RUNTIME_AUTHORIZATION
+- LOCAL_HOLD_IS_NOT_GLOBAL_STOP
+- PROVIDER_REPLAY_IS_NOT_NEW_LIVE_INFERENCE
+- NEVER_UPGRADE_UNKNOWN_TO_PASS
+- NO_UNGROUNDED_FOURTH_RUN
+- ALL_FAILURES_AND_ORIGINAL_BYTES_RETAINED
+pinned_public_references:
+  eea:
+    repo: https://github.com/Yamrail/EEA
+    commit: 8cd2c0286213ff51b7e95587040aedef55c1181e
+    purpose: EVALUATION_ENVIRONMENT_AUDIT_AND_WORK_TICKET_GATE
+    files:
+    - README.md
+    - LICENSE.md
+    - EEA_v1.0_Draft.md
+    - docs/EEA_OCTOBER_2026_PUBLIC_REVIEW.md
+    - docs/HUMAN_APPROVAL_AND_SIGNATURE_20261025.md
+    - docs/yamrail_ai_work_ticket_gate_poc.md
+    - tools/yamrail_ai_work_ticket_gate.py
+    - tests/test_yamrail_ai_work_ticket_gate.py
+    - tests/fixtures
+    - constitutional/IRREVERSIBLE_HUMAN_LIFE_LOSS_EXCLUSION_RULE.md
+    status: PUBLIC_DRAFT_AND_PUBLIC_REVIEW_NOT_NORMATIVE_ADOPTION
+    licensing: CUSTOM_TERMS_IN_LICENSE_MD
+    distribution: PIN_LINKS_FIRST_FULL_REDISTRIBUTION_REQUIRES_RIGHTS_CHECK
+    run_scope: OPTIONAL_READ_ONLY_12_SYNTHETIC_TESTS
+  gpl_core:
+    repo: https://github.com/Yamrail/Yamrail
+    commit: 0d6f1532a496c2033502d11adbebdda18b11e963
+    purpose: PUBLIC_LEGACY_CORE_SPECIFICATION_NOT_PRIVATE_RUNTIME
+    files:
+    - README.md
+    - packages/core-engine/src/prompts/yamrail_core_v0.7.0_lite.yaml
+    - packages/core-engine/src/prompts/yamrail_core_v0.6.7_full.yaml
+    - docs/yamrail_guidebook_v0.7.1.txt
+    - docs/yamrail_appendix_b_v0.7.1.txt
+    status: PUBLIC_REFERENCE
+    licensing: GPL_3_0_CLAIM_IN_REPO_README_VERIFY_NOTICES_AT_BUILD
+    distribution: IF_BUNDLED_KEEP_SEPARATE_COPYRIGHT_SOURCE_AND_GPL_NOTICES
+    run_scope: READ_ONLY_TEXT_SPEC_NO_AUTOMATIC_PROMPT_INJECTION
+reference_snapshot_strategy:
+  package_builder: 'Before public release, inspect EEA/LICENSE.md and GPL Core GPL notices. Include unchanged
+    source snapshots in a distinct read-only reference/ subtree only within confirmed distribution authority.
+    Pin all source commits and record SHA256 of each member; do not auto-import their text into agent
+    system prompts or the current private runtime.
+
+    '
+  judge_first_choice: BUNDLED_PINNED_REFERENCE_SNAPSHOT_IF_AUTHORIZED_AND_AVAILABLE
+  judge_second_choice: FETCH_PUBLIC_PINNED_REPO_WITH_STANDARD_GIT_IF_NETWORK_AVAILABLE
+  judge_no_reference: PINNED_STATIC_REFERENCE_ONLY_BASE_DEMO_CONTINUES
+  no_hidden_internet_requirement_for_core_demo: true
+  original_public_source_is_not_canonical_workledger: true
+reviewer_boundary:
+  operating_system: WINDOWS_10_OR_11_X64_MEASURE_NOT_ASSUME
+  agent_choices:
+  - Codex_CLI
+  - Claude_Code
+  - HUMAN_TERMINAL
+  agent_is_not_required_for_default_sample: true
+  no_cloud_api_required_for_default_sample: true
+  no_github_access_required_after_authorized_offline_bundle_is_present: true
+  use_powershell: true
+  enable_execution_policy_bypass: false
+  prefer_existing_python: CPYTHON_3_12_X64
+  prefer_existing_node: NODE_24_19_0_IF_COMPATIBLE
+  python_base_minimum: '3.11'
+  offline_wheelhouse_python: '3.12'
+  allow_other_node_versions: ONLY_AFTER_VERSIONED_SMOKE_TEST
+  fallback_principle: REUSE_COTS_OR_PORTABLE_VERIFIED_RUNTIME
+  do_not_install_global_dependencies_unnecessarily: true
+  do_not_modify_existing_cad_apps_projects_registry_or_services: true
+  avoid_windows_long_paths: true
+moot_contract:
+  meaning: 'The register is an evidence-bound dependency and closure plan. It is not a Kanban board, an
+    independent canonical ledger, or a claim that the judge has a proprietary YamRail Moot tool installed.
+
+    '
+  item_fields:
+  - moot_id
+  - item_name
+  - initial_state
+  - dependency_edges
+  - observed_fact
+  - evidence_refs
+  - closure_condition
+  - unresolved_fields
+  initial_state_vocabulary:
+  - UNKNOWN
+  - HOLD
+  - ACTIVE
+  - PASS
+  - FAIL
+  - NOT_EXECUTED
+  permitted_edge_types:
+  - HARD_DEPENDENCY
+  - CURRENT_ROUTE_ONLY
+  output_projection: INSTALL_MOOT_RESULT.json
+  state_writer: JUDGE_LOCAL_NONCANONICAL_RECEIPT_ONLY
+  canonical_writer: EXISTING_INGRIDGE_WORKLEDGER_WHEN_RUNNING
+  no_moot_engine_needed: true
+  no_automatic_human_gate_approval: true
+  state_rules:
+  - Every node begins UNKNOWN until observed on this host.
+  - HARD_DEPENDENCY blocks only its dependent route when unmet.
+  - CURRENT_ROUTE_ONLY may HOLD without stopping an independent route.
+  - Keep observed version, path, result, and source digest separate from state.
+  - A package hash verifies bytes, not trust, safety, or human approval.
+  - Never turn a referenced EEA or GPL Core document into runtime authority.
+moot_items:
+- moot_id: M-J00
+  item_name: Windows host boundary and writable isolated workspace
+  initial_state: UNKNOWN
+  dependency_edges: []
+  observed_fact: OS_BUILD_ARCH_FREE_SPACE_USER_WRITE_SCOPE
+  evidence_refs:
+  - HOST_INVENTORY.json
+  closure_condition: WINDOWS_X64_AND_SCOPED_DIRECTORY_WRITABLE
+  unresolved_fields:
+  - host_version
+  - arch
+  - install_path
+  - available_disk
+- moot_id: M-J01
+  item_name: Exact R010 archive and current source manifest verification
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J00
+    type: HARD_DEPENDENCY
+  observed_fact: ZIP_SHA256_MATCH_AND_MANIFEST_PASS
+  evidence_refs:
+  - ARCHIVE_VERIFICATION.json
+  closure_condition: MATCH_EXPECTED_ZIP_SHA256_AND_MEMBER_MANIFEST
+  unresolved_fields:
+  - archive_path
+  - observed_sha256
+- moot_id: M-J02
+  item_name: Compatible Python runtime and offline wheelhouse
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J00
+    type: HARD_DEPENDENCY
+  observed_fact: PYTHON_3_12_X64_FOUND_OR_SCOPED_VERIFIED_RUNTIME_PREPARED
+  evidence_refs:
+  - RUNTIME_DISCOVERY.json
+  closure_condition: PYTHON_3_12_PASSES_VERSION_ARCH_AND_LAUNCH_TEST
+  unresolved_fields:
+  - python_path
+  - python_version
+  - python_arch
+- moot_id: M-J03
+  item_name: Node runtime for Meterless World Model
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J00
+    type: HARD_DEPENDENCY
+  observed_fact: NODE_PATH_VERSION_AND_SMOKE_TEST
+  evidence_refs:
+  - RUNTIME_DISCOVERY.json
+  closure_condition: NODE_COMPATIBLE_AND_WORLD_MODEL_SMOKE_PASS
+  unresolved_fields:
+  - node_path
+  - node_version
+- moot_id: M-J04
+  item_name: Offline Python installation and Code_CLI doctor
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J01
+    type: HARD_DEPENDENCY
+  - to: M-J02
+    type: HARD_DEPENDENCY
+  observed_fact: NO_NETWORK_VENV_INSTALL_AND_DOCTOR_EXIT_ZERO
+  evidence_refs:
+  - CODECLI_INSTALL_RECEIPT.json
+  - CODECLI_DOCTOR.json
+  closure_condition: VERIFY_INSTALL_AND_DOCTOR_PASS
+  unresolved_fields:
+  - installer_exit_code
+  - doctor_exit_code
+- moot_id: M-J05
+  item_name: Credential-free three-case Track 3 execution
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J04
+    type: HARD_DEPENDENCY
+  - to: M-J03
+    type: HARD_DEPENDENCY
+  observed_fact: THREE_FRESH_LOCAL_WORK_ORDERS_AND_NATIVE_READBACK
+  evidence_refs:
+  - SAMPLE_RUN_RECEIPT.json
+  closure_condition: CONFIRMED_INSUFFICIENT_AND_STOP_RECOVER_PASS_WITH_SEPARATE_EVENTS
+  unresolved_fields:
+  - run_ids
+  - event_hashes
+  - failures
+  - holds
+- moot_id: M-J06
+  item_name: EEA public reference and independent fixture gate
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J02
+    type: CURRENT_ROUTE_ONLY
+  observed_fact: PINNED_EEA_SOURCE_AND_TWELVE_TEST_DECISIONS
+  evidence_refs:
+  - EEA_SOURCE_RECEIPT.json
+  - EEA_GATE_OUTPUT.txt
+  closure_condition: EEA_COMMIT_VERIFIED_AND_12_EXPECTED_DECISIONS_OBSERVED
+  unresolved_fields:
+  - snapshot_access
+  - rights
+  - gate_result
+- moot_id: M-J07
+  item_name: GPL Core public Lite and Full specification review
+  initial_state: UNKNOWN
+  dependency_edges: []
+  observed_fact: PINNED_CORE_LITE_FULL_AND_LICENSE_REVIEW
+  evidence_refs:
+  - GPLCORE_SOURCE_RECEIPT.json
+  closure_condition: EXACT_COMMIT_FILES_READABLE_AND_NOTICES_RETAINED
+  unresolved_fields:
+  - snapshot_access
+  - license_notices
+- moot_id: M-J08
+  item_name: Reviewer evidence and independent reproduction summary
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J01
+    type: HARD_DEPENDENCY
+  - to: M-J05
+    type: HARD_DEPENDENCY
+  - to: M-J06
+    type: CURRENT_ROUTE_ONLY
+  - to: M-J07
+    type: CURRENT_ROUTE_ONLY
+  observed_fact: LOCAL_EVENTS_SOURCE_IDS_AND_HOLD_VECTOR
+  evidence_refs:
+  - JUDGE_ACCEPTANCE.json
+  - INSTALL_MOOT_RESULT.json
+  closure_condition: BASE_DEMO_PASS_AND_OPTIONAL_REFERENCE_STATUS_EXPLICIT
+  unresolved_fields:
+  - reviewer_approval
+  - independence_of_hardware
+- moot_id: M-J09
+  item_name: Optional single OpenAI API connectivity probe
+  initial_state: UNKNOWN
+  dependency_edges:
+  - to: M-J00
+    type: CURRENT_ROUTE_ONLY
+  observed_fact: HUMAN_AUTHORIZED_LIVE_RESPONSE_OR_EXPLICIT_NOT_EXECUTED
+  evidence_refs:
+  - SOL_API_CONNECTIVITY_RECEIPT.json
+  closure_condition: EXACT_MODEL_RESPONSE_AND_USAGE_OBSERVED_OR_LOCAL_HOLD_RECORDED
+  unresolved_fields:
+  - local_auth_availability
+  - model_access
+  - account_cost
+execution_sequence:
+  W00_inventory:
+    required: true
+    instructions:
+    - Record OS, architecture, free disk, cwd, Python, Node, Git and agent availability.
+    - Use existing COTS commands; do not search indefinitely for new tools.
+    - Never read or copy existing Codex/Claude secrets into the package.
+    - Classify every Moot node UNKNOWN until its actual host check completes.
+  W01_unpack:
+    required: true
+    instructions:
+    - Verify current R010 judge ZIP SHA256 before extraction.
+    - Extract to a new short path with sufficient write permissions.
+    - Never overwrite the CAD installation or pre-existing project files.
+    - Verify the included source/Code_CLI manifest before using bundled code.
+    - Preserve failed receipts and original ZIP unchanged.
+  W02_runtime:
+    required: true
+    instructions:
+    - Prefer existing Python 3.12 x64 and Node on PATH.
+    - If Python 3.12 is absent, use a verified COTS installation or portable copy inside the scoped yard.
+    - Do not silently replace system Python or global Node.
+    - No Node binary is included; supply qualified Node or set RTA_NODE explicitly.
+    - Only run the package's offline installer after verifying its wheelhouse.
+  W03_base_demo:
+    required: true
+    cwd: source/Code_CLI
+    commands_powershell:
+    - py -3.12 -B yr_code.py evidence verify --manifest MANIFEST.json
+    - py -3.12 -B install.py
+    - .\yr-code.cmd doctor --format json
+    - $env:SAMPLE_MODE = "true"
+    - .\yr-code.cmd sample --all
+    - .\yr-code.cmd status --format json
+    inspection:
+    - All three cases are real local processes with synthetic decision fixtures.
+    - Native source/journal digests and STOP/readback must be preserved.
+    - Unmet optional sponsors cannot block these offline steps.
+    - Do not repeat completed 3RUN qualification without a new justified cause.
+  W04_reference_eea:
+    required_for_base_demo: false
+    instructions:
+    - Use an available separately pinned EEA snapshot, or fetch public exact commit if network is allowed.
+    - Respect LICENSE.md; reference does not grant unrestricted redistribution rights.
+    - Compare exact repo commit and record SHA256 for each inspected file.
+    - Run the published 12-case work-ticket gate with Python standard library.
+    - Interpret T1/T6 PASS, T2/T3/T4/T5 and T7-T12 expected HOLD/BLOCKED separately.
+    - The gate's --receipt covers one pass case, not all 12 cases; retain stdout to evidence the full
+      set.
+    command_powershell: py -3.12 -B tools/yamrail_ai_work_ticket_gate.py --project-root . --run-fixtures
+      --validate-exemplar
+    cwd: reference/EEA
+  W05_reference_gpl_core:
+    required_for_base_demo: false
+    instructions:
+    - Use the pinned public repository and read Core Lite 0.7.0, then Core Full 0.6.7.
+    - Compare README license claims and shipped notices before redistributing copies.
+    - Treat GPL Core as independent historical/public design reference, not a runtime policy upgrade.
+    - Do not copy full Core text into an agent system prompt or claim runtime model control.
+    cwd: reference/GPLCore
+  W06_optional_api:
+    required_for_base_demo: false
+    live_probe_default: NOT_EXECUTED
+    model: gpt-6.1-sol
+    provider: OPENAI
+    method: COTS_RESPONSES_API_OR_EXISTING_CODEX_CLI_LOGIN
+    route_precedence:
+    - codex login status (if Codex is installed; do not extract its auth secrets)
+    - Codex read-only one-shot using its existing authenticated session, if supported
+    - OPENAI_API_KEY scoped host environment variable
+    - Human foreground entry through the included API probe
+    note: 'A Claude Code login is not an OpenAI API key. An existing Codex OAuth login is not itself a
+      readable API key for a separate Python REST client.
+
+      '
+    provided_snippet: OPENAI_API_PROBE.py
+    authorization: EXPLICIT_HUMAN_LIVE_GATE_ONLY
+    safeguards:
+    - No API call during setup, archive verification, EEA checks, or sample fixtures.
+    - No automatic paid request, key minting, or credential copying.
+    - One synthetic request after explicit --live and human confirmation.
+    - Do not automatically retry ambiguous completion or consume another attempt.
+    - No substitution if preferred model is unavailable.
+    - Never print secret, authorization header, or external error body.
+  W07_acceptance:
+    required: true
+    instructions:
+    - Write INSTALL_MOOT_RESULT.json and HOST_INVENTORY.json from actual observations.
+    - Report pass/hold/unknown per item; do not fabricate a new canonical WorkLedger.
+    - Record manifest hash, current run hashes, and source attribution.
+    - Clearly label replay, synthetic, executed local work, and live provider calls.
+    - Show the reviewer where to find STOP/RESUME and all three case outputs.
+    - Await separate Human submission/publication authority.
+hold_policy:
+  no_network: PINNED_STATIC_REFERENCE_ONLY_NO_HOLD_BASE_DEMO_CONTINUES
+  no_agent_cli: MANUAL_POWERSHELL_IS_ALLOWED_FOR_BASE_DEMO
+  missing_python: ONLY_REQUIRED_INSTALL_ROUTE_HOLD_OR_APPROVED_PORTABLE_PREP
+  missing_node: WORLD_MODEL_ROUTE_HOLD_NO_FAKE_PASS
+  missing_secret: OPTIONAL_API_MOOT_HOLD_BASE_DEMO_CONTINUES
+  model_401_403: LOCAL_AUTH_OR_ENTITLEMENT_HOLD_NO_AUTO_KEY_ROTATION
+  ambiguous_provider_effect: UNKNOWN_COMPLETION_NO_AUTOMATIC_RETRY
+  source_hash_mismatch: STOP_AFFECTED_SOURCE_EXECUTION_AND_RETAIN_FAILURE
+  failed_synthetic_case: RETAIN_EXACT_FAILURE_AND_FIX_CAUSE_BEFORE_RETEST
+  unknown_source_rights: DO_NOT_REDISTRIBUTE_UNVERIFIED_MATERIAL
+expected_receipts:
+- HOST_INVENTORY.json
+- ARCHIVE_VERIFICATION.json
+- RUNTIME_DISCOVERY.json
+- CODECLI_INSTALL_RECEIPT.json
+- CODECLI_DOCTOR.json
+- SAMPLE_RUN_RECEIPT.json
+- EEA_SOURCE_RECEIPT.json
+- EEA_GATE_OUTPUT.txt
+- GPLCORE_SOURCE_RECEIPT.json
+- SOL_API_CONNECTIVITY_RECEIPT.json
+- INSTALL_MOOT_RESULT.json
+- JUDGE_ACCEPTANCE.json
+human_gate:
+  authorized_automatically:
+  - LOCAL_INSPECTION
+  - CREDENTIAL_FREE_FIXTURES
+  - SCOPED_REVERSIBLE_INSTALL
+  requires_separate_decision:
+  - LIVE_PAID_PROVIDER_CALL
+  - PUBLIC_PUSH
+  - EXTERNAL_SUBMISSION
+  - CANONICAL_PROMOTION
+  secret_or_account_id_in_order: NONE
+  previous_host_sessions_do_not_confer_new_authority: true
+handover:
+  package_integration_action: 'Add this YAML, START_HERE_WINDOWS.md, OPENAI_API_PROBE.py, REFERENCE_SOURCES.json,
+    FETCH_PUBLIC_REFERENCES.ps1, INSTALL_MOOT_RESULT_TEMPLATE.json and notices to the judge-facing entry
+    directory. Recompute package manifest, ZIP, SHA256 and complete remote readback. Preserve the sealed
+    previous ZIP unchanged and use a new candidate revision. Do not mutate existing Private or canonical
+    source by implication.
+
+    '
+  external_submission: HUMAN_GATE
+  completion: FIRST_UNFAMILIAR_WINDOWS_REVIEWER_CAN_RUN_THREE_CASES_AND_INSPECT_EVIDENCE
+source_derivative:
+  original_sha256: a03e12182e337583f68635d70526ae1a64821dbc9e36ce04cdf266ee162de5a1
+  changes: Private original_payload metadata removed; current R010 source/archive binding and reference-only
+    disposition applied; original retained unchanged in owner handoff
+  human_authority: R010 R003
+current_payload:
+  profile: PUBLIC_MINIMALLY_WIRED
+  archive_name: Code_CLI_R010_PUBLIC_MINIMALLY_WIRED.zip
+  archive_sha256: VERIFY_EXTERNAL_DELIVERY_SHA256_RECEIPT
+  source_manifest: source/Code_CLI/MANIFEST.json
+  history: FRESH_SINGLE_PUBLIC_TREE_NO_PRIVATE_GIT_HISTORY

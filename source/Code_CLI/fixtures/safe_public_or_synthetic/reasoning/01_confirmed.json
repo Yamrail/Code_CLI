@@ -1,0 +1,7 @@
+{
+  "case_id": "CONFIRMED_CONFIG",
+  "primary_source": "S1",
+  "fallback_source": "S1",
+  "expect_repair": false,
+  "sources": [{"source_id": "S1", "evidence_state": "CONFIRMED_FIXTURE", "fixture_original_text": "network_mode=offline\n", "observation": "The synthetic configuration explicitly selects offline mode. Runtime isolation remains a separate check."}]
+}

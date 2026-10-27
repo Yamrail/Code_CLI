@@ -1,0 +1,9 @@
+{
+  "profile": "PUBLIC_MINIMALLY_WIRED",
+  "native_payload_files": 10,
+  "general_execution_ports": [],
+  "owner_gateway_included": false,
+  "original_private_history_included": false,
+  "A_PLUS": "LOCKED",
+  "publication": "SEPARATE_HUMAN_GATE"
+}

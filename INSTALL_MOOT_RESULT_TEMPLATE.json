@@ -1,0 +1,264 @@
+{
+  "schema": "yamrail.judge.install-moot-result/1",
+  "source_policy_sha256": "a03e12182e337583f68635d70526ae1a64821dbc9e36ce04cdf266ee162de5a1",
+  "canonical": false,
+  "items": [
+    {
+      "moot_id": "M-J00",
+      "item_name": "Windows host boundary and writable isolated workspace",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "WINDOWS_X64_AND_SCOPED_DIRECTORY_WRITABLE",
+      "unresolved_fields": [
+        "host_version",
+        "arch",
+        "install_path",
+        "available_disk"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "HOST_INVENTORY.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J01",
+      "item_name": "Exact R010 archive and current source manifest verification",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J00",
+          "type": "HARD_DEPENDENCY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "MATCH_EXPECTED_ZIP_SHA256_AND_MEMBER_MANIFEST",
+      "unresolved_fields": [
+        "archive_path",
+        "observed_sha256"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "ARCHIVE_VERIFICATION.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J02",
+      "item_name": "Compatible Python runtime and offline wheelhouse",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J00",
+          "type": "HARD_DEPENDENCY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "PYTHON_3_12_PASSES_VERSION_ARCH_AND_LAUNCH_TEST",
+      "unresolved_fields": [
+        "python_path",
+        "python_version",
+        "python_arch"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "RUNTIME_DISCOVERY.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J03",
+      "item_name": "World Model runtime: Node preferred / equivalent Python projection fallback",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J00",
+          "type": "HARD_DEPENDENCY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "NODE_COMPATIBLE_AND_WORLD_MODEL_SMOKE_PASS",
+      "unresolved_fields": [
+        "node_path",
+        "node_version"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "RUNTIME_DISCOVERY.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J04",
+      "item_name": "Offline Python installation and Code_CLI doctor",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J01",
+          "type": "HARD_DEPENDENCY"
+        },
+        {
+          "to": "M-J02",
+          "type": "HARD_DEPENDENCY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "VERIFY_INSTALL_AND_DOCTOR_PASS",
+      "unresolved_fields": [
+        "installer_exit_code",
+        "doctor_exit_code"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "CODECLI_INSTALL_RECEIPT.json",
+        "CODECLI_DOCTOR.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J05",
+      "item_name": "Credential-free three-case Track 3 execution",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J04",
+          "type": "HARD_DEPENDENCY"
+        },
+        {
+          "to": "M-J03",
+          "type": "HARD_DEPENDENCY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "CONFIRMED_INSUFFICIENT_AND_STOP_RECOVER_PASS_WITH_SEPARATE_EVENTS",
+      "unresolved_fields": [
+        "run_ids",
+        "event_hashes",
+        "failures",
+        "holds"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "SAMPLE_RUN_RECEIPT.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J06",
+      "item_name": "EEA public reference and independent fixture gate",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J02",
+          "type": "CURRENT_ROUTE_ONLY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "EEA_COMMIT_VERIFIED_AND_12_EXPECTED_DECISIONS_OBSERVED",
+      "unresolved_fields": [
+        "snapshot_access",
+        "rights",
+        "gate_result"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "EEA_SOURCE_RECEIPT.json",
+        "EEA_GATE_OUTPUT.txt"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J07",
+      "item_name": "GPL Core public Lite and Full specification review",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "EXACT_COMMIT_FILES_READABLE_AND_NOTICES_RETAINED",
+      "unresolved_fields": [
+        "snapshot_access",
+        "license_notices"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "GPLCORE_SOURCE_RECEIPT.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J08",
+      "item_name": "Reviewer evidence and independent reproduction summary",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J01",
+          "type": "HARD_DEPENDENCY"
+        },
+        {
+          "to": "M-J05",
+          "type": "HARD_DEPENDENCY"
+        },
+        {
+          "to": "M-J06",
+          "type": "CURRENT_ROUTE_ONLY"
+        },
+        {
+          "to": "M-J07",
+          "type": "CURRENT_ROUTE_ONLY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "BASE_DEMO_PASS_AND_OPTIONAL_REFERENCE_STATUS_EXPLICIT",
+      "unresolved_fields": [
+        "reviewer_approval",
+        "independence_of_hardware"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "JUDGE_ACCEPTANCE.json",
+        "INSTALL_MOOT_RESULT.json"
+      ],
+      "not_executed_is_not_pass": true
+    },
+    {
+      "moot_id": "M-J09",
+      "item_name": "Optional single OpenAI API connectivity probe",
+      "initial_state": "UNKNOWN",
+      "dependency_edges": [
+        {
+          "to": "M-J00",
+          "type": "CURRENT_ROUTE_ONLY"
+        }
+      ],
+      "observed_fact": null,
+      "evidence_refs": [],
+      "closure_condition": "EXACT_MODEL_RESPONSE_AND_USAGE_OBSERVED_OR_LOCAL_HOLD_RECORDED",
+      "unresolved_fields": [
+        "local_auth_availability",
+        "model_access",
+        "account_cost"
+      ],
+      "state": "UNKNOWN",
+      "declared_evidence_refs": [
+        "SOL_API_CONNECTIVITY_RECEIPT.json"
+      ],
+      "not_executed_is_not_pass": true
+    }
+  ],
+  "cases": {
+    "CONFIRMED_CONFIG": "NOT_EXECUTED",
+    "INSUFFICIENT_EVIDENCE": "NOT_EXECUTED",
+    "STOP_AND_ALTERNATIVE": "NOT_EXECUTED"
+  },
+  "state_writer": "JUDGE_LOCAL_NONCANONICAL_RECEIPT_ONLY",
+  "canonical_writer": "EXISTING_NATIVE_WORKLEDGER_WHEN_RUNNING"
+}

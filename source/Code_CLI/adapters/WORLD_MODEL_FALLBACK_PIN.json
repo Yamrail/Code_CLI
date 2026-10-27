@@ -1,0 +1,22 @@
+{
+  "schema": "yamrail.r010.python-world-model-compatibility-pin/1",
+  "scope": "Operations used by the fixed reasoning_world_model.js projection, not a general replacement of the entire Meterless API",
+  "upstream_commit": "1742dec56a66e58eef9dda2d2b865823758ca8cd",
+  "adapter_js_sha256": "2a93b7c32ba18f6182f7c6e3214ab14f7e8e562d743d0a592219149d3da14ac6",
+  "reference_js_sha256": "569920f1e13172f638ef0ea932033c221e9ec561eb2261667ff4c4123be69e69",
+  "probe_input": {
+    "source_of_truth": "EXISTING_NATIVE_WORKLEDGER",
+    "observed_utc": "2026-10-27T00:00:00.000Z",
+    "case_id": "PYTHON_FALLBACK_PROBE",
+    "journal_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "checkpoint": {
+      "event_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plan_digest": "1111111111111111111111111111111111111111111111111111111111111111",
+      "sequence": 0
+    },
+    "root_buckets": {},
+    "records": []
+  },
+  "probe_output_sha256": "36adc830220bd4858f96e16390712fb2b1a6f5102a3fbff49fbf376b1ce4e9b0",
+  "probe_derived_state_sha256": "1f525ba2a558141ab573f8c3d9d8e4dcddc0400f30afda64aecca64ec7747647"
+}

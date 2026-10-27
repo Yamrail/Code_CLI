@@ -1,0 +1,16 @@
+{
+  "schema": "yamrail.r010.minimum-native-algorithm-manifest/1",
+  "construction": "Unchanged dependency closure of existing deterministic WorkLedger, intent budget, shelf witness and binder; general procedure/transport/ingest tools excluded",
+  "files": {
+    "implementation/__init__.py": "d34608f2f5c1ebb1a157a63a9b4e69056aa26e731b74b1296eea29602d37c0fe",
+    "implementation/intent_budget.py": "7971a2a1e7de0b2f91bad990145a3bb30d503728ad78172c4d7d1326e89cde35",
+    "implementation/reused/__init__.py": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+    "implementation/reused/binder.py": "3c8d4a82424e0c4783e9a14120ba8cea18dac4923a62d3e8fb722750c7c68ef3",
+    "implementation/shelf_witness.py": "afa1b2169fc92888729aa29781401dbce1f3f4f51e16d995137f24b9c1365306",
+    "implementation/workstate.py": "ff47169505bb5df90cde6bcd99b001f2756f8563a1f8529d83b1a1178b19d5f3",
+    "yr_tools/__init__.py": "c3fafbe502a9b600c1b7bb77d5b1c84a1c1ebc225177f29bb57c08ecb1419e93",
+    "yr_tools/artifact_freeze.py": "51f5dbed33f981a238f90e200c6295b097a4df1c55fa55d396a3cc99b91949b7",
+    "yr_tools/binder.py": "ad7a4989bd356d710615c15ae5fb77764dab1440b37b9d39bb8c88e176dc5cd3",
+    "yr_tools/numeric_lineage.py": "38d95456d9dba1078e00f002534b33f177806b62cf25ad1df12d3099aef24f4a"
+  }
+}

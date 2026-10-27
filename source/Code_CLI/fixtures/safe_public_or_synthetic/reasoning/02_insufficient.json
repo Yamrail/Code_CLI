@@ -1,0 +1,11 @@
+{
+  "case_id": "INSUFFICIENT_EVIDENCE",
+  "primary_source": "S1",
+  "fallback_source": "S2",
+  "expect_repair": true,
+  "unsupported_first_claim": true,
+  "sources": [
+    {"source_id": "S1", "evidence_state": "UNKNOWN", "fixture_original_text": "An unverified note says the configuration is safe.\n", "observation": "Unverified assertion. It cannot support acceptance."},
+    {"source_id": "S2", "evidence_state": "CONFIRMED_FIXTURE", "fixture_original_text": "api_key_source=interactive_memory\npersist_key=false\n", "observation": "The alternative synthetic source declares memory input and disables key persistence. This is a fixture observation, not a proof about production storage."}
+  ]
+}

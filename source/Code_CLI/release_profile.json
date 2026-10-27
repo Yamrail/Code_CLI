@@ -1,0 +1,11 @@
+{
+  "profile": "PUBLIC_MINIMALLY_WIRED",
+  "fixed_rails": [
+    "CONFIRMED_CONFIG",
+    "INSUFFICIENT_EVIDENCE",
+    "STOP_AND_ALTERNATIVE"
+  ],
+  "owner_gateway": "NOT_DISTRIBUTED",
+  "general_execution": "UNCONNECTED",
+  "public_push_authority": false
+}

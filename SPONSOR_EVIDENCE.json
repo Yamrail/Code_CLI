@@ -1,0 +1,31 @@
+{
+  "schema": "yamrail.r010.historical-sponsor-evidence/1",
+  "evidence_class": "PRIOR_EXECUTION_NOT_REPLAYED_AS_NEW_INFERENCE",
+  "nightshift": {
+    "state": "PASS_ACTUAL_NIGHTSHIFT_NEMOTRON_CUDA",
+    "model_id": "local-runtime/nemotron-3.5-bolt-e4b",
+    "response_id": "chatcmpl-ba8de9b8-2b9b-40e9-89f7-a5484dbcedba",
+    "response_byte_sha256": "1509b9f575b26b5f48442217bb469824a1e020116eb179ed974ebd3bcff859fc",
+    "usage": {
+      "prompt_tokens": 78,
+      "completion_tokens": 14,
+      "total_tokens": 92
+    },
+    "observed_visible_response": "NEMOTRON_CUDA_R002_OK",
+    "actual_cuda_child_pid": 28348,
+    "gpu_scope": "2/43 layers offloaded; CUDA0 model buffer 744.11 MiB and compute buffer 120.36 MiB; remaining model weights use host RAM; NOT full-GPU residency",
+    "vendor_reported_api_charge_usd": 0,
+    "cost_scope": "Observed local inference API fee only; host power, license and infrastructure invoice not measured"
+  },
+  "zetaris": {
+    "interface": "LIGHTNING_JDBC",
+    "prior_official_checks_passed": 9,
+    "captured_rows": 5,
+    "columns": 17,
+    "rest": "NOT_QUALIFIED",
+    "server_query_id_and_row_lineage": "UNKNOWN"
+  },
+  "offline_demos": "Fresh real local processes with synthetic role decisions; zero live provider calls",
+  "source_receipt_sha256": "466e09c219b91bd871ed11beacb499d56d4b0f455e7ce04cc737d6f02825b545",
+  "sponsor_terms_or_publication_clearance": "Not upgraded by this evidence summary"
+}

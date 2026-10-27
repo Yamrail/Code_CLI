@@ -1,0 +1,18 @@
+{
+  "schema": "yamrail.r007.native-payload-pins/1",
+  "manifest_sha256": "7412bd44746d3e38146d5ba59186e940eb312ba23f052efcd8e44d49eb3b594f",
+  "fixtures": {
+    "hold_report.py": "30b9371868739af499746cf03371243ce095061f79520b445ee0ea9f47da4e5e",
+    "test_hold_report.py": "9d29ebf356a5e1bdb616f4d790cb2324509eee5f5a10ff97f15e0cc259bc5282"
+  },
+  "auxiliary": {
+    "typed_graph_ab.py": "d7f079588e2ce6efa3ecfe42fdc23df9faa158be8c718a99486f35a061d5df77",
+    "meterless/world_model_bridge.js": "c70965ff6b85618f58e3714485dfecf94e9ba294ec1ab57c68092014df7dff35",
+    "meterless/meterless-world-model-reference.js": "569920f1e13172f638ef0ea932033c221e9ec561eb2261667ff4c4123be69e69",
+    "meterless/LICENSE-Meterless.txt": "63e29fc8231b53757a77fbc371071c91d768621efa1e68b1d9ff8d1bb7c4a0ef",
+    "meterless/UPSTREAM_PROVENANCE.json": "745e0fd387a50581a53ede283d05f3c3845596bb538c07158eeec2ad8c744e65",
+    "meterless/world_model_conformance.js": "4f7f95fb5ceeea730cde4f5f8760dcc693d0addee0c336cc755548c1a13baa23",
+    "meterless/official_conformance_runner.ts": "7cd3b80d62d45d16f3342c62a91c89abf819c9b46970187d2f36fb9e3050da82",
+    "meterless/bundle_exports.mjs": "58cfcb8eacf8e1abaaa6ba21ed31210a55908b2d75eb2d87b1cc5c76f729819b"
+  }
+}
